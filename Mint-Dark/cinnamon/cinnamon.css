@@ -1464,7 +1464,7 @@ StScrollBar StButton#hhandle:active {
   border-radius: 2px;
 }
 .menu-favorites-button:hover {
-  background-color: rgba(200, 200, 200, 0.3);
+  background-color: rgba(25, 160, 180, 0.3);
   border: 1px;
   border-radius: 4px;
 }
@@ -1497,7 +1497,7 @@ StScrollBar StButton#hhandle:active {
 .menu-application-button-selected {
   padding: 7px;
   color: #ffffff;
-  background-color: rgba(200, 200, 200, 0.3);
+  background-color: rgba(25, 160, 180, 0.3);
   border: 1px;
   border-radius: 4px;
 }
@@ -1518,7 +1518,7 @@ StScrollBar StButton#hhandle:active {
 .menu-category-button-selected {
   padding: 7px;
   color: #ffffff;
-  background-color: rgba(200, 200, 200, 0.3);
+  background-color: rgba(25, 160, 180, 0.3);
   border: 1px;
   border-radius: 4px;
 }
