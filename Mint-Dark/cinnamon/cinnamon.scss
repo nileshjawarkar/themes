@@ -1,68 +1,74 @@
-﻿$color_1: rgba(200, 200, 200, 0.87);
-$color_2: rgba(0, 0, 0, 0);
-$color_3: #ffffff;
-$color_4: rgba(255, 255, 255, 0.4);
-$color_5: #d3d3d3;
-$color_6: #c3c3c3;
-$color_7: rgba(195, 195, 195, 0.6);
-$color_8: #44d6e3;
-$color_9: #70e0ea;
-$color_10: #4a4a4a;
-$color_11: green;
-$color_12: #f27835;
-$color_13: #fc4138;
-$color_14: rgba(255, 255, 255, 0.3);
-$color_15: #199ca8;
-$color_16: rgba(255, 255, 255, 0.87);
-$color_17: rgba(255, 255, 255, 0.2);
-$color_18: #ccc;
-$color_19: white;
-$color_20: #606060;
-$color_21: rgba(200, 200, 200, 0.2);
-$color_22: rgba(255, 255, 255, 0.67);
-$color_23: #d0d0d0;
-$color_24: rgba(255, 255, 255, 0.45);
-$background-color_1: rgba(15, 30, 30, 0.87);
-$background-color_2: rgba(25, 30, 40, 0.87);
-$background-color_3: #199ca8;
-$background-color_4: rgba(32, 40, 40, 0.87);
-$background-color_5: rgba(15, 30, 25, 0.87);
-$background-color_6: rgba(15, 35, 30, 0.87);
-$background-color_7: rgba(25, 156, 168, 0.4);
-$background-color_8: #fbeaa0;
-$background-color_9: #2f2f2f;
-$background-color_10: rgba(25, 160, 180, 0.4);
-$background-color_11: rgba(25, 160, 180, 0.3);
-$background-color_12: rgba(252, 65, 56, 0.1);
-$background-color_13: rgba(0, 0, 0, 0.6);
-$background-color_14: rgba(252, 65, 56, 0.5);
-$background-color_15: rgba(252, 65, 56, 0.6);
-$background-color_16: #353535;
-$background-color_17: rgba(25, 160, 180, 0.1);
-$background-color_18: rgba(100, 120, 120, 0.4);
-$background-color_19: rgba(25, 160, 180, 0);
-$background-color_20: black;
-$background-color_21: rgba(0, 0, 0, 1);
-$background-color_22: transparent;
-$background-color_23: rgba(0, 0, 0, 0);
-$background-color_24: white;
-$background-color_25: rgba(127, 127, 127, 0.5);
-$background-color_26: rgba(33, 33, 33, 0.3);
-$background-color_27: red;
-$background-color_28: rgba(25, 160, 180, 0.15);
-$background-color_29: rgba(25, 156, 168, 0.87);
-$background-color_30: rgba(25, 160, 180, 0.17);
-$background-color_31: #4a4a4a;
-$background-color_32: rgba(0, 0, 0, 0.3);
-$background-color_33: rgba(25, 160, 180, 0.07);
-$background-color_34: #272727;
-$background-color_35: rgba(25, 156, 168, 0.3);
-$background-color_36: rgba(25, 156, 168, 0.6);
-$background-color_37: rgba(0, 0, 0, 0.5);
-$border-color_1: rgba(255, 255, 255, 0);
-$border-color_2: rgba(0, 0, 0, 0);
-$border-color_3: rgba(0, 0, 0, 0.4);
-$border-color_4: #199ca8;
+﻿$FontColor_1: rgba(200, 200, 200, 0.87);
+$FontColor_2: rgba(0, 0, 0, 0);
+$FontColor_3: #ffffff;
+$FontColor_4: rgba(255, 255, 255, 0.4);
+$FontColor_5: #d3d3d3;
+$FontColor_6: #c3c3c3;
+$FontColor_7: rgba(195, 195, 195, 0.6);
+$FontColor_8: #44d6e3;
+$FontColor_9: #70e0ea;
+$FontColor_10: #4a4a4a;
+$FontColor_11: green;
+$FontColor_12: #f27835;
+$FontColor_13: #fc4138;
+$FontColor_14: rgba(255, 255, 255, 0.3);
+$FontColor_15: #199ca8;
+$FontColor_16: rgba(255, 255, 255, 0.87);
+$FontColor_17: rgba(255, 255, 255, 0.2);
+$FontColor_18: #ccc;
+$FontColor_19: white;
+$FontColor_20: #606060;
+$FontColor_21: rgba(200, 200, 200, 0.2);
+$FontColor_22: rgba(255, 255, 255, 0.67);
+$FontColor_23: #d0d0d0;
+$FontColor_24: rgba(255, 255, 255, 0.45);
+
+$BackgroundColor_1: rgba(15, 30, 30, 0.87);
+$BackgroundColor_2: rgba(25, 30, 40, 0.87);
+$BackgroundColor_3: #199ca8;
+$BackgroundColor_4: rgba(32, 40, 40, 0.87);
+$BackgroundColor_5: rgba(15, 30, 25, 0.87);
+$BackgroundColor_6: rgba(15, 35, 30, 0.87);
+$BackgroundColor_7: rgba(25, 156, 168, 0.4);
+$BackgroundColor_8: #fbeaa0;
+$BackgroundColor_9: #2f2f2f;
+$BackgroundColor_10: rgba(25, 160, 180, 0.4);
+$BackgroundColor_11: rgba(25, 160, 180, 0.3);
+$BackgroundColor_12: rgba(252, 65, 56, 0.1);
+$BackgroundColor_13: rgba(0, 0, 0, 0.6);
+$BackgroundColor_14: rgba(252, 65, 56, 0.5);
+$BackgroundColor_15: rgba(252, 65, 56, 0.6);
+$BackgroundColor_16: #353535;
+$BackgroundColor_17: rgba(25, 160, 180, 0.1);
+$BackgroundColor_18: rgba(100, 120, 120, 0.4);
+$BackgroundColor_19: rgba(25, 160, 180, 0);
+$BackgroundColor_20: black;
+$BackgroundColor_21: rgba(0, 0, 0, 1);
+$BackgroundColor_22: transparent;
+$BackgroundColor_23: rgba(0, 0, 0, 0);
+$BackgroundColor_24: white;
+$BackgroundColor_25: rgba(127, 127, 127, 0.5);
+$BackgroundColor_26: rgba(33, 33, 33, 0.3);
+$BackgroundColor_27: red;
+$BackgroundColor_28: rgba(25, 160, 180, 0.15);
+$BackgroundColor_29: rgba(25, 156, 168, 0.87);
+$BackgroundColor_30: rgba(25, 160, 180, 0.17);
+$BackgroundColor_31: #4a4a4a;
+$BackgroundColor_32: rgba(0, 0, 0, 0.3);
+$BackgroundColor_33: rgba(25, 160, 180, 0.07);
+$BackgroundColor_34: #272727;
+$BackgroundColor_35: rgba(25, 156, 168, 0.3);
+$BackgroundColor_36: rgba(25, 156, 168, 0.6);
+$BackgroundColor_37: rgba(0, 0, 0, 0.5);
+
+$BorderColor_1: rgba(255, 255, 255, 0);
+$BorderColor_2: rgba(0, 0, 0, 0);
+$BorderColor_3: rgba(0, 0, 0, 0.4);
+$BorderColor_4: #199ca8;
+$BorderColor_5: #202020;
+$BorderColor_6: #252525;
+
+$BoxShadowColor_1: #199ca8;
 
 /* This is for popup menus in Cinnamon versions < 3.2 */
 /*Scale view context menu*/
@@ -71,51 +77,51 @@ $border-color_4: #199ca8;
 /* Controls the styling when using the "Simple buttons" option */
 /* Controls the style when using the "Visual representation" option */
 stage {
-	color: $color_1;
+	color: $FontColor_1;
 }
 .label-shadow {
-	color: $color_2;
+	color: $FontColor_2;
 }
 .sound-button {
 	min-height: 20px;
 	padding: 5px 32px;
 	transition-duration: 0;
-	color: $color_1;
-	background-color: $background-color_1;
-	border: 1px solid #252525;
+	color: $FontColor_1;
+	background-color: $BackgroundColor_1;
+	border: 1px solid $BorderColor_6;
 	box-shadow: inset 0 2px 4px rgba(20, 40, 40, 0.1);
 	border-radius: 2px;
 	width: 22px;
 	height: 13px;
 	padding: 8px;
 	&:focus {
-		color: $color_1;
-		background-color: $background-color_1;
-		border: 1px solid #199ca8;
+		color: $FontColor_1;
+		background-color: $BackgroundColor_1;
+		border: 1px solid $BorderColor_4;
 		box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 	}
 	&:hover {
-		color: $color_1;
-		background-color: $background-color_2;
-		border: 1px solid #202020;
+		color: $FontColor_1;
+		background-color: $BackgroundColor_2;
+		border: 1px solid $BorderColor_5;
 		box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.1);
 		&:focus {
-			color: $color_1;
-			background-color: $background-color_2;
-			border: 1px solid #199ca8;
+			color: $FontColor_1;
+			background-color: $BackgroundColor_2;
+			border: 1px solid $BorderColor_4;
 			box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 		}
 	}
 	&:active {
-		color: $color_3;
-		background-color: $background-color_3;
-		border: 1px solid #199ca8;
-		box-shadow: inset 0 2px 4px #199ca8;
+		color: $FontColor_3;
+		background-color: $BackgroundColor_3;
+		border: 1px solid $BorderColor_4;
+		box-shadow: inset 0 2px 4px $BoxShadowColor_1;
 	}
 	&:insensitive {
-		color: $color_4;
+		color: $FontColor_4;
 		border: 1px solid rgba(32, 45, 45, 0.87);
-		background-color: $background-color_4;
+		background-color: $BackgroundColor_4;
 		box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 	}
 	StIcon {
@@ -127,42 +133,42 @@ stage {
 		min-height: 20px;
 		padding: 5px 32px;
 		transition-duration: 0;
-		color: $color_1;
-		background-color: $background-color_1;
-		border: 1px solid #252525;
+		color: $FontColor_1;
+		background-color: $BackgroundColor_1;
+		border: 1px solid $BorderColor_6;
 		box-shadow: inset 0 2px 4px rgba(20, 40, 40, 0.1);
 		border-radius: 2px;
 		padding-top: 0;
 		padding-bottom: 0;
 		height: 30px;
 		&:focus {
-			color: $color_1;
-			background-color: $background-color_1;
-			border: 1px solid #199ca8;
+			color: $FontColor_1;
+			background-color: $BackgroundColor_1;
+			border: 1px solid $BorderColor_4;
 			box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 		}
 		&:hover {
-			color: $color_1;
-			background-color: $background-color_2;
-			border: 1px solid #202020;
+			color: $FontColor_1;
+			background-color: $BackgroundColor_2;
+			border: 1px solid $BorderColor_5;
 			box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.1);
 			&:focus {
-				color: $color_1;
-				background-color: $background-color_2;
-				border: 1px solid #199ca8;
+				color: $FontColor_1;
+				background-color: $BackgroundColor_2;
+				border: 1px solid $BorderColor_4;
 				box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 			}
 		}
 		&:active {
-			color: $color_3;
-			background-color: $background-color_3;
-			border: 1px solid #199ca8;
-			box-shadow: inset 0 2px 4px #199ca8;
+			color: $FontColor_3;
+			background-color: $BackgroundColor_3;
+			border: 1px solid $BorderColor_4;
+			box-shadow: inset 0 2px 4px $BoxShadowColor_1;
 		}
 		&:insensitive {
-			color: $color_4;
+			color: $FontColor_4;
 			border: 1px solid rgba(32, 45, 45, 0.87);
-			background-color: $background-color_4;
+			background-color: $BackgroundColor_4;
 			box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 		}
 	}
@@ -170,46 +176,46 @@ stage {
 	margin: 0px;
 	padding: 10px;
 	border: none;
-	background-color: $background-color_9;
+	background-color: $BackgroundColor_9;
 }
 .notification-button {
 	min-height: 20px;
 	padding: 5px 32px;
 	transition-duration: 0;
-	color: $color_1;
-	background-color: $background-color_1;
-	border: 1px solid #252525;
+	color: $FontColor_1;
+	background-color: $BackgroundColor_1;
+	border: 1px solid $BorderColor_6;
 	box-shadow: inset 0 2px 4px rgba(20, 40, 40, 0.1);
 	border-radius: 2px;
 	padding: 5px;
 	&:focus {
-		color: $color_1;
-		background-color: $background-color_1;
-		border: 1px solid #199ca8;
+		color: $FontColor_1;
+		background-color: $BackgroundColor_1;
+		border: 1px solid $BorderColor_4;
 		box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 	}
 	&:hover {
-		color: $color_1;
-		background-color: $background-color_2;
-		border: 1px solid #202020;
+		color: $FontColor_1;
+		background-color: $BackgroundColor_2;
+		border: 1px solid $BorderColor_5;
 		box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.1);
 		&:focus {
-			color: $color_1;
-			background-color: $background-color_2;
-			border: 1px solid #199ca8;
+			color: $FontColor_1;
+			background-color: $BackgroundColor_2;
+			border: 1px solid $BorderColor_4;
 			box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 		}
 	}
 	&:active {
-		color: $color_3;
-		background-color: $background-color_3;
-		border: 1px solid #199ca8;
-		box-shadow: inset 0 2px 4px #199ca8;
+		color: $FontColor_3;
+		background-color: $BackgroundColor_3;
+		border: 1px solid $BorderColor_4;
+		box-shadow: inset 0 2px 4px $BoxShadowColor_1;
 	}
 	&:insensitive {
-		color: $color_4;
+		color: $FontColor_4;
 		border: 1px solid rgba(32, 45, 45, 0.87);
-		background-color: $background-color_4;
+		background-color: $BackgroundColor_4;
 		box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 	}
 }
@@ -217,40 +223,40 @@ stage {
 	min-height: 20px;
 	padding: 5px 32px;
 	transition-duration: 0;
-	color: $color_1;
-	background-color: $background-color_1;
-	border: 1px solid #252525;
+	color: $FontColor_1;
+	background-color: $BackgroundColor_1;
+	border: 1px solid $BorderColor_6;
 	box-shadow: inset 0 2px 4px rgba(20, 40, 40, 0.1);
 	border-radius: 2px;
 	padding: 5px;
 	&:focus {
-		color: $color_1;
-		background-color: $background-color_1;
-		border: 1px solid #199ca8;
+		color: $FontColor_1;
+		background-color: $BackgroundColor_1;
+		border: 1px solid $BorderColor_4;
 		box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 	}
 	&:hover {
-		color: $color_1;
-		background-color: $background-color_2;
-		border: 1px solid #202020;
+		color: $FontColor_1;
+		background-color: $BackgroundColor_2;
+		border: 1px solid $BorderColor_5;
 		box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.1);
 		&:focus {
-			color: $color_1;
-			background-color: $background-color_2;
+			color: $FontColor_1;
+			background-color: $BackgroundColor_2;
 			border: 1px solid #199ca8;
 			box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 		}
 	}
 	&:active {
-		color: $color_3;
-		background-color: $background-color_3;
-		border: 1px solid #199ca8;
-		box-shadow: inset 0 2px 4px #199ca8;
+		color: $FontColor_3;
+		background-color: $BackgroundColor_3;
+		border: 1px solid $BorderColor_4;
+		box-shadow: inset 0 2px 4px $BoxShadowColor_1;
 	}
 	&:insensitive {
-		color: $color_4;
+		color: $FontColor_4;
 		border: 1px solid rgba(32, 45, 45, 0.87);
-		background-color: $background-color_4;
+		background-color: $BackgroundColor_4;
 		box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 	}
 	>StIcon {
@@ -263,40 +269,40 @@ stage {
 			min-height: 20px;
 			padding: 5px 32px;
 			transition-duration: 0;
-			color: $color_1;
-			background-color: $background-color_1;
-			border: 1px solid #252525;
+			color: $FontColor_1;
+			background-color: $BackgroundColor_1;
+			border: 1px solid $BorderColor_6;
 			box-shadow: inset 0 2px 4px rgba(20, 40, 40, 0.1);
 			border-radius: 2px;
 			padding: 5px;
 			&:focus {
-				color: $color_1;
-				background-color: $background-color_1;
-				border: 1px solid #199ca8;
+				color: $FontColor_1;
+				background-color: $BackgroundColor_1;
+				border: 1px solid $BorderColor_4;
 				box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 			}
 			&:hover {
-				color: $color_1;
-				background-color: $background-color_2;
-				border: 1px solid #202020;
+				color: $FontColor_1;
+				background-color: $BackgroundColor_2;
+				border: 1px solid $BorderColor_5;
 				box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.1);
 				&:focus {
-					color: $color_1;
-					background-color: $background-color_2;
-					border: 1px solid #199ca8;
+					color: $FontColor_1;
+					background-color: $BackgroundColor_2;
+					border: 1px solid $BorderColor_4;
 					box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 				}
 			}
 			&:active {
-				color: $color_3;
-				background-color: $background-color_3;
-				border: 1px solid #199ca8;
-				box-shadow: inset 0 2px 4px #199ca8;
+				color: $FontColor_3;
+				background-color: $BackgroundColor_3;
+				border: 1px solid $BorderColor_4;
+				box-shadow: inset 0 2px 4px $BoxShadowColor_1;
 			}
 			&:insensitive {
-				color: $color_4;
+				color: $FontColor_4;
 				border: 1px solid rgba(32, 45, 45, 0.87);
-				background-color: $background-color_4;
+				background-color: $BackgroundColor_4;
 				box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 			}
 		}
@@ -304,40 +310,40 @@ stage {
 			min-height: 20px;
 			padding: 5px 32px;
 			transition-duration: 0;
-			color: $color_1;
-			background-color: $background-color_1;
-			border: 1px solid #252525;
+			color: $FontColor_1;
+			background-color: $BackgroundColor_1;
+			border: 1px solid $BorderColor_6;
 			box-shadow: inset 0 2px 4px rgba(20, 40, 40, 0.1);
 			border-radius: 2px;
 			padding: 5px;
 			&:focus {
-				color: $color_1;
-				background-color: $background-color_1;
-				border: 1px solid #199ca8;
+				color: $FontColor_1;
+				background-color: $BackgroundColor_1;
+				border: 1px solid $BorderColor_4;
 				box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 			}
 			&:hover {
-				color: $color_1;
-				background-color: $background-color_2;
-				border: 1px solid #202020;
+				color: $FontColor_1;
+				background-color: $BackgroundColor_2;
+				border: 1px solid $BorderColor_5;
 				box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.1);
 				&:focus {
-					color: $color_1;
-					background-color: $background-color_2;
-					border: 1px solid #199ca8;
+					color: $FontColor_1;
+					background-color: $BackgroundColor_2;
+					border: 1px solid $BorderColor_4;
 					box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 				}
 			}
 			&:active {
-				color: $color_3;
-				background-color: $background-color_3;
-				border: 1px solid #199ca8;
-				box-shadow: inset 0 2px 4px #199ca8;
+				color: $FontColor_3;
+				background-color: $BackgroundColor_3;
+				border: 1px solid $BorderColor_4;
+				box-shadow: inset 0 2px 4px $BoxShadowColor_1;
 			}
 			&:insensitive {
-				color: $color_4;
+				color: $FontColor_4;
 				border: 1px solid rgba(32, 45, 45, 0.87);
-				background-color: $background-color_4;
+				background-color: $BackgroundColor_4;
 				box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 			}
 		}
@@ -348,26 +354,26 @@ stage {
 			selected-color: #ffffff;
 			transition-duration: 300ms;
 			border-radius: 3px;
-			color: $color_5;
+			color: $FontColor_5;
 			border: 1px solid rgba(32, 45, 45, 0.87);
-			background-color: $background-color_4;
+			background-color: $BackgroundColor_4;
 			box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.1);
 			&:focus {
-				color: $color_1;
+				color: $FontColor_1;
 				border: 1px solid rgba(32, 45, 45, 0.87);
-				background-color: $background-color_4;
+				background-color: $BackgroundColor_4;
 				box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.1);
 			}
 			&:hover {
-				color: $color_1;
+				color: $FontColor_1;
 				border: 1px solid rgba(32, 45, 45, 0.87);
-				background-color: $background-color_4;
+				background-color: $BackgroundColor_4;
 				box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.1);
 			}
 			&:insensitive {
-				color: $color_4;
+				color: $FontColor_4;
 				border: 1px solid rgba(32, 45, 45, 0.87);
-				background-color: $background-color_4;
+				background-color: $BackgroundColor_4;
 				box-shadow: inset 0 2px 4px rgba(56, 56, 56, 0.1);
 			}
 			StIcon.capslock-warning {
@@ -376,12 +382,12 @@ stage {
 				padding: 0 4px;
 			}
 		}
-		color: $color_1;
+		color: $FontColor_1;
 		border-image: url("dark-assets/misc/message.svg") 9 9 9 9;
 	}
-	color: $color_1;
+	color: $FontColor_1;
 	.popup-sub-menu {
-		background-color: $background-color_4;
+		background-color: $BackgroundColor_4;
 		box-shadow: none;
 		.popup-menu-item {
 			&:ltr {
@@ -411,19 +417,19 @@ stage {
 		border-left-width: 0;
 		border-right-width: 0;
 		&:active {
-			color: $color_1;
-			border-color: $border-color_1;
-			background-color: $background-color_11;
+			color: $FontColor_1;
+			border-color: $BorderColor_1;
+			background-color: $BackgroundColor_11;
 		}
 		&:insensitive {
-			color: $color_4;
+			color: $FontColor_4;
 			background: none;
 		}
 	}
 	.popup-inactive-menu-item {
-		color: $color_1;
+		color: $FontColor_1;
 		&:insensitive {
-			color: $color_4;
+			color: $FontColor_4;
 		}
 	}
 }
@@ -434,30 +440,30 @@ stage {
 	selected-color: #ffffff;
 	transition-duration: 300ms;
 	border-radius: 3px;
-	color: $color_5;
+	color: $FontColor_5;
 	border: 1px solid rgba(32, 45, 45, 0.87);
-	background-color: $background-color_4;
+	background-color: $BackgroundColor_4;
 	box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.1);
 	width: 250px;
 	min-height: 16px;
 	font-weight: bold;
 	caret-color: rgba(200, 200, 200, 0.87);
 	&:focus {
-		color: $color_1;
+		color: $FontColor_1;
 		border: 1px solid rgba(32, 45, 45, 0.87);
-		background-color: $background-color_4;
+		background-color: $BackgroundColor_4;
 		box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.1);
 	}
 	&:hover {
-		color: $color_1;
+		color: $FontColor_1;
 		border: 1px solid rgba(32, 45, 45, 0.87);
-		background-color: $background-color_4;
+		background-color: $BackgroundColor_4;
 		box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.1);
 	}
 	&:insensitive {
-		color: $color_4;
+		color: $FontColor_4;
 		border: 1px solid rgba(32, 45, 45, 0.87);
-		background-color: $background-color_4;
+		background-color: $BackgroundColor_4;
 		box-shadow: inset 0 2px 4px rgba(56, 56, 56, 0.1);
 	}
 	StIcon.capslock-warning {
@@ -475,20 +481,20 @@ stage {
 		selected-color: #ffffff;
 		transition-duration: 300ms;
 		border-radius: 3px;
-		color: $color_6;
+		color: $FontColor_6;
 		border: 1px solid rgba(32, 45, 45, 0.87);
-		background-color: $background-color_4;
+		background-color: $BackgroundColor_4;
 		box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 		&:focus {
-			color: $color_3;
-			background-color: $background-color_3;
+			color: $FontColor_3;
+			background-color: $BackgroundColor_3;
 			border: 1px solid #199ca8;
 			box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 		}
 		&:insensitive {
-			color: $color_7;
+			color: $FontColor_7;
 			border: 1px solid rgba(32, 45, 45, 0.87);
-			background-color: $background-color_4;
+			background-color: $BackgroundColor_4;
 			box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 		}
 	}
@@ -502,31 +508,31 @@ StScrollView.hfade {
 StScrollBar {
 	padding: 8px;
 	StBin#trough {
-		background-color: $background-color_5;
+		background-color: $BackgroundColor_5;
 		border-radius: 8px;
 	}
 	StButton#vhandle {
 		border-radius: 2px;
-		background-color: $background-color_1;
+		background-color: $BackgroundColor_1;
 		border: 0px solid;
 		margin: 0px;
 		&:hover {
-			background-color: $background-color_6;
+			background-color: $BackgroundColor_6;
 		}
 		&:active {
-			background-color: $background-color_3;
+			background-color: $BackgroundColor_3;
 		}
 	}
 	StButton#hhandle {
 		border-radius: 2px;
-		background-color: $background-color_1;
+		background-color: $BackgroundColor_1;
 		border: 0px solid;
 		margin: 0px;
 		&:hover {
-			background-color: $background-color_6;
+			background-color: $BackgroundColor_6;
 		}
 		&:active {
-			background-color: $background-color_3;
+			background-color: $BackgroundColor_3;
 		}
 	}
 }
@@ -547,12 +553,12 @@ StScrollView {
 	width: 50px;
 	height: 50px;
 	border-radius: 25px;
-	background-color: $background-color_7;
-	box-shadow: 0 0 2px 2px #199ca8;
+	background-color: $BackgroundColor_7;
+	box-shadow: 0 0 2px 2px $BoxShadowColor_1;
 }
 .popup-slider-menu-item {
 	-slider-height: 0.3em;
-	-slider-background-color: #202020;
+	-slider-background-color: $BorderColor_5;
 	-slider-border-color: rgba(47, 47, 47, 0.4);
 	-slider-active-background-color: #199ca8;
 	-slider-active-border-color: rgba(47, 47, 47, 0.4);
@@ -566,7 +572,7 @@ StScrollView {
 }
 .slider {
 	-slider-height: 0.3em;
-	-slider-background-color: #202020;
+	-slider-background-color: $BorderColor_5;
 	-slider-border-color: rgba(47, 47, 47, 0.4);
 	-slider-active-background-color: #199ca8;
 	-slider-active-border-color: rgba(47, 47, 47, 0.4);
@@ -658,36 +664,36 @@ StScrollView {
 	}
 }
 .cinnamon-link {
-	color: $color_8;
+	color: $FontColor_8;
 	text-decoration: underline;
 	&:hover {
-		color: $color_9;
+		color: $FontColor_9;
 	}
 }
 #Tooltip {
 	border: 1px solid #d0d0d0;
 	border-radius: 3px;
 	padding: 5px 12px;
-	background-color: $background-color_8;
-	color: $color_10;
+	background-color: $BackgroundColor_8;
+	color: $FontColor_10;
 	font-size: 1em;
 	font-weight: normal;
 	text-align: center;
 }
 #LookingGlassDialog {
-	color: $color_1;
-	border: 1px solid #202020;
+	color: $FontColor_1;
+	border: 1px solid $BorderColor_5;
 	border-radius: 3px;
-	background-color: $background-color_9;
+	background-color: $BackgroundColor_9;
 	spacing: 4px;
 	padding: 8px;
 }
 .menu {
-	color: $color_1;
-	border: 1px solid #202020;
+	color: $FontColor_1;
+	border: 1px solid $BorderColor_5;
 	border-radius: 5px;
 	margin: 10px;
-	background-color: $background-color_1;
+	background-color: $BackgroundColor_1;
 }
 .menu.top {
 	border-radius: 0 0 3px 3px;
@@ -702,7 +708,7 @@ StScrollView {
 	border-radius: 3px 0 0 3px;
 }
 .popup-sub-menu {
-	background-color: $background-color_4;
+	background-color: $BackgroundColor_4;
 	box-shadow: none;
 	.popup-menu-item {
 		&:ltr {
@@ -731,18 +737,18 @@ StScrollView {
 	border-left-width: 0;
 	border-right-width: 0;
 	&:active {
-		color: $color_3;
-		background-color: $background-color_10;
+		color: $FontColor_3;
+		background-color: $BackgroundColor_10;
 	}
 	&:insensitive {
-		color: $color_4;
+		color: $FontColor_4;
 		background: none;
 	}
 }
 .popup-inactive-menu-item {
-	color: $color_1;
+	color: $FontColor_1;
 	&:insensitive {
-		color: $color_4;
+		color: $FontColor_4;
 	}
 }
 .popup-menu-arrow {
@@ -755,16 +761,16 @@ StScrollView {
 	-arrow-border-radius: 3px;
 	-arrow-background-color: #2f2f2f;
 	-arrow-border-width: 1px;
-	-arrow-border-color: #202020;
+	-arrow-border-color: $BorderColor_5;
 	-arrow-base: 21px;
 	-arrow-rise: 9px;
 	-boxpointer-gap: 2px;
 }
 .popup-combo-menu {
-	color: $color_1;
-	border: 1px solid #202020;
+	color: $FontColor_1;
+	border: 1px solid $BorderColor_5;
 	border-radius: 2px;
-	background-color: $background-color_4;
+	background-color: $BackgroundColor_4;
 	box-shadow: none;
 	padding: 1em 0em 1em 0em;
 }
@@ -777,8 +783,8 @@ StScrollView {
 }
 .popup-separator-menu-item {
 	-gradient-height: 1px;
-	-gradient-start: #202020;
-	-gradient-end: #202020;
+	-gradient-start: $BorderColor_5;
+	-gradient-end: $BorderColor_5;
 	-margin-horizontal: 0;
 	height: 1px;
 }
@@ -800,10 +806,10 @@ StScrollView {
 	font-weight: bold;
 	height: 40px;
 	width: 32px;
-	color: $color_1;
+	color: $FontColor_1;
 	&:highlight {
 		border-image: none;
-		background-color: $background-color_12;
+		background-color: $BackgroundColor_12;
 	}
 }
 #panelLeft {
@@ -923,47 +929,47 @@ StScrollView {
 	padding-right: 0px;
 }
 .panel-top {
-	color: $color_3;
+	color: $FontColor_3;
 	border: none;
-	background-color: $background-color_13;
+	background-color: $BackgroundColor_13;
 	font-size: 1em;
 	padding: 0px;
-	box-shadow: 0 0px #202020;
+	box-shadow: 0 0px $BorderColor_5;
 }
 .panel-bottom {
-	color: $color_3;
+	color: $FontColor_3;
 	border: none;
-	background-color: $background-color_13;
+	background-color: $BackgroundColor_13;
 	font-size: 1em;
 	padding: 0px;
-	box-shadow: 0 -1px #202020;
+	box-shadow: 0 -1px $BorderColor_5;
 }
 .panel-left {
-	color: $color_3;
+	color: $FontColor_3;
 	border: none;
-	background-color: $background-color_13;
+	background-color: $BackgroundColor_13;
 	font-size: 1em;
 	padding: 0px;
-	box-shadow: 1px 0 #202020;
+	box-shadow: 1px 0 $BorderColor_5;
 	.workspace-switcher {
 		padding: 0;
 	}
 }
 .panel-right {
-	color: $color_3;
+	color: $FontColor_3;
 	border: none;
-	background-color: $background-color_13;
+	background-color: $BackgroundColor_13;
 	font-size: 1em;
 	padding: 0px;
-	box-shadow: -1px 0 #202020;
+	box-shadow: -1px 0 $BorderColor_5;
 	.workspace-switcher {
 		padding: 0;
 	}
 }
 .panel-dummy {
-	background-color: $background-color_14;
+	background-color: $BackgroundColor_14;
 	&:entered {
-		background-color: $background-color_15;
+		background-color: $BackgroundColor_15;
 	}
 }
 .panel-status-button {
@@ -971,13 +977,13 @@ StScrollView {
 	-natural-hpadding: 3px;
 	-minimum-hpadding: 3px;
 	font-weight: bold;
-	color: $color_1;
+	color: $FontColor_1;
 }
 .panel-button {
 	-natural-hpadding: 6px;
 	-minimum-hpadding: 2px;
 	font-weight: bold;
-	color: $color_11;
+	color: $FontColor_11;
 	transition-duration: 100;
 }
 .system-status-icon {
@@ -985,37 +991,37 @@ StScrollView {
 	padding: 0 1px;
 }
 .system-status-icon.warning {
-	color: $color_12;
+	color: $FontColor_12;
 }
 .system-status-icon.error {
-	color: $color_13;
+	color: $FontColor_13;
 }
 #overview {
 	spacing: 12px;
 }
 .window-caption {
-	background-color: $background-color_16;
+	background-color: $BackgroundColor_16;
 	border: 1px solid #353535;
-	color: $color_6;
+	color: $FontColor_6;
 	spacing: 8px;
 	border-radius: 2px;
 	font-size: 0.9em;
 	padding: 5px 8px;
 	-cinnamon-caption-spacing: 8px;
 	&:focus {
-		background-color: $background-color_3;
-		color: $color_3;
-		border: 1px solid #199ca8;
+		background-color: $BackgroundColor_3;
+		color: $FontColor_3;
+		border: 1px solid $BorderColor_4;
 	}
 }
 .window-border {
-	border: 3px #199ca8;
+	border: 3px $BorderColor_4;
 	border-radius: 2px;
-	background-color: $background-color_17;
-	box-shadow: 0 0 0 1px #199ca8 inset;
+	background-color: $BackgroundColor_17;
+	box-shadow: 0 0 0 1px $BoxShadowColor_1 inset;
 }
 .overview-empty-placeholder {
-	color: $color_3;
+	color: $FontColor_3;
 	font-size: 2em;
 }
 .expo-workspaces-name-entry {
@@ -1024,14 +1030,14 @@ StScrollView {
 	font-size: 1em;
 	padding: 5px 8px;
 	-cinnamon-caption-spacing: 4px;
-	color: $color_6;
-	background-color: $background-color_18;
+	color: $FontColor_6;
+	background-color: $BackgroundColor_18;
 	border: 1px solid rgba(22, 22, 22, 0.4);
 	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 	&:focus {
-		border: 1px solid #199ca8;
-		background-color: $background-color_3;
-		color: $color_3;
+		border: 1px solid $BorderColor_4;
+		background-color: $BackgroundColor_3;
+		color: $FontColor_3;
 		font-style: italic;
 		transition-duration: 300;
 		selection-background-color: #ffffff;
@@ -1044,32 +1050,32 @@ StScrollView {
 	font-size: 1em;
 	padding: 5px 8px;
 	-cinnamon-caption-spacing: 4px;
-	color: $color_6;
-	background-color: $background-color_18;
+	color: $FontColor_6;
+	background-color: $BackgroundColor_18;
 	border: 1px solid rgba(22, 22, 22, 0.4);
 	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 	&:focus {
-		border: 1px solid #199ca8;
-		background-color: $background-color_3;
-		color: $color_3;
+		border: 1px solid $BorderColor_4;
+		background-color: $BackgroundColor_3;
+		color: $FontColor_3;
 		font-style: italic;
 		transition-duration: 300;
 		selection-background-color: #ffffff;
-		selected-color: #199ca8;
+		selected-color: $BorderColor_4;
 	}
 }
 .expo-workspace-thumbnail-frame {
 	border: 4px solid rgba(255, 255, 255, 0);
-	background-color: $background-color_19;
+	background-color: $BackgroundColor_19;
 	border-radius: 2px;
 }
 .expo-workspace-thumbnail-frame#active {
-	border: 4px solid #199ca8;
-	background-color: $background-color_20;
+	border: 4px solid $BorderColor_4;
+	background-color: $BackgroundColor_20;
 	border-radius: 2px;
 }
 .expo-background {
-	background-color: $background-color_16;
+	background-color: $BackgroundColor_16;
 }
 .workspace-thumbnails {
 	spacing: 26px;
@@ -1095,7 +1101,7 @@ StScrollView {
 	}
 }
 .workspace-overview-background-shade {
-	background-color: $background-color_21;
+	background-color: $BackgroundColor_21;
 }
 .workspace-close-button {
 	background-image: url("common-assets/misc/close.svg");
@@ -1152,35 +1158,35 @@ StScrollView {
 	margin-right: 0.5em;
 	padding: 0.5em;
 	min-width: 350px;
-	border: 1px solid #202020;
-	background-color: $background-color_4;
+	border: 1px solid $BorderColor_5;
+	background-color: $BackgroundColor_4;
 }
 .calendar-events-no-events-button {
 	margin: 6px 0 6px 0;
 	padding: 6px;
 	&:hover {
-		background-color: $background-color_3;
+		background-color: $BackgroundColor_3;
 		.calendar-events-no-events-icon {
-			color: $color_3;
+			color: $FontColor_3;
 		}
 		.calendar-events-no-events-label {
-			color: $color_3;
+			color: $FontColor_3;
 		}
 	}
 }
 .calendar-events-no-events-icon {
 	font-weight: bold;
-	color: $color_1;
+	color: $FontColor_1;
 	text-align: center;
 }
 .calendar-events-no-events-label {
 	font-weight: bold;
-	color: $color_1;
+	color: $FontColor_1;
 	text-align: center;
 }
 .calendar-events-date-label {
 	padding: 0.1em 0.1em 0.5em 0.1em;
-	color: $color_1;
+	color: $FontColor_1;
 	font-weight: bold;
 	text-align: center;
 }
@@ -1190,66 +1196,66 @@ StScrollView {
 .calendar-event-button {
 	border: 1px solid rgba(0, 0, 0, 0);
 	.calendar-event-time-past {
-		color: $color_14;
+		color: $FontColor_14;
 		font-weight: bold;
 		text-align: left;
 		margin-bottom: 0.2em;
 	}
 	.calendar-event-time-present {
-		color: $color_1;
+		color: $FontColor_1;
 		font-weight: bold;
 		text-align: left;
 		margin-bottom: 0.2em;
 		&:all-day {
-			color: $color_15;
+			color: $FontColor_15;
 		}
 	}
 	.calendar-event-time-future {
-		color: $color_1;
+		color: $FontColor_1;
 		font-weight: bold;
 		text-align: left;
 		margin-bottom: 0.2em;
 	}
 	.calendar-event-summary {
-		color: $color_1;
+		color: $FontColor_1;
 		text-align: left;
 		width: 200px;
 	}
 	.calendar-event-countdown {
 		text-align: right;
 		margin-bottom: 0.6em;
-		color: $color_1;
+		color: $FontColor_1;
 		&:soon {
 			font-weight: bold;
 		}
 		&:imminent {
 			font-weight: bold;
-			color: $color_12;
+			color: $FontColor_12;
 		}
 		&:current {
 			font-weight: bold;
-			color: $color_15;
+			color: $FontColor_15;
 		}
 	}
 	&:hover {
-		background-color: $background-color_3;
-		border: 1px solid #202020;
+		background-color: $BackgroundColor_3;
+		border: 1px solid $BorderColor_5;
 		.calendar-event-time-past {
-			color: $color_3;
+			color: $FontColor_3;
 		}
 		.calendar-event-time-present {
-			color: $color_3;
+			color: $FontColor_3;
 		}
 		.calendar-event-time-future {
-			color: $color_3;
+			color: $FontColor_3;
 		}
 		.calendar-event-summary {
-			color: $color_3;
+			color: $FontColor_3;
 		}
 		.calendar-event-countdown {
 			text-align: right;
 			margin-bottom: 0.6em;
-			color: $color_3;
+			color: $FontColor_3;
 			&:soon {
 				font-weight: bold;
 			}
@@ -1270,31 +1276,31 @@ StScrollView {
 }
 .calendar-today-day-label {
 	font-size: 1.75em;
-	color: $color_1;
+	color: $FontColor_1;
 	font-weight: bold;
 	text-align: center;
 	padding-bottom: 0.1em;
 }
 .calendar-today-date-label {
 	font-size: 1.1em;
-	color: $color_1;
+	color: $FontColor_1;
 	font-weight: bold;
 	text-align: center;
 }
 .calendar-today-home-button-enabled {
 	padding: 6px;
 	&:hover {
-		background-color: $background-color_3;
+		background-color: $BackgroundColor_3;
 		.calendar-today-day-label {
-			color: $color_3;
+			color: $FontColor_3;
 		}
 		.calendar-today-date-label {
-			color: $color_3;
+			color: $FontColor_3;
 		}
 	}
 }
 .calendar-month-label {
-	color: $color_1;
+	color: $FontColor_1;
 	font-weight: bold;
 	padding: 8px 0;
 }
@@ -1368,18 +1374,18 @@ StScrollView {
 	padding: 0.1em;
 	&:hover {
 		font-weight: bold;
-		color: $color_3;
-		background-color: $background-color_3;
+		color: $FontColor_3;
+		background-color: $BackgroundColor_3;
 	}
 }
 .calendar-day-heading {
-	color: $color_16;
+	color: $FontColor_16;
 	margin-top: 1em;
 	font-size: 1.05em;
 }
 .calendar-day {
 	border-width: 0;
-	color: $color_16;
+	color: $FontColor_16;
 }
 .calendar-day-top {
 	border-top-width: 0;
@@ -1388,56 +1394,56 @@ StScrollView {
 	border-left-width: 0;
 }
 .calendar-nonwork-day {
-	color: $color_1;
-	background-color: $background-color_22;
+	color: $FontColor_1;
+	background-color: $BackgroundColor_22;
 	font-weight: bold;
 }
 .calendar-today {
-	color: $color_1;
-	background-color: $background-color_7;
+	color: $FontColor_1;
+	background-color: $BackgroundColor_7;
 	border-width: 0;
 	&:selected {
 		font-weight: bold;
 	}
 }
 .calendar-not-today {
-	color: $color_1;
+	color: $FontColor_1;
 	&:selected {
 		font-weight: bold;
-		background-color: $background-color_11;
+		background-color: $BackgroundColor_11;
 		&:hover {
 			font-weight: bold;
-			color: $color_1;
+			color: $FontColor_1;
 		}
 	}
 }
 .calendar-other-month-day {
-	color: $color_17;
+	color: $FontColor_17;
 	opacity: 1;
 	&:hover {
-		color: $color_3;
+		color: $FontColor_3;
 		opacity: 1;
 	}
 }
 .calendar-week-number {
-	color: $color_16;
+	color: $FontColor_16;
 	font-size: 0.8em;
 	margin-top: 0.8em;
 }
 #notification {
-	border: 1px solid #202020;
+	border: 1px solid $BorderColor_5;
 	border-radius: 5px;
-	background-color: $background-color_1;
+	background-color: $BackgroundColor_1;
 	padding: 13px;
 	spacing-rows: 10px;
 	spacing-columns: 10px;
 	margin-from-right-edge-of-screen: 20px;
 	width: 34em;
-	color: $color_1;
+	color: $FontColor_1;
 }
 #notification.multi-line-notification {
 	padding-bottom: 13px;
-	color: $color_1;
+	color: $FontColor_1;
 }
 #notification-scrollview {
 	max-height: 10em;
@@ -1466,16 +1472,16 @@ StScrollView {
 }
 .notification-with-image {
 	min-height: 159px;
-	color: $color_1;
+	color: $FontColor_1;
 }
 #altTabPopup {
 	padding: 8px;
 	spacing: 16px;
 }
 .switcher-list {
-	color: $color_1;
-	border: 1px solid #202020;
-	background-color: $background-color_9;
+	color: $FontColor_1;
+	border: 1px solid $BorderColor_5;
+	background-color: $BackgroundColor_9;
 	border-radius: 3px;
 	padding: 20px;
 	>StBoxLayout {
@@ -1486,12 +1492,12 @@ StScrollView {
 		border-radius: 2px;
 		&:outlined {
 			padding: 8px;
-			border: 1px solid #199ca8;
+			border: 1px solid $BorderColor_4;
 		}
 		&:selected {
-			color: $color_3;
-			background-color: $background-color_3;
-			border: 0px solid #199ca8;
+			color: $FontColor_3;
+			background-color: $BackgroundColor_3;
+			border: 0px solid $BorderColor_4;
 		}
 	}
 	.thumbnail {
@@ -1510,22 +1516,22 @@ StScrollView {
 	spacing: 8px;
 }
 .switcher-arrow {
-	border-color: $border-color_2;
-	color: $color_1;
+	border-color: $BorderColor_2;
+	color: $FontColor_1;
 	&:highlighted {
-		border-color: $border-color_2;
-		color: $color_3;
+		border-color: $BorderColor_2;
+		color: $FontColor_3;
 	}
 }
 .thumbnail-scroll-gradient-left {
-	background-color: $background-color_23;
+	background-color: $BackgroundColor_23;
 	border-radius: 24px;
 	border-radius-topright: 0px;
 	border-radius-bottomright: 0px;
 	width: 60px;
 }
 .thumbnail-scroll-gradient-right {
-	background-color: $background-color_23;
+	background-color: $BackgroundColor_23;
 	border-radius: 24px;
 	border-radius-topleft: 0px;
 	border-radius-bottomleft: 0px;
@@ -1541,14 +1547,14 @@ StScrollView {
 	}
 }
 .lightbox {
-	background-color: $background-color_13;
+	background-color: $BackgroundColor_13;
 }
 .flashspot {
-	background-color: $background-color_24;
+	background-color: $BackgroundColor_24;
 }
 .modal-dialog {
-	background-color: $background-color_9;
-	border: 1px solid #202020;
+	background-color: $BackgroundColor_9;
+	border: 1px solid $BorderColor_5;
 	border-radius: 3px;
 	padding: 5px 10px;
 	>StBoxLayout {
@@ -1565,9 +1571,9 @@ StScrollView {
 }
 .run-dialog {
 	padding: 10px 15px 10px 15px;
-	border: 1px solid #202020;
+	border: 1px solid $BorderColor_5;
 	border-radius: 3px;
-	background-color: $background-color_9;
+	background-color: $BackgroundColor_9;
 	>* {
 		padding: 0;
 	}
@@ -1580,17 +1586,17 @@ StScrollView {
 .run-dialog-label {
 	font-size: 1.3em;
 	font-weight: bold;
-	color: $color_1;
+	color: $FontColor_1;
 	padding-bottom: 15px;
 	text-align: center;
 }
 .run-dialog-description {
-	color: $color_1;
+	color: $FontColor_1;
 	padding-top: 15px;
 	text-align: center;
 }
 .run-dialog-description.error {
-	color: $color_13;
+	color: $FontColor_13;
 }
 .run-dialog-completion-box {
 	padding-top: 5px;
@@ -1604,15 +1610,15 @@ StScrollView {
 	border-radius: 3px;
 	caret-color: #c3c3c3;
 	selected-color: #ffffff;
-	selection-background-color: #199ca8;
-	color: $color_6;
-	background-color: $background-color_18;
+	selection-background-color: $BorderColor_4;
+	color: $FontColor_6;
+	background-color: $BackgroundColor_18;
 	border: 1px solid rgba(22, 22, 22, 0.4);
 	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
 	&:focus {
-		color: $color_1;
-		background-color: $background-color_4;
-		border: 1px solid #199ca8;
+		color: $FontColor_1;
+		background-color: $BackgroundColor_4;
+		border: 1px solid $BorderColor_4;
 		box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.05);
 	}
 }
@@ -1620,7 +1626,7 @@ StScrollView {
 	icon-size: 48px;
 }
 .mount-password-reask {
-	color: $color_12;
+	color: $FontColor_12;
 }
 .show-processes-dialog {
 	spacing: 24px;
@@ -1671,9 +1677,9 @@ StScrollView {
 	}
 }
 .show-processes-dialog-app-list-item {
-	color: $color_18;
+	color: $FontColor_18;
 	&:hover {
-		color: $color_19;
+		color: $FontColor_19;
 	}
 	&:ltr {
 		padding-right: 1em;
@@ -1700,10 +1706,10 @@ StScrollView {
 	}
 }
 #keyboard {
-	background-color: $background-color_16;
+	background-color: $BackgroundColor_16;
 	border-width: 0;
 	border-top-width: 1px;
-	border-color: $border-color_3;
+	border-color: $BorderColor_3;
 }
 .keyboard-layout {
 	spacing: 10px;
@@ -1719,32 +1725,32 @@ StScrollView {
 	font-weight: bold;
 	border-radius: 3px;
 	box-shadow: none;
-	color: $color_6;
-	border: 1px solid #202020;
-	background-color: $background-color_18;
+	color: $FontColor_6;
+	border: 1px solid $BorderColor_5;
+	background-color: $BackgroundColor_18;
 	&:hover {
-		color: $color_6;
+		color: $FontColor_6;
 		border: 1px solid rgba(2, 2, 2, 0.4);
-		background-color: $background-color_25;
+		background-color: $BackgroundColor_25;
 	}
 	&:active {
-		color: $color_3;
-		border: 1px solid #199ca8;
-		background-color: $background-color_3;
+		color: $FontColor_3;
+		border: 1px solid $BorderColor_4;
+		background-color: $BackgroundColor_3;
 	}
 	&:checked {
-		color: $color_3;
-		border: 1px solid #199ca8;
-		background-color: $background-color_3;
+		color: $FontColor_3;
+		border: 1px solid $BorderColor_4;
+		background-color: $BackgroundColor_3;
 	}
 	&:grayed {
-		color: $color_20;
+		color: $FontColor_20;
 		border: 1px solid rgba(2, 2, 2, 0.4);
-		background-color: $background-color_18;
+		background-color: $BackgroundColor_18;
 	}
 }
 .keyboard-subkeys {
-	color: $color_6;
+	color: $FontColor_6;
 	padding: 5px;
 	-arrow-border-radius: 2px;
 	-arrow-background-color: #353535;
@@ -1757,15 +1763,15 @@ StScrollView {
 .menu-favorites-box {
 	padding: 5px 0 5px 0;
 	transition-duration: 300;
-	background-color: $background-color_26;
-	border: 1px solid #202020;
+	background-color: $BackgroundColor_26;
+	border: 1px solid $BorderColor_5;
 }
 .menu-favorites-button {
 	padding: 0.9em 1em;
 	border: 1px solid rgba(0, 0, 0, 0);
 	border-radius: 2px;
 	&:hover {
-		background-color: $background-color_11;
+		background-color: $BackgroundColor_11;
 		border: 1px;
 		border-radius: 4px;
 	}
@@ -1795,8 +1801,8 @@ StScrollView {
 }
 .menu-application-button-selected {
 	padding: 7px;
-	color: $color_3;
-	background-color: $background-color_11;
+	color: $FontColor_3;
+	background-color: $BackgroundColor_11;
 	border: 1px;
 	border-radius: 4px;
 	&:highlighted {
@@ -1817,18 +1823,18 @@ StScrollView {
 }
 .menu-category-button-selected {
 	padding: 7px;
-	color: $color_3;
-	background-color: $background-color_11;
+	color: $FontColor_3;
+	background-color: $BackgroundColor_11;
 	border: 1px;
 	border-radius: 4px;
 }
 .menu-category-button-hover {
-	background-color: $background-color_27;
+	background-color: $BackgroundColor_27;
 	border-radius: 4px;
 }
 .menu-category-button-greyed {
 	padding: 7px;
-	color: $color_21;
+	color: $FontColor_21;
 	border: 1px solid rgba(0, 0, 0, 0);
 }
 .menu-category-button-label {
@@ -1865,17 +1871,17 @@ StScrollView {
 }
 .menu-search-entry-icon {
 	icon-size: 1em;
-	color: $color_1;
+	color: $FontColor_1;
 }
 .info-osd {
 	text-align: center;
 	font-weight: bold;
 	spacing: 1em;
 	padding: 16px;
-	color: $color_1;
-	border: 1px solid #202020;
+	color: $FontColor_1;
+	border: 1px solid $BorderColor_5;
 	border-radius: 5px;
-	background-color: $background-color_9;
+	background-color: $BackgroundColor_9;
 }
 .restart-osd {
 	font-size: 1.6em;
@@ -1888,9 +1894,9 @@ StScrollView {
 	font-weight: bold;
 	spacing: 1em;
 	padding: 20px;
-	color: $color_16;
-	background-color: $background-color_9;
-	border: 1px solid #202020;
+	color: $FontColor_16;
+	background-color: $BackgroundColor_9;
+	border: 1px solid $BorderColor_5;
 	border-radius: 5px;
 	.osd-monitor-label {
 		font-size: 3em;
@@ -1898,12 +1904,12 @@ StScrollView {
 	.level {
 		padding: 0;
 		height: 0.7em;
-		background-color: $background-color_13;
+		background-color: $BackgroundColor_13;
 		border-radius: 2px;
 	}
 	.level-bar {
 		border-radius: 2px;
-		background-color: $background-color_3;
+		background-color: $BackgroundColor_3;
 	}
 }
 .window-list-box {
@@ -1911,7 +1917,7 @@ StScrollView {
 	padding-left: 10px;
 	padding-top: 1px;
 	&:highlight {
-		background-color: $background-color_14;
+		background-color: $BackgroundColor_14;
 	}
 }
 .window-list-box.vertical {
@@ -1934,38 +1940,38 @@ StScrollView {
 	padding-left: 8px;
 	padding-right: 8px;
 	transition-duration: 100;
-	color: $color_22;
+	color: $FontColor_22;
 	&:hover {
-		color: $color_1;
-		background-color: $background-color_28;
+		color: $FontColor_1;
+		background-color: $BackgroundColor_28;
 	}
 	&:groupfocus {
-		color: $color_1;
-		background-color: $background-color_28;
+		color: $FontColor_1;
+		background-color: $BackgroundColor_28;
 	}
 	&:active {
-		color: $color_1;
-		border-color: $border-color_4;
-		background-color: $background-color_28;
+		color: $FontColor_1;
+		border-color: $BorderColor_4;
+		background-color: $BackgroundColor_28;
 	}
 	&:checked {
-		color: $color_1;
-		border-color: $border-color_4;
-		background-color: $background-color_28;
+		color: $FontColor_1;
+		border-color: $BorderColor_4;
+		background-color: $BackgroundColor_28;
 	}
 	&:focus {
-		color: $color_1;
-		border-color: $border-color_4;
-		background-color: $background-color_28;
+		color: $FontColor_1;
+		border-color: $BorderColor_4;
+		background-color: $BackgroundColor_28;
 	}
 	&:running {
-		color: $color_1;
-		border-color: $border-color_4;
-		background-color: $background-color_28;
+		color: $FontColor_1;
+		border-color: $BorderColor_4;
+		background-color: $BackgroundColor_28;
 	}
 	.progress {
 		border-radius: 80px;
-		background-color: $background-color_29;
+		background-color: $BackgroundColor_29;
 	}
 }
 .window-list-item-box.top {
@@ -2003,9 +2009,9 @@ StScrollView {
 }
 .window-list-preview {
 	spacing: 6px;
-	color: $color_1;
-	border: 1px solid #202020;
-	background-color: $background-color_1;
+	color: $FontColor_1;
+	border: 1px solid $BorderColor_5;
+	background-color: $BackgroundColor_1;
 	border-radius: 4px;
 	padding: 6px 12px 12px 12px;
 	font-size: 1em;
@@ -2023,25 +2029,25 @@ StScrollView {
 	padding-left: 8px;
 	padding-right: 8px;
 	transition-duration: 100;
-	color: $color_22;
+	color: $FontColor_22;
 	&:hover {
-		color: $color_1;
-		background-color: $background-color_30;
+		color: $FontColor_1;
+		background-color: $BackgroundColor_30;
 	}
 	&:focus {
-		color: $color_1;
-		background-color: $background-color_30;
+		color: $FontColor_1;
+		background-color: $BackgroundColor_30;
 	}
 	&:active {
-		color: $color_1;
-		border-color: $border-color_4;
+		color: $FontColor_1;
+		border-color: $BorderColor_4;
 	}
 	&:checked {
-		color: $color_1;
-		border-color: $border-color_4;
+		color: $FontColor_1;
+		border-color: $BorderColor_4;
 	}
 	.progress {
-		background-color: $background-color_29;
+		background-color: $BackgroundColor_29;
 	}
 }
 .grouped-window-list-item-box.top {
@@ -2083,11 +2089,11 @@ StScrollView {
 .grouped-window-list-number-label {
 	font-size: 0.8em;
 	z-index: 99;
-	color: $color_23;
+	color: $FontColor_23;
 }
 .grouped-window-list-badge {
 	border-radius: 9999px;
-	background-color: $background-color_31;
+	background-color: $BackgroundColor_31;
 	margin: 0;
 }
 .grouped-window-list-button-label {
@@ -2097,9 +2103,9 @@ StScrollView {
 	background: rgba(255, 52, 52, 0.3);
 }
 .grouped-window-list-thumbnail-menu {
-	color: $color_1;
-	border: 1px solid #202020;
-	background-color: $background-color_9;
+	color: $FontColor_1;
+	border: 1px solid $BorderColor_5;
+	background-color: $BackgroundColor_9;
 	border-radius: 3px;
 	padding: 0px;
 	>StBoxLayout {
@@ -2111,10 +2117,10 @@ StScrollView {
 		spacing: 4px;
 		&:outlined {
 			padding: 8px;
-			border: 1px solid #199ca8;
+			border: 1px solid $BorderColor_4;
 		}
 		&:selected {
-			border: 1px solid #199ca8;
+			border: 1px solid $BorderColor_4;
 		}
 	}
 	.thumbnail {
@@ -2185,16 +2191,16 @@ StScrollView {
 						icon-size: 12px;
 					}
 					&:hover {
-						color: $color_1;
-						background-color: $background-color_2;
-						border: 1px solid #202020;
+						color: $FontColor_1;
+						background-color: $BackgroundColor_2;
+						border: 1px solid $BorderColor_5;
 						box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.05);
 					}
 					&:active {
-						color: $color_3;
-						background-color: $background-color_3;
-						border: 1px solid #199ca8;
-						box-shadow: inset 0 2px 4px #199ca8;
+						color: $FontColor_3;
+						background-color: $BackgroundColor_3;
+						border: 1px solid $BorderColor_4;
+						box-shadow: inset 0 2px 4px $BoxShadowColor_1;
 					}
 				}
 			}
@@ -2222,29 +2228,29 @@ StScrollView {
 	padding: 15px;
 	spacing: 0.5em;
 	background: rgba(47, 47, 47, 0.87);
-	border-top: 1px solid #202020;
-	color: $color_1;
+	border-top: 1px solid $BorderColor_5;
+	color: $FontColor_1;
 	StButton {
 		width: 22px;
 		height: 13px;
 		padding: 5px;
-		color: $color_1;
+		color: $FontColor_1;
 		border-radius: 2px;
 		border: 1px solid transparent;
 		StIcon {
 			icon-size: 16px;
 		}
 		&:hover {
-			color: $color_1;
-			background-color: $background-color_2;
-			border: 1px solid #202020;
+			color: $FontColor_1;
+			background-color: $BackgroundColor_2;
+			border: 1px solid $BorderColor_5;
 			box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.05);
 		}
 		&:active {
-			color: $color_3;
-			background-color: $background-color_3;
-			border: 1px solid #199ca8;
-			box-shadow: inset 0 2px 4px #199ca8;
+			color: $FontColor_3;
+			background-color: $BackgroundColor_3;
+			border: 1px solid $BorderColor_4;
+			box-shadow: inset 0 2px 4px $BoxShadowColor_1;
 		}
 	}
 	StBoxLayout {
@@ -2264,24 +2270,24 @@ StScrollView {
 }
 .workspace-button {
 	border: 1px solid rgba(0, 0, 0, 0.5);
-	background-color: $background-color_32;
+	background-color: $BackgroundColor_32;
 	width: 20px;
 	height: 14px;
-	color: $color_24;
+	color: $FontColor_24;
 	padding: 3px;
 	padding-top: 4px;
 	transition-duration: 200;
 	&:outlined {
-		background-color: $background-color_3;
-		color: $color_3;
+		background-color: $BackgroundColor_3;
+		color: $FontColor_3;
 		&:hover {
-			background-color: $background-color_29;
-			color: $color_3;
+			background-color: $BackgroundColor_29;
+			color: $FontColor_3;
 		}
 	}
 	&:hover {
-		background-color: $background-color_33;
-		color: $color_3;
+		background-color: $BackgroundColor_33;
+		color: $FontColor_3;
 	}
 }
 .workspace-button.vertical {
@@ -2296,9 +2302,9 @@ StScrollView {
 	spacing: 6px;
 	.workspace {
 		border: 1px solid rgba(0, 0, 0, 0.5);
-		background-color: $background-color_32;
+		background-color: $BackgroundColor_32;
 		&:active {
-			border: 1px solid #199ca8;
+			border: 1px solid $BorderColor_4;
 			.windows {
 				-active-window-background: #6f6f6f;
 				-active-window-border: rgba(0, 0, 0, 0.87);
@@ -2323,7 +2329,7 @@ StScrollView {
 		padding-bottom: 2px;
 		transition-duration: 200;
 		&:hover {
-			background-color: $background-color_2;
+			background-color: $BackgroundColor_2;
 		}
 	}
 }
@@ -2362,40 +2368,40 @@ StScrollView {
 	padding-left: 4px;
 	padding-right: 4px;
 	spacing: 4px;
-	color: $color_1;
+	color: $FontColor_1;
 	text-shadow: none;
 	transition-duration: 100;
 	text-align: center;
 	&:hover {
-		color: $color_3;
+		color: $FontColor_3;
 		border-radius: 5px;
-		background-color: $background-color_11;
+		background-color: $BackgroundColor_11;
 		.applet-label {
-			color: $color_3;
+			color: $FontColor_3;
 			text-shadow: none;
 		}
 		>.applet-icon {
-			color: $color_3;
+			color: $FontColor_3;
 			text-shadow: none;
 		}
 	}
 	&:checked {
-		color: $color_3;
+		color: $FontColor_3;
 		border-radius: 5px;
-		background-color: $background-color_11;
+		background-color: $BackgroundColor_11;
 		.applet-label {
-			color: $color_3;
+			color: $FontColor_3;
 			text-shadow: none;
 		}
 		>.applet-icon {
-			color: $color_3;
+			color: $FontColor_3;
 			text-shadow: none;
 		}
 	}
 	&:highlight {
 		background-image: none;
 		border-image: none;
-		background-color: $background-color_14;
+		background-color: $BackgroundColor_14;
 	}
 }
 .applet-box.vertical {
@@ -2406,50 +2412,50 @@ StScrollView {
 }
 .applet-label {
 	font-weight: bold;
-	color: $color_1;
+	color: $FontColor_1;
 	&:hover {
-		color: $color_3;
+		color: $FontColor_3;
 		text-shadow: none;
 	}
 	&:checked {
-		color: $color_3;
+		color: $FontColor_3;
 		text-shadow: none;
 	}
 }
 .applet-icon {
-	color: $color_3;
+	color: $FontColor_3;
 	icon-size: 22px;
 	&:hover {
-		color: $color_3;
+		color: $FontColor_3;
 		text-shadow: none;
 	}
 	&:checked {
-		color: $color_3;
+		color: $FontColor_3;
 		text-shadow: none;
 	}
 }
 .user-icon {
 	width: 32px;
 	height: 32px;
-	background-color: $background-color_22;
+	background-color: $BackgroundColor_22;
 	border: none;
 	border-radius: 0;
 }
 .user-label {
-	color: $color_1;
+	color: $FontColor_1;
 	font-size: 1em;
 	font-weight: bold;
 	margin: 0px;
 }
 .applet-cornerbar {
 	width: 8px;
-	background-color: $background-color_11;
+	background-color: $BackgroundColor_11;
 }
 .applet-cornerbar-box {
 	padding: 4px 4px;
 	&:hover {
 		>.applet-cornerbar {
-			background-color: $background-color_11;
+			background-color: $BackgroundColor_11;
 		}
 	}
 }
@@ -2457,55 +2463,55 @@ StScrollView {
 	height: 8px;
 }
 .desklet {
-	color: $color_1;
+	color: $FontColor_1;
 	&:highlight {
-		background-color: $background-color_14;
+		background-color: $BackgroundColor_14;
 	}
 }
 .desklet-with-borders {
-	border: 1px solid #202020;
+	border: 1px solid $BorderColor_5;
 	border-radius: 5px;
-	background-color: $background-color_9;
-	color: $color_1;
+	background-color: $BackgroundColor_9;
+	color: $FontColor_1;
 	padding: 12px;
 	padding-bottom: 16px;
 	&:highlight {
-		background-color: $background-color_14;
+		background-color: $BackgroundColor_14;
 	}
 }
 .desklet-with-borders-and-header {
-	border: 1px solid #202020;
+	border: 1px solid $BorderColor_5;
 	border-top-width: 0;
 	border-radius: 0 0 5px 5px;
-	background-color: $background-color_9;
-	color: $color_1;
+	background-color: $BackgroundColor_9;
+	color: $FontColor_1;
 	border-radius: 0;
 	border-radius-topleft: 0;
 	border-radius-topright: 0;
 	padding: 12px;
 	padding-bottom: 17px;
 	&:highlight {
-		background-color: $background-color_14;
+		background-color: $BackgroundColor_14;
 	}
 }
 .desklet-header {
-	border: 1px solid #202020;
+	border: 1px solid $BorderColor_5;
 	border-radius: 5px 5px 0 0;
-	background-color: $background-color_34;
-	color: $color_1;
+	background-color: $BackgroundColor_34;
+	color: $FontColor_1;
 	font-size: 1em;
 	padding: 12px;
 	padding-bottom: 6px;
 }
 .desklet-drag-placeholder {
-	border: 2px solid #199ca8;
-	background-color: $background-color_35;
+	border: 2px solid $BorderColor_4;
+	background-color: $BackgroundColor_35;
 }
 .photoframe-box {
-	border: 1px solid #202020;
+	border: 1px solid $BorderColor_5;
 	border-radius: 5px;
-	background-color: $background-color_9;
-	color: $color_1;
+	background-color: $BackgroundColor_9;
+	color: $FontColor_1;
 	padding: 12px;
 	padding-bottom: 16px;
 }
@@ -2516,15 +2522,15 @@ StScrollView {
 	max-height: 100px;
 }
 .tile-preview {
-	background-color: $background-color_35;
-	border: 1px solid #199ca8;
+	background-color: $BackgroundColor_35;
+	border: 1px solid $BorderColor_4;
 }
 .tile-preview.snap {
-	background-color: $background-color_36;
+	background-color: $BackgroundColor_36;
 }
 .tile-hud {
-	background-color: $background-color_35;
-	border: 1px solid #199ca8;
+	background-color: $BackgroundColor_35;
+	border: 1px solid $BorderColor_4;
 	&:top {
 		border-top-width: 0px;
 	}
@@ -2555,11 +2561,11 @@ StScrollView {
 	}
 }
 .tile-hud.snap {
-	background-color: $background-color_36;
+	background-color: $BackgroundColor_36;
 }
 .xkcd-box {
 	padding: 6px;
 	border: 0px;
-	background-color: $background-color_37;
+	background-color: $BackgroundColor_37;
 	border-radius: 0px;
 }
