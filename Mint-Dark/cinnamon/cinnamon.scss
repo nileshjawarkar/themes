@@ -1741,7 +1741,7 @@ StScrollView {
 .menu-favorites-box {
 	padding: 5px 0 5px 0;
 	transition-duration: 300;
-	background-color: $BackgroundColor_15;
+	background-color: $BackgroundColor_1;
 	border: 1px solid $BorderColor_5;
 }
 .menu-favorites-button {
@@ -1912,7 +1912,7 @@ StScrollView {
 }
 .window-list-item-box {
 	font-weight: bold;
-	border-radius: 80px;
+	border-radius: 5px;
 	background-image: none;
 	padding-top: 0;
 	padding-left: 8px;

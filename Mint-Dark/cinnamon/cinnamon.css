@@ -2000,7 +2000,7 @@ StScrollView StScrollBar {
 .menu-favorites-box {
     padding: 5px 0 5px 0;
     transition-duration: 300;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(32, 40, 40, 0.87);
     border: 1px solid #202020;
 }
 
@@ -2203,7 +2203,7 @@ StScrollView StScrollBar {
 
 .window-list-item-box {
     font-weight: bold;
-    border-radius: 80px;
+    border-radius: 5px;
     background-image: none;
     padding-top: 0;
     padding-left: 8px;
