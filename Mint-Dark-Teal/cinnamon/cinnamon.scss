@@ -14,8 +14,8 @@ $FontColor_9: green;
 $FontColor_10: #f27835;
 $FontColor_11: #fc4138;
 
-$BackgroundColor_1: rgba(32, 40, 40, 0.9);
-$BackgroundColor_2: rgba(22, 30, 30, 0.9);
+$BackgroundColor_1: rgba(32, 40, 40, 0.95);
+$BackgroundColor_2: rgba(22, 30, 30, 0.95);
 $BackgroundColor_3: rgba(22, 30, 30, 0.1);
 
 $BackgroundColor_4: rgba(25, 156, 168, 0.87);
@@ -39,8 +39,8 @@ $BorderColor_1: rgba(255, 255, 255, 0);
 $BorderColor_2: rgba(0, 0, 0, 0);
 $BorderColor_3: rgba(0, 0, 0, 0.4);
 $BorderColor_4: #199ca8;
-$BorderColor_5: #202020;
-$BorderColor_6: #252525;
+$BorderColor_5: rgba(32, 40, 40, 0.95);
+$BorderColor_6: rgba(32, 45, 45, 0.95);
 
 $BoxShadowColor_1: #199ca8;
 
@@ -2084,7 +2084,7 @@ StScrollView {
 .menu-favorites-box {
   padding: 5px 0 5px 0;
   transition-duration: 300;
-  background-color: $BackgroundColor_1;
+  background-color: $BackgroundColor_14;
   border: 1px solid $BorderColor_5;
 }
 

@@ -17,8 +17,8 @@ stage {
     padding: 5px 32px;
     transition-duration: 0;
     color: rgba(200, 200, 200, 0.87);
-    background-color: rgba(22, 30, 30, 0.9);
-    border: 1px solid #252525;
+    background-color: rgba(22, 30, 30, 0.95);
+    border: 1px solid rgba(32, 45, 45, 0.95);
     box-shadow: inset 0 2px 4px rgba(20, 40, 40, 0.1);
     border-radius: 2px;
     width: 22px;
@@ -28,7 +28,7 @@ stage {
 
 .sound-button:focus {
     color: rgba(200, 200, 200, 0.87);
-    background-color: rgba(22, 30, 30, 0.9);
+    background-color: rgba(22, 30, 30, 0.95);
     border: 1px solid #199ca8;
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 }
@@ -36,7 +36,7 @@ stage {
 .sound-button:hover {
     color: rgba(200, 200, 200, 0.87);
     background-color: rgba(22, 30, 30, 0.1);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.1);
 }
 
@@ -57,7 +57,7 @@ stage {
 .sound-button:insensitive {
     color: rgba(195, 195, 195, 0.6);
     border: 1px solid rgba(32, 45, 45, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 }
 
@@ -78,8 +78,8 @@ stage {
     padding: 5px 32px;
     transition-duration: 0;
     color: rgba(200, 200, 200, 0.87);
-    background-color: rgba(22, 30, 30, 0.9);
-    border: 1px solid #252525;
+    background-color: rgba(22, 30, 30, 0.95);
+    border: 1px solid rgba(32, 45, 45, 0.95);
     box-shadow: inset 0 2px 4px rgba(20, 40, 40, 0.1);
     border-radius: 2px;
     padding-top: 0;
@@ -89,7 +89,7 @@ stage {
 
 .modal-dialog-button-box .modal-dialog-button:focus {
     color: rgba(200, 200, 200, 0.87);
-    background-color: rgba(22, 30, 30, 0.9);
+    background-color: rgba(22, 30, 30, 0.95);
     border: 1px solid #199ca8;
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 }
@@ -97,7 +97,7 @@ stage {
 .modal-dialog-button-box .modal-dialog-button:hover {
     color: rgba(200, 200, 200, 0.87);
     background-color: rgba(22, 30, 30, 0.1);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.1);
 }
 
@@ -118,7 +118,7 @@ stage {
 .modal-dialog-button-box .modal-dialog-button:insensitive {
     color: rgba(195, 195, 195, 0.6);
     border: 1px solid rgba(32, 45, 45, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 }
 
@@ -127,8 +127,8 @@ stage {
     padding: 5px 32px;
     transition-duration: 0;
     color: rgba(200, 200, 200, 0.87);
-    background-color: rgba(22, 30, 30, 0.9);
-    border: 1px solid #252525;
+    background-color: rgba(22, 30, 30, 0.95);
+    border: 1px solid rgba(32, 45, 45, 0.95);
     box-shadow: inset 0 2px 4px rgba(20, 40, 40, 0.1);
     border-radius: 2px;
     padding: 5px;
@@ -136,7 +136,7 @@ stage {
 
 .notification-button:focus {
     color: rgba(200, 200, 200, 0.87);
-    background-color: rgba(22, 30, 30, 0.9);
+    background-color: rgba(22, 30, 30, 0.95);
     border: 1px solid #199ca8;
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 }
@@ -144,7 +144,7 @@ stage {
 .notification-button:hover {
     color: rgba(200, 200, 200, 0.87);
     background-color: rgba(22, 30, 30, 0.1);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.1);
 }
 
@@ -165,7 +165,7 @@ stage {
 .notification-button:insensitive {
     color: rgba(195, 195, 195, 0.6);
     border: 1px solid rgba(32, 45, 45, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 }
 
@@ -174,8 +174,8 @@ stage {
     padding: 5px 32px;
     transition-duration: 0;
     color: rgba(200, 200, 200, 0.87);
-    background-color: rgba(22, 30, 30, 0.9);
-    border: 1px solid #252525;
+    background-color: rgba(22, 30, 30, 0.95);
+    border: 1px solid rgba(32, 45, 45, 0.95);
     box-shadow: inset 0 2px 4px rgba(20, 40, 40, 0.1);
     border-radius: 2px;
     padding: 5px;
@@ -183,7 +183,7 @@ stage {
 
 .notification-icon-button:focus {
     color: rgba(200, 200, 200, 0.87);
-    background-color: rgba(22, 30, 30, 0.9);
+    background-color: rgba(22, 30, 30, 0.95);
     border: 1px solid #199ca8;
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 }
@@ -191,7 +191,7 @@ stage {
 .notification-icon-button:hover {
     color: rgba(200, 200, 200, 0.87);
     background-color: rgba(22, 30, 30, 0.1);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.1);
 }
 
@@ -212,7 +212,7 @@ stage {
 .notification-icon-button:insensitive {
     color: rgba(195, 195, 195, 0.6);
     border: 1px solid rgba(32, 45, 45, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 }
 
@@ -234,8 +234,8 @@ stage {
     padding: 5px 32px;
     transition-duration: 0;
     color: rgba(200, 200, 200, 0.87);
-    background-color: rgba(22, 30, 30, 0.9);
-    border: 1px solid #252525;
+    background-color: rgba(22, 30, 30, 0.95);
+    border: 1px solid rgba(32, 45, 45, 0.95);
     box-shadow: inset 0 2px 4px rgba(20, 40, 40, 0.1);
     border-radius: 2px;
     padding: 5px;
@@ -243,7 +243,7 @@ stage {
 
 .popup-menu #notification .notification-button:focus {
     color: rgba(200, 200, 200, 0.87);
-    background-color: rgba(22, 30, 30, 0.9);
+    background-color: rgba(22, 30, 30, 0.95);
     border: 1px solid #199ca8;
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 }
@@ -251,7 +251,7 @@ stage {
 .popup-menu #notification .notification-button:hover {
     color: rgba(200, 200, 200, 0.87);
     background-color: rgba(22, 30, 30, 0.1);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.1);
 }
 
@@ -272,7 +272,7 @@ stage {
 .popup-menu #notification .notification-button:insensitive {
     color: rgba(195, 195, 195, 0.6);
     border: 1px solid rgba(32, 45, 45, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 }
 
@@ -281,8 +281,8 @@ stage {
     padding: 5px 32px;
     transition-duration: 0;
     color: rgba(200, 200, 200, 0.87);
-    background-color: rgba(22, 30, 30, 0.9);
-    border: 1px solid #252525;
+    background-color: rgba(22, 30, 30, 0.95);
+    border: 1px solid rgba(32, 45, 45, 0.95);
     box-shadow: inset 0 2px 4px rgba(20, 40, 40, 0.1);
     border-radius: 2px;
     padding: 5px;
@@ -290,7 +290,7 @@ stage {
 
 .popup-menu #notification .notification-icon-button:focus {
     color: rgba(200, 200, 200, 0.87);
-    background-color: rgba(22, 30, 30, 0.9);
+    background-color: rgba(22, 30, 30, 0.95);
     border: 1px solid #199ca8;
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 }
@@ -298,7 +298,7 @@ stage {
 .popup-menu #notification .notification-icon-button:hover {
     color: rgba(200, 200, 200, 0.87);
     background-color: rgba(22, 30, 30, 0.1);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.1);
 }
 
@@ -319,7 +319,7 @@ stage {
 .popup-menu #notification .notification-icon-button:insensitive {
     color: rgba(195, 195, 195, 0.6);
     border: 1px solid rgba(32, 45, 45, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(69, 69, 69, 0.1);
 }
 
@@ -332,28 +332,28 @@ stage {
     border-radius: 3px;
     color: rgba(255, 255, 255, 0.87);
     border: 1px solid rgba(32, 45, 45, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.1);
 }
 
 .popup-menu #notification StEntry:focus {
     color: rgba(200, 200, 200, 0.87);
     border: 1px solid rgba(32, 45, 45, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.1);
 }
 
 .popup-menu #notification StEntry:hover {
     color: rgba(200, 200, 200, 0.87);
     border: 1px solid rgba(32, 45, 45, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.1);
 }
 
 .popup-menu #notification StEntry:insensitive {
     color: rgba(195, 195, 195, 0.6);
     border: 1px solid rgba(32, 45, 45, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(56, 56, 56, 0.1);
 }
 
@@ -364,7 +364,7 @@ stage {
 }
 
 .popup-menu .popup-sub-menu {
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: none;
 }
 
@@ -428,7 +428,7 @@ stage {
     border-radius: 3px;
     color: rgba(255, 255, 255, 0.87);
     border: 1px solid rgba(32, 45, 45, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.1);
     width: 250px;
     min-height: 16px;
@@ -439,21 +439,21 @@ stage {
 #menu-search-entry:focus {
     color: rgba(200, 200, 200, 0.87);
     border: 1px solid rgba(32, 45, 45, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.1);
 }
 
 #menu-search-entry:hover {
     color: rgba(200, 200, 200, 0.87);
     border: 1px solid rgba(32, 45, 45, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.1);
 }
 
 #menu-search-entry:insensitive {
     color: rgba(195, 195, 195, 0.6);
     border: 1px solid rgba(32, 45, 45, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(56, 56, 56, 0.1);
 }
 
@@ -473,7 +473,7 @@ stage {
     border-radius: 3px;
     color: rgba(255, 255, 255, 0.87);
     border: 1px solid rgba(32, 45, 45, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -487,7 +487,7 @@ stage {
 .notification StEntry:insensitive {
     color: rgba(195, 195, 195, 0.6);
     border: 1px solid rgba(32, 45, 45, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -504,19 +504,19 @@ StScrollBar {
 }
 
 StScrollBar StBin#trough {
-    background-color: rgba(22, 30, 30, 0.9);
+    background-color: rgba(22, 30, 30, 0.95);
     border-radius: 8px;
 }
 
 StScrollBar StButton#vhandle {
     border-radius: 2px;
-    background-color: rgba(22, 30, 30, 0.9);
+    background-color: rgba(22, 30, 30, 0.95);
     border: 0px solid;
     margin: 0px;
 }
 
 StScrollBar StButton#vhandle:hover {
-    background-color: rgba(22, 30, 30, 0.9);
+    background-color: rgba(22, 30, 30, 0.95);
 }
 
 StScrollBar StButton#vhandle:active {
@@ -525,13 +525,13 @@ StScrollBar StButton#vhandle:active {
 
 StScrollBar StButton#hhandle {
     border-radius: 2px;
-    background-color: rgba(22, 30, 30, 0.9);
+    background-color: rgba(22, 30, 30, 0.95);
     border: 0px solid;
     margin: 0px;
 }
 
 StScrollBar StButton#hhandle:hover {
-    background-color: rgba(22, 30, 30, 0.9);
+    background-color: rgba(22, 30, 30, 0.95);
 }
 
 StScrollBar StButton#hhandle:active {
@@ -561,7 +561,7 @@ StScrollView StScrollBar {
 
 .popup-slider-menu-item {
     -slider-height: 0.3em;
-    -slider-background-color: #202020;
+    -slider-background-color: rgba(32, 40, 40, 0.95);
     -slider-border-color: rgba(47, 47, 47, 0.4);
     -slider-active-background-color: #199ca8;
     -slider-active-border-color: rgba(47, 47, 47, 0.4);
@@ -576,7 +576,7 @@ StScrollView StScrollBar {
 
 .slider {
     -slider-height: 0.3em;
-    -slider-background-color: #202020;
+    -slider-background-color: rgba(32, 40, 40, 0.95);
     -slider-border-color: rgba(47, 47, 47, 0.4);
     -slider-active-background-color: #199ca8;
     -slider-active-border-color: rgba(47, 47, 47, 0.4);
@@ -691,7 +691,7 @@ StScrollView StScrollBar {
 
 #LookingGlassDialog {
     color: rgba(200, 200, 200, 0.87);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     border-radius: 3px;
     background-color: rgba(0, 0, 0, 0.6);
     spacing: 4px;
@@ -700,10 +700,10 @@ StScrollView StScrollBar {
 
 .menu {
     color: rgba(200, 200, 200, 0.87);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     border-radius: 5px;
     margin: 10px;
-    background-color: rgba(22, 30, 30, 0.9);
+    background-color: rgba(22, 30, 30, 0.95);
 }
 
 .menu.top {
@@ -723,7 +723,7 @@ StScrollView StScrollBar {
 }
 
 .popup-sub-menu {
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: none;
 }
 
@@ -788,7 +788,7 @@ StScrollView StScrollBar {
     -arrow-border-radius: 3px;
     -arrow-background-color: #2f2f2f;
     -arrow-border-width: 1px;
-    -arrow-border-color: #202020;
+    -arrow-border-color: rgba(32, 40, 40, 0.95);
     -arrow-base: 21px;
     -arrow-rise: 9px;
     -boxpointer-gap: 2px;
@@ -796,9 +796,9 @@ StScrollView StScrollBar {
 
 .popup-combo-menu {
     color: rgba(200, 200, 200, 0.87);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     border-radius: 2px;
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     box-shadow: none;
     padding: 1em 0em 1em 0em;
 }
@@ -813,8 +813,8 @@ StScrollView StScrollBar {
 
 .popup-separator-menu-item {
     -gradient-height: 1px;
-    -gradient-start: #202020;
-    -gradient-end: #202020;
+    -gradient-start: rgba(32, 40, 40, 0.95);
+    -gradient-end: rgba(32, 40, 40, 0.95);
     -margin-horizontal: 0;
     height: 1px;
 }
@@ -996,7 +996,7 @@ StScrollView StScrollBar {
     background-color: rgba(0, 0, 0, 0.6);
     font-size: 1em;
     padding: 0px;
-    box-shadow: 0 0px #202020;
+    box-shadow: 0 0px rgba(32, 40, 40, 0.95);
 }
 
 .panel-bottom {
@@ -1005,7 +1005,7 @@ StScrollView StScrollBar {
     background-color: rgba(0, 0, 0, 0.6);
     font-size: 1em;
     padding: 0px;
-    box-shadow: 0 -1px #202020;
+    box-shadow: 0 -1px rgba(32, 40, 40, 0.95);
 }
 
 .panel-left {
@@ -1014,7 +1014,7 @@ StScrollView StScrollBar {
     background-color: rgba(0, 0, 0, 0.6);
     font-size: 1em;
     padding: 0px;
-    box-shadow: 1px 0 #202020;
+    box-shadow: 1px 0 rgba(32, 40, 40, 0.95);
 }
 
 .panel-left .workspace-switcher {
@@ -1027,7 +1027,7 @@ StScrollView StScrollBar {
     background-color: rgba(0, 0, 0, 0.6);
     font-size: 1em;
     padding: 0px;
-    box-shadow: -1px 0 #202020;
+    box-shadow: -1px 0 rgba(32, 40, 40, 0.95);
 }
 
 .panel-right .workspace-switcher {
@@ -1261,8 +1261,8 @@ StScrollView StScrollBar {
     margin-right: 0.5em;
     padding: 0.5em;
     min-width: 350px;
-    border: 1px solid #202020;
-    background-color: rgba(32, 40, 40, 0.9);
+    border: 1px solid rgba(32, 40, 40, 0.95);
+    background-color: rgba(32, 40, 40, 0.95);
 }
 
 .calendar-events-no-events-button {
@@ -1362,7 +1362,7 @@ StScrollView StScrollBar {
 
 .calendar-event-button:hover {
     background-color: rgba(25, 156, 168, 0.87);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
 }
 
 .calendar-event-button:hover .calendar-event-time-past {
@@ -1604,9 +1604,9 @@ StScrollView StScrollBar {
 }
 
 #notification {
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     border-radius: 5px;
-    background-color: rgba(22, 30, 30, 0.9);
+    background-color: rgba(22, 30, 30, 0.95);
     padding: 13px;
     spacing-rows: 10px;
     spacing-columns: 10px;
@@ -1660,7 +1660,7 @@ StScrollView StScrollBar {
 
 .switcher-list {
     color: rgba(200, 200, 200, 0.87);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 3px;
     padding: 20px;
@@ -1751,7 +1751,7 @@ StScrollView StScrollBar {
 
 .modal-dialog {
     background-color: rgba(0, 0, 0, 0.6);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     border-radius: 3px;
     padding: 5px 10px;
 }
@@ -1769,7 +1769,7 @@ StScrollView StScrollBar {
 
 .run-dialog {
     padding: 10px 15px 10px 15px;
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     border-radius: 3px;
     background-color: rgba(0, 0, 0, 0.6);
 }
@@ -1824,7 +1824,7 @@ StScrollView StScrollBar {
 
 .run-dialog-entry:focus {
     color: rgba(200, 200, 200, 0.87);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     border: 1px solid #199ca8;
     box-shadow: inset 0 2px 4px rgba(64, 64, 64, 0.05);
 }
@@ -1957,14 +1957,14 @@ StScrollView StScrollBar {
     border-radius: 3px;
     box-shadow: none;
     color: rgba(255, 255, 255, 0.87);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     background-color: rgba(22, 30, 30, 0.1);
 }
 
 .keyboard-key:hover {
     color: rgba(255, 255, 255, 0.87);
     border: 1px solid rgba(2, 2, 2, 0.4);
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
 }
 
 .keyboard-key:active {
@@ -2000,8 +2000,8 @@ StScrollView StScrollBar {
 .menu-favorites-box {
     padding: 5px 0 5px 0;
     transition-duration: 300;
-    background-color: rgba(32, 40, 40, 0.9);
-    border: 1px solid #202020;
+    background-color: transparent;
+    border: 1px solid rgba(32, 40, 40, 0.95);
 }
 
 .menu-favorites-button {
@@ -2137,7 +2137,7 @@ StScrollView StScrollBar {
     spacing: 1em;
     padding: 16px;
     color: rgba(200, 200, 200, 0.87);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.6);
 }
@@ -2157,7 +2157,7 @@ StScrollView StScrollBar {
     padding: 20px;
     color: rgba(255, 255, 255, 0.87);
     background-color: rgba(0, 0, 0, 0.6);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     border-radius: 5px;
 }
 
@@ -2296,8 +2296,8 @@ StScrollView StScrollBar {
 .window-list-preview {
     spacing: 6px;
     color: rgba(200, 200, 200, 0.87);
-    border: 1px solid #202020;
-    background-color: rgba(22, 30, 30, 0.9);
+    border: 1px solid rgba(32, 40, 40, 0.95);
+    background-color: rgba(22, 30, 30, 0.95);
     border-radius: 4px;
     padding: 6px 12px 12px 12px;
     font-size: 1em;
@@ -2398,7 +2398,7 @@ StScrollView StScrollBar {
 
 .grouped-window-list-badge {
     border-radius: 9999px;
-    background-color: rgba(32, 40, 40, 0.9);
+    background-color: rgba(32, 40, 40, 0.95);
     margin: 0;
 }
 
@@ -2412,7 +2412,7 @@ StScrollView StScrollBar {
 
 .grouped-window-list-thumbnail-menu {
     color: rgba(200, 200, 200, 0.87);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 3px;
     padding: 0px;
@@ -2523,7 +2523,7 @@ StScrollView StScrollBar {
 .sound-player>StBoxLayout:first-child StButton:small:hover {
     color: rgba(200, 200, 200, 0.87);
     background-color: rgba(22, 30, 30, 0.1);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.05);
 }
 
@@ -2557,7 +2557,7 @@ StScrollView StScrollBar {
     padding: 15px;
     spacing: 0.5em;
     background: rgba(47, 47, 47, 0.87);
-    border-top: 1px solid #202020;
+    border-top: 1px solid rgba(32, 40, 40, 0.95);
     color: rgba(200, 200, 200, 0.87);
 }
 
@@ -2577,7 +2577,7 @@ StScrollView StScrollBar {
 .sound-player-overlay StButton:hover {
     color: rgba(200, 200, 200, 0.87);
     background-color: rgba(22, 30, 30, 0.1);
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.05);
 }
 
@@ -2849,7 +2849,7 @@ StScrollView StScrollBar {
 }
 
 .desklet-with-borders {
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.6);
     color: rgba(200, 200, 200, 0.87);
@@ -2862,7 +2862,7 @@ StScrollView StScrollBar {
 }
 
 .desklet-with-borders-and-header {
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     border-top-width: 0;
     border-radius: 0 0 5px 5px;
     background-color: rgba(0, 0, 0, 0.6);
@@ -2879,7 +2879,7 @@ StScrollView StScrollBar {
 }
 
 .desklet-header {
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     border-radius: 5px 5px 0 0;
     background-color: rgba(0, 0, 0, 0.3);
     color: rgba(200, 200, 200, 0.87);
@@ -2894,7 +2894,7 @@ StScrollView StScrollBar {
 }
 
 .photoframe-box {
-    border: 1px solid #202020;
+    border: 1px solid rgba(32, 40, 40, 0.95);
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.6);
     color: rgba(200, 200, 200, 0.87);
