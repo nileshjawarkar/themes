@@ -844,7 +844,7 @@ StScrollView StScrollBar {
 
 #panel:highlight {
     border-image: none;
-    background-color: rgba(252, 65, 56, 0.1);
+    background-color: rgba(252, 65, 56, 0.2);
 }
 
 #panelLeft {
@@ -1039,7 +1039,7 @@ StScrollView StScrollBar {
 }
 
 .panel-dummy:entered {
-    background-color: rgba(252, 65, 56, 0.6);
+    background-color: rgba(252, 65, 56, 0.8);
 }
 
 .panel-status-button {
@@ -1746,7 +1746,7 @@ StScrollView StScrollBar {
 }
 
 .flashspot {
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .modal-dialog {
