@@ -14,8 +14,8 @@ $FontColor_9: green;
 $FontColor_10: #f27835;
 $FontColor_11: #fc4138;
 
-$BackgroundColor_1: rgba(32, 40, 40, 0.87);
-$BackgroundColor_2: rgba(15, 30, 30, 0.87);
+$BackgroundColor_1: rgba(32, 40, 40, 0.9);
+$BackgroundColor_2: rgba(15, 30, 30, 0.9);
 $BackgroundColor_3: rgba(25, 160, 180, 0.1);
 
 $BackgroundColor_4: rgba(25, 156, 168, 0.87);
@@ -27,17 +27,13 @@ $BackgroundColor_8: rgba(252, 65, 56, 0.1);
 $BackgroundColor_9: rgba(252, 65, 56, 0.5);
 $BackgroundColor_10: rgba(252, 65, 56, 0.6);
 
-$BackgroundColor_11: rgba(127, 127, 127, 0.5);
-$BackgroundColor_12: rgba(100, 100, 100, 0.5);
-$BackgroundColor_13: rgba(80, 80, 80, 0.5);
+$BackgroundColor_11: rgba(0, 0, 0, 1);
+$BackgroundColor_12: rgba(0, 0, 0, 0.3);
+$BackgroundColor_13: rgba(0, 0, 0, 0.6);
 
-$BackgroundColor_14: rgba(0, 0, 0, 1);
-$BackgroundColor_15: rgba(0, 0, 0, 0.3);
-$BackgroundColor_16: rgba(0, 0, 0, 0.6);
-
-$BackgroundColor_17: transparent;
-$BackgroundColor_18: white;
-$BackgroundColor_19: #fbeaa0;
+$BackgroundColor_14: transparent;
+$BackgroundColor_15: white;
+$BackgroundColor_16: #fbeaa0;
 
 $BorderColor_1: rgba(255, 255, 255, 0);
 $BorderColor_2: rgba(0, 0, 0, 0);
@@ -154,7 +150,7 @@ stage {
 	margin: 0px;
 	padding: 10px;
 	border: none;
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 }
 .notification-button {
 	min-height: 20px;
@@ -652,7 +648,7 @@ StScrollView {
 	border: 1px solid #d0d0d0;
 	border-radius: 3px;
 	padding: 5px 12px;
-	background-color: $BackgroundColor_19;
+	background-color: $BackgroundColor_16;
 	color: $FontColor_5;
 	font-size: 1em;
 	font-weight: normal;
@@ -662,7 +658,7 @@ StScrollView {
 	color: $FontColor_3;
 	border: 1px solid $BorderColor_5;
 	border-radius: 3px;
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	spacing: 4px;
 	padding: 8px;
 }
@@ -909,7 +905,7 @@ StScrollView {
 .panel-top {
 	color: $FontColor_1;
 	border: none;
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	font-size: 1em;
 	padding: 0px;
 	box-shadow: 0 0px $BorderColor_5;
@@ -917,7 +913,7 @@ StScrollView {
 .panel-bottom {
 	color: $FontColor_1;
 	border: none;
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	font-size: 1em;
 	padding: 0px;
 	box-shadow: 0 -1px $BorderColor_5;
@@ -925,7 +921,7 @@ StScrollView {
 .panel-left {
 	color: $FontColor_1;
 	border: none;
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	font-size: 1em;
 	padding: 0px;
 	box-shadow: 1px 0 $BorderColor_5;
@@ -936,7 +932,7 @@ StScrollView {
 .panel-right {
 	color: $FontColor_1;
 	border: none;
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	font-size: 1em;
 	padding: 0px;
 	box-shadow: -1px 0 $BorderColor_5;
@@ -978,7 +974,7 @@ StScrollView {
 	spacing: 12px;
 }
 .window-caption {
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	border: 1px solid #353535;
 	color: $FontColor_2;
 	spacing: 8px;
@@ -1009,7 +1005,7 @@ StScrollView {
 	padding: 5px 8px;
 	-cinnamon-caption-spacing: 4px;
 	color: $FontColor_2;
-	background-color: $BackgroundColor_13;
+	background-color: $BackgroundColor_3;
 	border: 1px solid rgba(22, 22, 22, 0.4);
 	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 	&:focus {
@@ -1029,7 +1025,7 @@ StScrollView {
 	padding: 5px 8px;
 	-cinnamon-caption-spacing: 4px;
 	color: $FontColor_2;
-	background-color: $BackgroundColor_13;
+	background-color: $BackgroundColor_3;
 	border: 1px solid rgba(22, 22, 22, 0.4);
 	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
 	&:focus {
@@ -1049,11 +1045,11 @@ StScrollView {
 }
 .expo-workspace-thumbnail-frame#active {
 	border: 4px solid $BorderColor_4;
-	background-color: $BackgroundColor_14;
+	background-color: $BackgroundColor_11;
 	border-radius: 2px;
 }
 .expo-background {
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 }
 .workspace-thumbnails {
 	spacing: 26px;
@@ -1079,7 +1075,7 @@ StScrollView {
 	}
 }
 .workspace-overview-background-shade {
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 }
 .workspace-close-button {
 	background-image: url("common-assets/misc/close.svg");
@@ -1373,7 +1369,7 @@ StScrollView {
 }
 .calendar-nonwork-day {
 	color: $FontColor_3;
-	background-color: $BackgroundColor_17;
+	background-color: $BackgroundColor_14;
 	font-weight: bold;
 }
 .calendar-today {
@@ -1459,7 +1455,7 @@ StScrollView {
 .switcher-list {
 	color: $FontColor_3;
 	border: 1px solid $BorderColor_5;
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	border-radius: 3px;
 	padding: 20px;
 	>StBoxLayout {
@@ -1502,14 +1498,14 @@ StScrollView {
 	}
 }
 .thumbnail-scroll-gradient-left {
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	border-radius: 24px;
 	border-radius-topright: 0px;
 	border-radius-bottomright: 0px;
 	width: 60px;
 }
 .thumbnail-scroll-gradient-right {
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	border-radius: 24px;
 	border-radius-topleft: 0px;
 	border-radius-bottomleft: 0px;
@@ -1525,13 +1521,13 @@ StScrollView {
 	}
 }
 .lightbox {
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 }
 .flashspot {
-	background-color: $BackgroundColor_18;
+	background-color: $BackgroundColor_15;
 }
 .modal-dialog {
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	border: 1px solid $BorderColor_5;
 	border-radius: 3px;
 	padding: 5px 10px;
@@ -1551,7 +1547,7 @@ StScrollView {
 	padding: 10px 15px 10px 15px;
 	border: 1px solid $BorderColor_5;
 	border-radius: 3px;
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	>* {
 		padding: 0;
 	}
@@ -1590,7 +1586,7 @@ StScrollView {
 	selected-color: #ffffff;
 	selection-background-color: $BorderColor_4;
 	color: $FontColor_2;
-	background-color: $BackgroundColor_13;
+	background-color: $BackgroundColor_3;
 	border: 1px solid rgba(22, 22, 22, 0.4);
 	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
 	&:focus {
@@ -1684,7 +1680,7 @@ StScrollView {
 	}
 }
 #keyboard {
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	border-width: 0;
 	border-top-width: 1px;
 	border-color: $BorderColor_3;
@@ -1705,11 +1701,11 @@ StScrollView {
 	box-shadow: none;
 	color: $FontColor_2;
 	border: 1px solid $BorderColor_5;
-	background-color: $BackgroundColor_13;
+	background-color: $BackgroundColor_3;
 	&:hover {
 		color: $FontColor_2;
 		border: 1px solid rgba(2, 2, 2, 0.4);
-		background-color: $BackgroundColor_11;
+		background-color: $BackgroundColor_1;
 	}
 	&:active {
 		color: $FontColor_1;
@@ -1724,7 +1720,7 @@ StScrollView {
 	&:grayed {
 		color: $FontColor_4;
 		border: 1px solid rgba(2, 2, 2, 0.4);
-		background-color: $BackgroundColor_13;
+		background-color: $BackgroundColor_3;
 	}
 }
 .keyboard-subkeys {
@@ -1859,7 +1855,7 @@ StScrollView {
 	color: $FontColor_3;
 	border: 1px solid $BorderColor_5;
 	border-radius: 5px;
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 }
 .restart-osd {
 	font-size: 1.6em;
@@ -1873,7 +1869,7 @@ StScrollView {
 	spacing: 1em;
 	padding: 20px;
 	color: $FontColor_2;
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	border: 1px solid $BorderColor_5;
 	border-radius: 5px;
 	.osd-monitor-label {
@@ -1882,7 +1878,7 @@ StScrollView {
 	.level {
 		padding: 0;
 		height: 0.7em;
-		background-color: $BackgroundColor_16;
+		background-color: $BackgroundColor_13;
 		border-radius: 2px;
 	}
 	.level-bar {
@@ -2071,7 +2067,7 @@ StScrollView {
 }
 .grouped-window-list-badge {
 	border-radius: 9999px;
-	background-color: $BackgroundColor_11;
+	background-color: $BackgroundColor_1;
 	margin: 0;
 }
 .grouped-window-list-button-label {
@@ -2083,7 +2079,7 @@ StScrollView {
 .grouped-window-list-thumbnail-menu {
 	color: $FontColor_3;
 	border: 1px solid $BorderColor_5;
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	border-radius: 3px;
 	padding: 0px;
 	>StBoxLayout {
@@ -2248,7 +2244,7 @@ StScrollView {
 }
 .workspace-button {
 	border: 1px solid rgba(0, 0, 0, 0.5);
-	background-color: $BackgroundColor_15;
+	background-color: $BackgroundColor_12;
 	width: 20px;
 	height: 14px;
 	color: $FontColor_4;
@@ -2280,7 +2276,7 @@ StScrollView {
 	spacing: 6px;
 	.workspace {
 		border: 1px solid rgba(0, 0, 0, 0.5);
-		background-color: $BackgroundColor_15;
+		background-color: $BackgroundColor_12;
 		&:active {
 			border: 1px solid $BorderColor_4;
 			.windows {
@@ -2415,7 +2411,7 @@ StScrollView {
 .user-icon {
 	width: 32px;
 	height: 32px;
-	background-color: $BackgroundColor_17;
+	background-color: $BackgroundColor_14;
 	border: none;
 	border-radius: 0;
 }
@@ -2449,7 +2445,7 @@ StScrollView {
 .desklet-with-borders {
 	border: 1px solid $BorderColor_5;
 	border-radius: 5px;
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	color: $FontColor_3;
 	padding: 12px;
 	padding-bottom: 16px;
@@ -2461,7 +2457,7 @@ StScrollView {
 	border: 1px solid $BorderColor_5;
 	border-top-width: 0;
 	border-radius: 0 0 5px 5px;
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	color: $FontColor_3;
 	border-radius: 0;
 	border-radius-topleft: 0;
@@ -2475,7 +2471,7 @@ StScrollView {
 .desklet-header {
 	border: 1px solid $BorderColor_5;
 	border-radius: 5px 5px 0 0;
-	background-color: $BackgroundColor_15;
+	background-color: $BackgroundColor_12;
 	color: $FontColor_3;
 	font-size: 1em;
 	padding: 12px;
@@ -2488,7 +2484,7 @@ StScrollView {
 .photoframe-box {
 	border: 1px solid $BorderColor_5;
 	border-radius: 5px;
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	color: $FontColor_3;
 	padding: 12px;
 	padding-bottom: 16px;
@@ -2544,6 +2540,6 @@ StScrollView {
 .xkcd-box {
 	padding: 6px;
 	border: 0px;
-	background-color: $BackgroundColor_16;
+	background-color: $BackgroundColor_13;
 	border-radius: 0px;
 }
