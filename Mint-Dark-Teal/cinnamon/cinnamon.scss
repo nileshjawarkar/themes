@@ -1748,16 +1748,15 @@ StScrollView {
   color: $FontColor_3;
   border: 1px solid $BorderColor_5;
   background-color: $BackgroundColor_10;
-  border-radius: 3px;
-  padding: 20px;
+  border-radius: 7px;
 
   >StBoxLayout {
     padding: 4px;
   }
 
   .item-box {
-    padding: 8px;
-    border-radius: 2px;
+    padding: 20px;
+    border-radius: 7px;
 
     &:outlined {
       padding: 8px;
@@ -2836,7 +2835,6 @@ StScrollView {
 
   &:hover {
     color: $FontColor_1;
-    border-radius: 5px;
     border-bottom: 2px;
     border-color: $BorderColor_4;
     background-color: $BackgroundColor_6;
@@ -2854,7 +2852,6 @@ StScrollView {
 
   &:checked {
     color: $FontColor_1;
-    border-radius: 5px;
     border-bottom: 2px;
     border-color: $BorderColor_4;
     background-color: $BackgroundColor_6;
