@@ -18,7 +18,7 @@ $BackgroundColor_1: rgba(32, 40, 40, 0.95);
 $BackgroundColor_2: rgba(22, 30, 30, 0.95);
 $BackgroundColor_3: rgba(22, 30, 30, 0.1);
 
-//$BackgroundColor_4: rgba(25, 156, 168, 0.6);
+$BackgroundColor_4: rgba(25, 156, 168, 0.6);
 $BackgroundColor_5: rgba(25, 160, 180, 0.4);
 $BackgroundColor_6: rgba(25, 160, 180, 0.15);
 
@@ -40,15 +40,11 @@ $BorderColor_3: rgba(0, 0, 0, 0.4);
 $BorderColor_4: rgba(25, 156, 168, 1);
 $BorderColor_5: rgba(32, 40, 40, 0.95);
 $BorderColor_6: rgba(32, 45, 45, 0.95);
-$BorderColor_7: rgba(22, 22, 22, 0.4);
 
 $BoxShadowColor_1: rgba(25, 156, 168, 1);
 $BoxShadowColor_2: rgba(69, 69, 69, 0.1);
-$BoxShadowColor_3: rgba(82, 82, 82, 0.1);
-$BoxShadowColor_4: rgba(20, 40, 40, 0.1);
-$BoxShadowColor_5: rgba(64, 64, 64, 0.1);
-$BoxShadowColor_6: rgba(56, 56, 56, 0.1);
-$BoxShadowColor_7: rgba(0, 0, 0, 0.1);
+$BoxShadowColor_3: rgba(20, 40, 40, 0.1);
+$BoxShadowColor_4: rgba(0, 0, 0, 0.1);
 
 /* This is for popup menus in Cinnamon versions < 3.2 */
 /*Scale view context menu*/
@@ -71,7 +67,7 @@ stage {
   color: $FontColor_3;
   background-color: $BackgroundColor_2;
   border: 1px solid $BorderColor_6;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_4;
+  box-shadow: inset 0 2px 4px $BoxShadowColor_3;
   border-radius: 2px;
   width: 22px;
   height: 13px;
@@ -88,7 +84,7 @@ stage {
     color: $FontColor_3;
     background-color: $BackgroundColor_3;
     border: 1px solid $BorderColor_5;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_3;
+    box-shadow: inset 0 2px 4px $BoxShadowColor_2;
 
     &:focus {
       color: $FontColor_3;
@@ -125,7 +121,7 @@ stage {
     color: $FontColor_3;
     background-color: $BackgroundColor_2;
     border: 1px solid $BorderColor_6;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_4;
+    box-shadow: inset 0 2px 4px $BoxShadowColor_3;
     border-radius: 2px;
     padding-top: 0;
     padding-bottom: 0;
@@ -142,7 +138,7 @@ stage {
       color: $FontColor_3;
       background-color: $BackgroundColor_3;
       border: 1px solid $BorderColor_5;
-      box-shadow: inset 0 2px 4px $BoxShadowColor_3;
+      box-shadow: inset 0 2px 4px $BoxShadowColor_2;
 
       &:focus {
         color: $FontColor_3;
@@ -181,7 +177,7 @@ stage {
   color: $FontColor_3;
   background-color: $BackgroundColor_2;
   border: 1px solid $BorderColor_6;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_4;
+  box-shadow: inset 0 2px 4px $BoxShadowColor_3;
   border-radius: 2px;
   padding: 5px;
 
@@ -196,7 +192,7 @@ stage {
     color: $FontColor_3;
     background-color: $BackgroundColor_3;
     border: 1px solid $BorderColor_5;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_3;
+    box-shadow: inset 0 2px 4px $BoxShadowColor_2;
 
     &:focus {
       color: $FontColor_3;
@@ -228,7 +224,7 @@ stage {
   color: $FontColor_3;
   background-color: $BackgroundColor_2;
   border: 1px solid $BorderColor_6;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_4;
+  box-shadow: inset 0 2px 4px $BoxShadowColor_3;
   border-radius: 2px;
   padding: 5px;
 
@@ -243,7 +239,7 @@ stage {
     color: $FontColor_3;
     background-color: $BackgroundColor_3;
     border: 1px solid $BorderColor_5;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_3;
+    box-shadow: inset 0 2px 4px $BoxShadowColor_2;
 
     &:focus {
       color: $FontColor_3;
@@ -281,7 +277,7 @@ stage {
       color: $FontColor_3;
       background-color: $BackgroundColor_2;
       border: 1px solid $BorderColor_6;
-      box-shadow: inset 0 2px 4px $BoxShadowColor_4;
+      box-shadow: inset 0 2px 4px $BoxShadowColor_3;
       border-radius: 2px;
       padding: 5px;
 
@@ -296,7 +292,7 @@ stage {
         color: $FontColor_3;
         background-color: $BackgroundColor_3;
         border: 1px solid $BorderColor_5;
-        box-shadow: inset 0 2px 4px $BoxShadowColor_3;
+        box-shadow: inset 0 2px 4px $BoxShadowColor_2;
 
         &:focus {
           color: $FontColor_3;
@@ -328,7 +324,7 @@ stage {
       color: $FontColor_3;
       background-color: $BackgroundColor_2;
       border: 1px solid $BorderColor_6;
-      box-shadow: inset 0 2px 4px $BoxShadowColor_4;
+      box-shadow: inset 0 2px 4px $BoxShadowColor_3;
       border-radius: 2px;
       padding: 5px;
 
@@ -343,7 +339,7 @@ stage {
         color: $FontColor_3;
         background-color: $BackgroundColor_3;
         border: 1px solid $BorderColor_5;
-        box-shadow: inset 0 2px 4px $BoxShadowColor_3;
+        box-shadow: inset 0 2px 4px $BoxShadowColor_2;
 
         &:focus {
           color: $FontColor_3;
@@ -378,27 +374,27 @@ stage {
       color: $FontColor_2;
       border: 1px solid $BorderColor_6;
       background-color: $BackgroundColor_1;
-      box-shadow: inset 0 2px 4px $BoxShadowColor_5;
+      box-shadow: inset 0 2px 4px $BoxShadowColor_2;
 
       &:focus {
         color: $FontColor_3;
         border: 1px solid $BorderColor_6;
         background-color: $BackgroundColor_1;
-        box-shadow: inset 0 2px 4px $BoxShadowColor_5;
+        box-shadow: inset 0 2px 4px $BoxShadowColor_2;
       }
 
       &:hover {
         color: $FontColor_3;
         border: 1px solid $BorderColor_6;
         background-color: $BackgroundColor_1;
-        box-shadow: inset 0 2px 4px $BoxShadowColor_5;
+        box-shadow: inset 0 2px 4px $BoxShadowColor_2;
       }
 
       &:insensitive {
         color: $FontColor_4;
         border: 1px solid $BorderColor_6;
         background-color: $BackgroundColor_1;
-        box-shadow: inset 0 2px 4px $BoxShadowColor_6;
+        box-shadow: inset 0 2px 4px $BoxShadowColor_2;
       }
 
       StIcon.capslock-warning {
@@ -483,7 +479,7 @@ stage {
   color: $FontColor_2;
   border: 1px solid $BorderColor_6;
   background-color: $BackgroundColor_1;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_5;
+  box-shadow: inset 0 2px 4px $BoxShadowColor_2;
   width: 250px;
   min-height: 16px;
   font-weight: bold;
@@ -493,21 +489,21 @@ stage {
     color: $FontColor_3;
     border: 1px solid $BorderColor_6;
     background-color: $BackgroundColor_1;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_5;
+    box-shadow: inset 0 2px 4px $BoxShadowColor_2;
   }
 
   &:hover {
     color: $FontColor_3;
     border: 1px solid $BorderColor_6;
     background-color: $BackgroundColor_1;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_5;
+    box-shadow: inset 0 2px 4px $BoxShadowColor_2;
   }
 
   &:insensitive {
     color: $FontColor_4;
     border: 1px solid $BorderColor_6;
     background-color: $BackgroundColor_1;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_6;
+    box-shadow: inset 0 2px 4px $BoxShadowColor_2;
   }
 
   StIcon.capslock-warning {
@@ -529,20 +525,20 @@ stage {
     color: $FontColor_2;
     border: 1px solid $BorderColor_6;
     background-color: $BackgroundColor_1;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_7;
+    box-shadow: inset 0 2px 4px $BoxShadowColor_4;
 
     &:focus {
       color: $FontColor_1;
       background-color: $BackgroundColor_5;
       border: 1px solid $BorderColor_4;
-      box-shadow: inset 0 2px 4px $BoxShadowColor_7;
+      box-shadow: inset 0 2px 4px $BoxShadowColor_4;
     }
 
     &:insensitive {
       color: $FontColor_4;
       border: 1px solid $BorderColor_6;
       background-color: $BackgroundColor_1;
-      box-shadow: inset 0 2px 4px $BoxShadowColor_7;
+      box-shadow: inset 0 2px 4px $BoxShadowColor_4;
     }
   }
 }
@@ -1194,8 +1190,8 @@ StScrollView {
   -cinnamon-caption-spacing: 4px;
   color: $FontColor_2;
   background-color: $BackgroundColor_3;
-  border: 1px solid $BorderColor_7;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_7;
+  border: 1px solid $BorderColor_3;
+  box-shadow: inset 0 2px 4px $BoxShadowColor_4;
 
   &:focus {
     border: 1px solid $BorderColor_4;
@@ -1216,8 +1212,8 @@ StScrollView {
   -cinnamon-caption-spacing: 4px;
   color: $FontColor_2;
   background-color: $BackgroundColor_3;
-  border: 1px solid $BorderColor_7;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_7;
+  border: 1px solid $BorderColor_3;
+  box-shadow: inset 0 2px 4px $BoxShadowColor_4;
 
   &:focus {
     border: 1px solid $BorderColor_4;
@@ -1747,7 +1743,7 @@ StScrollView {
 .switcher-list {
   color: $FontColor_3;
   border: 1px solid $BorderColor_5;
-  background-color: $BackgroundColor_10;
+  background-color: $BackgroundColor_2;
   border-radius: 7px;
 
   >StBoxLayout {
@@ -1755,7 +1751,7 @@ StScrollView {
   }
 
   .item-box {
-    padding: 20px;
+    padding: 25px;
     border-radius: 7px;
 
     &:outlined {
@@ -1905,14 +1901,14 @@ StScrollView {
   selection-background-color: $BorderColor_4;
   color: $FontColor_2;
   background-color: $BackgroundColor_3;
-  border: 1px solid $BorderColor_7;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_7;
+  border: 1px solid $BorderColor_3;
+  box-shadow: inset 0 2px 4px $BoxShadowColor_4;
 
   &:focus {
     color: $FontColor_3;
     background-color: $BackgroundColor_1;
     border: 1px solid $BorderColor_4;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_5;
+    box-shadow: inset 0 2px 4px $BoxShadowColor_2;
   }
 }
 
