@@ -368,7 +368,7 @@ stage {
       padding: 7px;
       caret-size: 1px;
       selection-background-color: $BackgroundColor_5;
-      selected-color: #ffffff;
+      selected-color: $FontColor_1;
       transition-duration: 300ms;
       border-radius: 3px;
       color: $FontColor_2;
@@ -1384,7 +1384,7 @@ StScrollView {
 }
 
 .calendar-event-button {
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 1px solid $BorderColor_2;
 
   .calendar-event-time-past {
     color: $FontColor_5;
@@ -1777,7 +1777,7 @@ StScrollView {
 
   .separator {
     width: 1px;
-    background: rgba(255, 255, 255, 0.2);
+    background: $BackgroundColor_1;
   }
 }
 
@@ -2091,7 +2091,7 @@ StScrollView {
 
 .menu-favorites-button {
   padding: 0.9em 1em;
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 1px solid $BorderColor_2;
   border-radius: 2px;
 
   &:hover {
@@ -2124,7 +2124,7 @@ StScrollView {
 
 .menu-application-button {
   padding: 7px;
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 1px solid $BorderColor_2;
 
   &:highlighted {
     font-weight: bold;
@@ -2155,7 +2155,7 @@ StScrollView {
 
 .menu-category-button {
   padding: 7px;
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 1px solid $BorderColor_2;
 }
 
 .menu-category-button-selected {
@@ -2174,7 +2174,7 @@ StScrollView {
 .menu-category-button-greyed {
   padding: 7px;
   color: $FontColor_6;
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 1px solid $BorderColor_2;
 }
 
 .menu-category-button-label {
@@ -2533,7 +2533,7 @@ StScrollView {
 
   .separator {
     width: 1px;
-    background: rgba(255, 255, 255, 0.2);
+    background: $BackgroundColor_1;
   }
 }
 
@@ -2616,7 +2616,7 @@ StScrollView {
             color: $FontColor_3;
             background-color: $BackgroundColor_3;
             border: 1px solid $BorderColor_5;
-            box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.05);
+            box-shadow: inset 0 2px 4px $BoxShadowColor_2;
           }
 
           &:active {
@@ -2635,17 +2635,17 @@ StScrollView {
     padding: 0;
     border: none;
     -slider-height: 0.5em;
-    -slider-background-color: #222222;
-    -slider-border-color: rgba(0, 0, 0, 0);
+    -slider-background-color: $BackgroundColor_2;
+    -slider-border-color: $BorderColor_2;
     -slider-active-background-color: $BackgroundColor_5;
-    -slider-active-border-color: rgba(0, 0, 0, 0);
+    -slider-active-border-color: $BorderColor_2;
     -slider-border-width: 0px;
     -slider-handle-radius: 0px;
   }
 }
 
 .sound-player-generic-coverart {
-  background: rgba(0, 0, 0, 0.2);
+  background: $BackgroundColor_11;
 }
 
 .sound-player-overlay {
@@ -2653,7 +2653,7 @@ StScrollView {
   height: 70px;
   padding: 15px;
   spacing: 0.5em;
-  background: rgba(47, 47, 47, 0.87);
+  background: $BackgroundColor_2;
   border-top: 1px solid $BorderColor_5;
   color: $FontColor_3;
 
@@ -2673,7 +2673,7 @@ StScrollView {
       color: $FontColor_3;
       background-color: $BackgroundColor_3;
       border: 1px solid $BorderColor_5;
-      box-shadow: inset 0 2px 4px rgba(82, 82, 82, 0.05);
+      box-shadow: inset 0 2px 4px $BoxShadowColor_2;
     }
 
     &:active {
@@ -2704,7 +2704,7 @@ StScrollView {
 }
 
 .workspace-button {
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  border: 1px solid $BorderColor_3;
   background-color: $BackgroundColor_11;
   width: 20px;
   height: 14px;
@@ -2742,25 +2742,25 @@ StScrollView {
   spacing: 6px;
 
   .workspace {
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid $BorderColor_3;
     background-color: $BackgroundColor_11;
 
     &:active {
       border: 1px solid $BorderColor_4;
 
       .windows {
-        -active-window-background: #6f6f6f;
-        -active-window-border: rgba(0, 0, 0, 0.87);
-        -inactive-window-background: #3c3c3c;
-        -inactive-window-border: rgba(0, 0, 0, 0.87);
+        -active-window-background: $BackgroundColor_5;
+        -active-window-border: $BorderColor_3;
+        -inactive-window-background: $BackgroundColor_6;
+        -inactive-window-border: $BorderColor_3;
       }
     }
 
     .windows {
-      -active-window-background: rgba(25, 30, 40, 0.87);
-      -active-window-border: rgba(0, 0, 0, 0.87);
-      -inactive-window-background: rgba(25, 30, 40, 0.87);
-      -inactive-window-border: rgba(0, 0, 0, 0.87);
+      -active-window-background: $BackgroundColor_10;
+      -active-window-border: $BorderColor_3;
+      -inactive-window-background: $BackgroundColor_10;
+      -inactive-window-border: $BorderColor_3;
     }
   }
 }
@@ -2812,12 +2812,12 @@ StScrollView {
 
 .applet-separator-line {
   width: 1px;
-  background: rgba(255, 255, 255, 0.2);
+  background: $BackgroundColor_1;
 }
 
 .applet-separator-line-vertical {
   height: 1px;
-  background: rgba(255, 255, 255, 0.2);
+  background: $BackgroundColor_1;
 }
 
 .applet-box {
