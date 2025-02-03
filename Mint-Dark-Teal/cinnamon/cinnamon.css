@@ -1997,7 +1997,6 @@ StScrollView StScrollBar {
 }
 
 .menu-favorites-box {
-    padding: 5px 0 5px 0;
     transition-duration: 300;
     background-color: transparent;
     border: 2px solid rgba(32, 40, 40, 0.95);
