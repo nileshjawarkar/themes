@@ -1,5 +1,4 @@
-﻿
-$FontColor_0: rgba(0, 0, 0, 0);
+﻿$FontColor_0: rgba(0, 0, 0, 0);
 
 $FontColor_1: #ffffff;
 $FontColor_2: rgba(255, 255, 255, 0.87);
@@ -10,7 +9,6 @@ $FontColor_6: rgba(200, 200, 200, 0.2);
 
 $FontColor_7: #44d6e3;
 $FontColor_8: #199ca8;
-
 $FontColor_9: Green;
 $FontColor_10: #f27835;
 $FontColor_11: #fc4138;
@@ -48,10 +46,6 @@ $BoxShadowColor_3: rgba(20, 40, 40, 0.1);
 $BoxShadowColor_4: rgba(0, 0, 0, 0.1);
 
 // Common button mixin
-// Added missing color variables for hardcoded values
-$BorderColor_7: #d0d0d0;
-$BorderColor_8: #353535;
-$FontColor_12: #199ca8;
 @mixin cinnamon-button-base {
   min-height: 20px;
   padding: 5px 32px;
@@ -114,18 +108,23 @@ stage {
   &:focus {
     @include cinnamon-button-focus;
   }
+
   &:hover {
     @include cinnamon-button-hover;
+
     &:focus {
       @include cinnamon-button-focus;
     }
   }
+
   &:active {
     @include cinnamon-button-active;
   }
+
   &:insensitive {
     @include cinnamon-button-insensitive;
   }
+
   StIcon {
     icon-size: 1.4em;
   }
@@ -137,22 +136,28 @@ stage {
     padding-top: 0;
     padding-bottom: 0;
     height: 30px;
+
     &:focus {
       @include cinnamon-button-focus;
     }
+
     &:hover {
       @include cinnamon-button-hover;
+
       &:focus {
         @include cinnamon-button-focus;
       }
     }
+
     &:active {
       @include cinnamon-button-active;
     }
+
     &:insensitive {
       @include cinnamon-button-insensitive;
     }
   }
+
   spacing: 0;
   margin: 0px;
   padding: 10px;
@@ -163,18 +168,23 @@ stage {
 .notification-button {
   @include cinnamon-button-base;
   padding: 5px;
+
   &:focus {
     @include cinnamon-button-focus;
   }
+
   &:hover {
     @include cinnamon-button-hover;
+
     &:focus {
       @include cinnamon-button-focus;
     }
   }
+
   &:active {
     @include cinnamon-button-active;
   }
+
   &:insensitive {
     @include cinnamon-button-insensitive;
   }
@@ -712,7 +722,7 @@ StScrollView {
 }
 
 #Tooltip {
-  border: 1px solid $BorderColor_7;
+  border: 1px solid $BorderColor_4;
   border-radius: 3px;
   padding: 5px 12px;
   background-color: $BackgroundColor_15;
@@ -1118,7 +1128,7 @@ StScrollView {
 
 .window-caption {
   background-color: $BackgroundColor_10;
-  border: 1px solid $BorderColor_8;
+  border: 1px solid $BorderColor_5;
   color: $FontColor_2;
   spacing: 8px;
   border-radius: 2px;
@@ -1162,8 +1172,8 @@ StScrollView {
     color: $FontColor_1;
     font-style: italic;
     transition-duration: 300;
-  selection-background-color: $BackgroundColor_14;
-  selected-color: $FontColor_12;
+    selection-background-color: $BackgroundColor_14;
+    selected-color: $FontColor_8;
   }
 }
 
@@ -1184,7 +1194,7 @@ StScrollView {
     color: $FontColor_1;
     font-style: italic;
     transition-duration: 300;
-  selection-background-color: $BackgroundColor_14;
+    selection-background-color: $BackgroundColor_14;
     selected-color: $BorderColor_4;
   }
 }
