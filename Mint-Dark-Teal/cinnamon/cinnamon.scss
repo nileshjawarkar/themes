@@ -1,88 +1,81 @@
-﻿$FontColor_0: rgba(0, 0, 0, 0);
+﻿$FontColor01: #FEFEFE;
+$FontColor02: #E6E6E6; 
+$FontColor03: #B4B4B4;
+$FontColor04: #6E6E6E;
+$FontColor05: #505050;
+$FontColor06: #282828;
+$FontColor07: #000000;
 
-$FontColor_1: #ffffff;
-$FontColor_2: rgba(255, 255, 255, 0.87);
-$FontColor_3: rgba(200, 200, 200, 0.87);
-$FontColor_4: rgba(195, 195, 195, 0.6);
-$FontColor_5: rgba(255, 255, 255, 0.3);
-$FontColor_6: rgba(200, 200, 200, 0.2);
+$FontColor08: #44D6E3;
+$FontColor09: #199CA8;
+$FontColor10: #19DDB8;
+$FontColor11: #F17835;
+$FontColor12: #FF4138;
 
-$FontColor_7: #44d6e3;
-$FontColor_8: #199ca8;
-$FontColor_9: Green;
-$FontColor_10: #f27835;
-$FontColor_11: #fc4138;
+$BackgrdColor01: rgba(25, 150, 170, 0.95);
+$BackgrdColor02: rgba(20, 110, 120, 0.95);
+$BackgrdColor03: rgba(20, 80, 90, 0.95);
+$BackgrdColor04: rgba(20, 40, 45, 0.95);
+$BackgrdColor05: rgba(32, 40, 40, 0.95);
+$BackgrdColor06: rgba(22, 30, 30, 0.95);
+$BackgrdColor07: rgba(12, 20, 20, 0.95);
 
-$BackgroundColor_1: rgba(32, 40, 40, 0.95);
-$BackgroundColor_2: rgba(22, 30, 30, 0.95);
-$BackgroundColor_3: rgba(22, 30, 30, 0.1);
+$BackgrdColor08: rgba(252, 65, 56, 0.2);
+$BackgrdColor09: rgba(252, 65, 56, 0.5);
+$BackgrdColor10: rgba(252, 65, 56, 0.8);
 
-$BackgroundColor_4: rgba(25, 156, 168, 0.6);
-$BackgroundColor_5: rgba(25, 160, 180, 0.4);
-$BackgroundColor_6: rgba(25, 160, 180, 0.15);
+$BackgrdColor11: rgba(0, 0, 0, 0.6);
+$BackgrdColor12: rgba(0, 0, 0, 0.3);
+$BackgrdColor13: rgba(0, 0, 0, 0.9);
 
-$BackgroundColor_7: rgba(252, 65, 56, 0.2);
-$BackgroundColor_8: rgba(252, 65, 56, 0.5);
-$BackgroundColor_9: rgba(252, 65, 56, 0.8);
+$BackgrdColor14: rgba(250, 250, 250, 0.95);
 
-$BackgroundColor_10: rgba(0, 0, 0, 0.6);
-$BackgroundColor_11: rgba(0, 0, 0, 0.3);
-$BackgroundColor_12: rgba(0, 0, 0, 1);
+$BorderColor01: rgba(20, 40, 45, 0.2);
+$BorderColor02: rgba(20, 80, 90, 0.3);
+$BorderColor03: rgba(20, 110, 120, 0.4);
+$BorderColor04: rgba(25, 150, 170, 0.4);
 
-$BackgroundColor_13: transparent;
-$BackgroundColor_14: #ffffff;
-$BackgroundColor_15: #fbeaa0;
-
-$BorderColor_1: rgba(255, 255, 255, 0);
-$BorderColor_2: rgba(0, 0, 0, 0);
-$BorderColor_3: rgba(0, 0, 0, 0.4);
-$BorderColor_4: rgba(25, 156, 168, 1);
-$BorderColor_5: rgba(32, 40, 40, 0.95);
-$BorderColor_6: rgba(32, 45, 45, 0.95);
-
-$BoxShadowColor_1: rgba(25, 156, 168, 1);
-$BoxShadowColor_2: rgba(69, 69, 69, 0.1);
-$BoxShadowColor_3: rgba(20, 40, 40, 0.1);
-$BoxShadowColor_4: rgba(0, 0, 0, 0.1);
+$ShadowColor01: $BorderColor03;
+$ShadowColor02: $BorderColor01;
 
 // Common button mixin
 @mixin cinnamon-button-base {
   min-height: 20px;
   padding: 5px 32px;
   transition-duration: 0;
-  color: $FontColor_3;
-  background-color: $BackgroundColor_2;
-  border: 1px solid $BorderColor_6;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_3;
+  color: $FontColor03;
+  background-color: $BackgrdColor06;
+  border: 1px solid $BorderColor03;
+  box-shadow: inset 0 2px 4px $ShadowColor02;
   border-radius: 2px;
 }
 
 @mixin cinnamon-button-focus {
-  color: $FontColor_3;
-  background-color: $BackgroundColor_2;
-  border: 1px solid $BorderColor_4;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+  color: $FontColor03;
+  background-color: $BackgrdColor06;
+  border: 1px solid $BorderColor04;
+  box-shadow: inset 0 2px 4px $ShadowColor02;
 }
 
 @mixin cinnamon-button-hover {
-  color: $FontColor_3;
-  background-color: $BackgroundColor_3;
-  border: 1px solid $BorderColor_5;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+  color: $FontColor03;
+  background-color: $BackgrdColor07;
+  border: 1px solid $BorderColor02;
+  box-shadow: inset 0 2px 4px $ShadowColor02;
 }
 
 @mixin cinnamon-button-active {
-  color: $FontColor_1;
-  background-color: $BackgroundColor_5;
-  border: 1px solid $BorderColor_4;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_1;
+  color: $FontColor01;
+  background-color: $BackgrdColor03;
+  border: 1px solid $BorderColor04;
+  box-shadow: inset 0 2px 4px $ShadowColor01;
 }
 
 @mixin cinnamon-button-insensitive {
-  color: $FontColor_4;
-  border: 1px solid $BorderColor_6;
-  background-color: $BackgroundColor_1;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+  color: $FontColor04;
+  border: 1px solid $BorderColor03;
+  background-color: $BackgrdColor05;
+  box-shadow: inset 0 2px 4px $ShadowColor02;
 }
 
 /* This is for popup menus in Cinnamon versions < 3.2 */
@@ -92,11 +85,11 @@ $BoxShadowColor_4: rgba(0, 0, 0, 0.1);
 /* Controls the styling when using the "Simple buttons" option */
 /* Controls the style when using the "Visual representation" option */
 stage {
-  color: $FontColor_3;
+  color: $FontColor03;
 }
 
 .label-shadow {
-  color: $FontColor_0;
+  color: $FontColor07;
 }
 
 .sound-button {
@@ -162,7 +155,7 @@ stage {
   margin: 0px;
   padding: 10px;
   border: none;
-  background-color: $BackgroundColor_10;
+  background-color: $BackgrdColor11;
 }
 
 .notification-button {
@@ -194,46 +187,46 @@ stage {
   min-height: 20px;
   padding: 5px 32px;
   transition-duration: 0;
-  color: $FontColor_3;
-  background-color: $BackgroundColor_2;
-  border: 1px solid $BorderColor_6;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_3;
+  color: $FontColor03;
+  background-color: $BackgrdColor06;
+  border: 1px solid $BorderColor03;
+  box-shadow: inset 0 2px 4px $ShadowColor02;
   border-radius: 2px;
   padding: 5px;
 
   &:focus {
-    color: $FontColor_3;
-    background-color: $BackgroundColor_2;
-    border: 1px solid $BorderColor_4;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+    color: $FontColor03;
+    background-color: $BackgrdColor06;
+    border: 1px solid $BorderColor04;
+    box-shadow: inset 0 2px 4px $ShadowColor02;
   }
 
   &:hover {
-    color: $FontColor_3;
-    background-color: $BackgroundColor_3;
-    border: 1px solid $BorderColor_5;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+    color: $FontColor03;
+    background-color: $BackgrdColor07;
+    border: 1px solid $BorderColor02;
+    box-shadow: inset 0 2px 4px $ShadowColor02;
 
     &:focus {
-      color: $FontColor_3;
-      background-color: $BackgroundColor_3;
-      border: 1px solid $BorderColor_4;
-      box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+      color: $FontColor03;
+      background-color: $BackgrdColor07;
+      border: 1px solid $BorderColor04;
+      box-shadow: inset 0 2px 4px $ShadowColor02;
     }
   }
 
   &:active {
-    color: $FontColor_1;
-    background-color: $BackgroundColor_5;
-    border: 1px solid $BorderColor_4;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_1;
+    color: $FontColor01;
+    background-color: $BackgrdColor03;
+    border: 1px solid $BorderColor04;
+    box-shadow: inset 0 2px 4px $ShadowColor01;
   }
 
   &:insensitive {
-    color: $FontColor_4;
-    border: 1px solid $BorderColor_6;
-    background-color: $BackgroundColor_1;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+    color: $FontColor04;
+    border: 1px solid $BorderColor03;
+    background-color: $BackgrdColor05;
+    box-shadow: inset 0 2px 4px $ShadowColor02;
   }
 
   >StIcon {
@@ -247,46 +240,46 @@ stage {
       min-height: 20px;
       padding: 5px 32px;
       transition-duration: 0;
-      color: $FontColor_3;
-      background-color: $BackgroundColor_2;
-      border: 1px solid $BorderColor_6;
-      box-shadow: inset 0 2px 4px $BoxShadowColor_3;
+      color: $FontColor03;
+      background-color: $BackgrdColor06;
+      border: 1px solid $BorderColor03;
+      box-shadow: inset 0 2px 4px $ShadowColor02;
       border-radius: 2px;
       padding: 5px;
 
       &:focus {
-        color: $FontColor_3;
-        background-color: $BackgroundColor_2;
-        border: 1px solid $BorderColor_4;
-        box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+        color: $FontColor03;
+        background-color: $BackgrdColor06;
+        border: 1px solid $BorderColor04;
+        box-shadow: inset 0 2px 4px $ShadowColor02;
       }
 
       &:hover {
-        color: $FontColor_3;
-        background-color: $BackgroundColor_3;
-        border: 1px solid $BorderColor_5;
-        box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+        color: $FontColor03;
+        background-color: $BackgrdColor07;
+        border: 1px solid $BorderColor02;
+        box-shadow: inset 0 2px 4px $ShadowColor02;
 
         &:focus {
-          color: $FontColor_3;
-          background-color: $BackgroundColor_3;
-          border: 1px solid $BorderColor_4;
-          box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+          color: $FontColor03;
+          background-color: $BackgrdColor07;
+          border: 1px solid $BorderColor04;
+          box-shadow: inset 0 2px 4px $ShadowColor02;
         }
       }
 
       &:active {
-        color: $FontColor_1;
-        background-color: $BackgroundColor_5;
-        border: 1px solid $BorderColor_4;
-        box-shadow: inset 0 2px 4px $BoxShadowColor_1;
+        color: $FontColor01;
+        background-color: $BackgrdColor03;
+        border: 1px solid $BorderColor04;
+        box-shadow: inset 0 2px 4px $ShadowColor01;
       }
 
       &:insensitive {
-        color: $FontColor_4;
-        border: 1px solid $BorderColor_6;
-        background-color: $BackgroundColor_1;
-        box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+        color: $FontColor04;
+        border: 1px solid $BorderColor03;
+        background-color: $BackgrdColor05;
+        box-shadow: inset 0 2px 4px $ShadowColor02;
       }
     }
 
@@ -294,80 +287,80 @@ stage {
       min-height: 20px;
       padding: 5px 32px;
       transition-duration: 0;
-      color: $FontColor_3;
-      background-color: $BackgroundColor_2;
-      border: 1px solid $BorderColor_6;
-      box-shadow: inset 0 2px 4px $BoxShadowColor_3;
+      color: $FontColor03;
+      background-color: $BackgrdColor06;
+      border: 1px solid $BorderColor03;
+      box-shadow: inset 0 2px 4px $ShadowColor02;
       border-radius: 2px;
       padding: 5px;
 
       &:focus {
-        color: $FontColor_3;
-        background-color: $BackgroundColor_2;
-        border: 1px solid $BorderColor_4;
-        box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+        color: $FontColor03;
+        background-color: $BackgrdColor06;
+        border: 1px solid $BorderColor04;
+        box-shadow: inset 0 2px 4px $ShadowColor02;
       }
 
       &:hover {
-        color: $FontColor_3;
-        background-color: $BackgroundColor_3;
-        border: 1px solid $BorderColor_5;
-        box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+        color: $FontColor03;
+        background-color: $BackgrdColor07;
+        border: 1px solid $BorderColor02;
+        box-shadow: inset 0 2px 4px $ShadowColor02;
 
         &:focus {
-          color: $FontColor_3;
-          background-color: $BackgroundColor_3;
-          border: 1px solid $BorderColor_4;
-          box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+          color: $FontColor03;
+          background-color: $BackgrdColor07;
+          border: 1px solid $BorderColor04;
+          box-shadow: inset 0 2px 4px $ShadowColor02;
         }
       }
 
       &:active {
-        color: $FontColor_1;
-        background-color: $BackgroundColor_5;
-        border: 1px solid $BorderColor_4;
-        box-shadow: inset 0 2px 4px $BoxShadowColor_1;
+        color: $FontColor01;
+        background-color: $BackgrdColor03;
+        border: 1px solid $BorderColor04;
+        box-shadow: inset 0 2px 4px $ShadowColor01;
       }
 
       &:insensitive {
-        color: $FontColor_4;
-        border: 1px solid $BorderColor_6;
-        background-color: $BackgroundColor_1;
-        box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+        color: $FontColor04;
+        border: 1px solid $BorderColor03;
+        background-color: $BackgrdColor05;
+        box-shadow: inset 0 2px 4px $ShadowColor02;
       }
     }
 
     StEntry {
       padding: 7px;
       caret-size: 1px;
-      selection-background-color: $BackgroundColor_5;
-      selected-color: $FontColor_1;
+      selection-background-color: $BackgrdColor03;
+      selected-color: $FontColor01;
       transition-duration: 300ms;
       border-radius: 3px;
-      color: $FontColor_2;
-      border: 1px solid $BorderColor_6;
-      background-color: $BackgroundColor_1;
-      box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+      color: $FontColor02;
+      border: 1px solid $BorderColor03;
+      background-color: $BackgrdColor05;
+      box-shadow: inset 0 2px 4px $ShadowColor02;
 
       &:focus {
-        color: $FontColor_3;
-        border: 1px solid $BorderColor_6;
-        background-color: $BackgroundColor_1;
-        box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+        color: $FontColor03;
+        border: 1px solid $BorderColor03;
+        background-color: $BackgrdColor05;
+        box-shadow: inset 0 2px 4px $ShadowColor02;
       }
 
       &:hover {
-        color: $FontColor_3;
-        border: 1px solid $BorderColor_6;
-        background-color: $BackgroundColor_1;
-        box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+        color: $FontColor03;
+        border: 1px solid $BorderColor03;
+        background-color: $BackgrdColor05;
+        box-shadow: inset 0 2px 4px $ShadowColor02;
       }
 
       &:insensitive {
-        color: $FontColor_4;
-        border: 1px solid $BorderColor_6;
-        background-color: $BackgroundColor_1;
-        box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+        color: $FontColor04;
+        border: 1px solid $BorderColor03;
+        background-color: $BackgrdColor05;
+        box-shadow: inset 0 2px 4px $ShadowColor02;
       }
 
       StIcon.capslock-warning {
@@ -377,14 +370,14 @@ stage {
       }
     }
 
-    color: $FontColor_3;
+    color: $FontColor03;
     border-image: url("dark-assets/misc/message.svg") 9 9 9 9;
   }
 
-  color: $FontColor_3;
+  color: $FontColor03;
 
   .popup-sub-menu {
-    background-color: $BackgroundColor_1;
+    background-color: $BackgrdColor05;
     box-shadow: none;
 
     .popup-menu-item {
@@ -422,22 +415,22 @@ stage {
     border-right-width: 0;
 
     &:active {
-      color: $FontColor_3;
-      border-color: $BorderColor_1;
-      background-color: $BackgroundColor_6;
+      color: $FontColor03;
+      border-color: $BorderColor01;
+      background-color: $BackgrdColor04;
     }
 
     &:insensitive {
-      color: $FontColor_4;
+      color: $FontColor04;
       background: none;
     }
   }
 
   .popup-inactive-menu-item {
-    color: $FontColor_3;
+    color: $FontColor03;
 
     &:insensitive {
-      color: $FontColor_4;
+      color: $FontColor04;
     }
   }
 }
@@ -445,38 +438,38 @@ stage {
 #menu-search-entry {
   padding: 7px;
   caret-size: 1px;
-  selection-background-color: $BackgroundColor_5;
+  selection-background-color: $BackgrdColor03;
   selected-color: #ffffff;
   transition-duration: 300ms;
   border-radius: 3px;
-  color: $FontColor_2;
-  border: 1px solid $BorderColor_6;
-  background-color: $BackgroundColor_1;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+  color: $FontColor02;
+  border: 1px solid $BorderColor03;
+  background-color: $BackgrdColor05;
+  box-shadow: inset 0 2px 4px $ShadowColor02;
   width: 250px;
   min-height: 16px;
   font-weight: bold;
   caret-color: rgba(200, 200, 200, 0.87);
 
   &:focus {
-    color: $FontColor_3;
-    border: 1px solid $BorderColor_6;
-    background-color: $BackgroundColor_1;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+    color: $FontColor03;
+    border: 1px solid $BorderColor03;
+    background-color: $BackgrdColor05;
+    box-shadow: inset 0 2px 4px $ShadowColor02;
   }
 
   &:hover {
-    color: $FontColor_3;
-    border: 1px solid $BorderColor_6;
-    background-color: $BackgroundColor_1;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+    color: $FontColor03;
+    border: 1px solid $BorderColor03;
+    background-color: $BackgrdColor05;
+    box-shadow: inset 0 2px 4px $ShadowColor02;
   }
 
   &:insensitive {
-    color: $FontColor_4;
-    border: 1px solid $BorderColor_6;
-    background-color: $BackgroundColor_1;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+    color: $FontColor04;
+    border: 1px solid $BorderColor03;
+    background-color: $BackgrdColor05;
+    box-shadow: inset 0 2px 4px $ShadowColor02;
   }
 
   StIcon.capslock-warning {
@@ -491,27 +484,27 @@ stage {
     padding: 7px;
     caret-size: 1px;
     caret-color: #c3c3c3;
-    selection-background-color: $BackgroundColor_5;
+    selection-background-color: $BackgrdColor03;
     selected-color: #ffffff;
     transition-duration: 300ms;
     border-radius: 3px;
-    color: $FontColor_2;
-    border: 1px solid $BorderColor_6;
-    background-color: $BackgroundColor_1;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_4;
+    color: $FontColor02;
+    border: 1px solid $BorderColor03;
+    background-color: $BackgrdColor05;
+    box-shadow: inset 0 2px 4px $ShadowColor02;
 
     &:focus {
-      color: $FontColor_1;
-      background-color: $BackgroundColor_5;
-      border: 1px solid $BorderColor_4;
-      box-shadow: inset 0 2px 4px $BoxShadowColor_4;
+      color: $FontColor01;
+      background-color: $BackgrdColor03;
+      border: 1px solid $BorderColor04;
+      box-shadow: inset 0 2px 4px $ShadowColor02;
     }
 
     &:insensitive {
-      color: $FontColor_4;
-      border: 1px solid $BorderColor_6;
-      background-color: $BackgroundColor_1;
-      box-shadow: inset 0 2px 4px $BoxShadowColor_4;
+      color: $FontColor04;
+      border: 1px solid $BorderColor03;
+      background-color: $BackgrdColor05;
+      box-shadow: inset 0 2px 4px $ShadowColor02;
     }
   }
 }
@@ -528,37 +521,37 @@ StScrollBar {
   padding: 8px;
 
   StBin#trough {
-    background-color: $BackgroundColor_2;
+    background-color: $BackgrdColor06;
     border-radius: 8px;
   }
 
   StButton#vhandle {
     border-radius: 2px;
-    background-color: $BackgroundColor_2;
+    background-color: $BackgrdColor06;
     border: 0px solid;
     margin: 0px;
 
     &:hover {
-      background-color: $BackgroundColor_2;
+      background-color: $BackgrdColor06;
     }
 
     &:active {
-      background-color: $BackgroundColor_5;
+      background-color: $BackgrdColor03;
     }
   }
 
   StButton#hhandle {
     border-radius: 2px;
-    background-color: $BackgroundColor_2;
+    background-color: $BackgrdColor06;
     border: 0px solid;
     margin: 0px;
 
     &:hover {
-      background-color: $BackgroundColor_2;
+      background-color: $BackgrdColor06;
     }
 
     &:active {
-      background-color: $BackgroundColor_5;
+      background-color: $BackgrdColor03;
     }
   }
 }
@@ -582,15 +575,15 @@ StScrollView {
   width: 50px;
   height: 50px;
   border-radius: 25px;
-  background-color: $BackgroundColor_6;
-  box-shadow: 0 0 2px 2px $BoxShadowColor_1;
+  background-color: $BackgrdColor04;
+  box-shadow: 0 0 2px 2px $ShadowColor01;
 }
 
 .popup-slider-menu-item {
   -slider-height: 0.3em;
-  -slider-background-color: $BorderColor_5;
+  -slider-background-color: $BorderColor02;
   -slider-border-color: rgba(47, 47, 47, 0.4);
-  -slider-active-background-color: $BackgroundColor_5;
+  -slider-active-background-color: $BackgrdColor03;
   -slider-active-border-color: rgba(47, 47, 47, 0.4);
   -slider-border-width: 1px;
   -slider-handle-radius: 0.5em;
@@ -603,9 +596,9 @@ StScrollView {
 
 .slider {
   -slider-height: 0.3em;
-  -slider-background-color: $BorderColor_5;
+  -slider-background-color: $BorderColor02;
   -slider-border-color: rgba(47, 47, 47, 0.4);
-  -slider-active-background-color: $BackgroundColor_5;
+  -slider-active-background-color: $BackgrdColor03;
   -slider-active-border-color: rgba(47, 47, 47, 0.4);
   -slider-border-width: 1px;
   -slider-handle-radius: 0.5em;
@@ -713,40 +706,40 @@ StScrollView {
 }
 
 .cinnamon-link {
-  color: $FontColor_7;
+  color: $FontColor08;
   text-decoration: underline;
 
   &:hover {
-    color: $FontColor_7;
+    color: $FontColor08;
   }
 }
 
 #Tooltip {
-  border: 1px solid $BorderColor_4;
+  border: 1px solid $BorderColor04;
   border-radius: 3px;
   padding: 5px 12px;
-  background-color: $BackgroundColor_15;
-  color: $FontColor_5;
+  background-color: $BackgrdColor01;
+  color: $FontColor02;
   font-size: 1em;
   font-weight: normal;
   text-align: center;
 }
 
 #LookingGlassDialog {
-  color: $FontColor_3;
-  border: 1px solid $BorderColor_5;
+  color: $FontColor03;
+  border: 1px solid $BorderColor02;
   border-radius: 3px;
-  background-color: $BackgroundColor_10;
+  background-color: $BackgrdColor11;
   spacing: 4px;
   padding: 8px;
 }
 
 .menu {
-  color: $FontColor_3;
-  border: 1px solid $BorderColor_5;
+  color: $FontColor03;
+  border: 1px solid $BorderColor02;
   border-radius: 5px;
   margin: 10px;
-  background-color: $BackgroundColor_2;
+  background-color: $BackgrdColor06;
 }
 
 .menu.top {
@@ -766,7 +759,7 @@ StScrollView {
 }
 
 .popup-sub-menu {
-  background-color: $BackgroundColor_1;
+  background-color: $BackgrdColor05;
   box-shadow: none;
 
   .popup-menu-item {
@@ -803,21 +796,21 @@ StScrollView {
   border-right-width: 0;
 
   &:active {
-    color: $FontColor_1;
-    background-color: $BackgroundColor_6;
+    color: $FontColor01;
+    background-color: $BackgrdColor04;
   }
 
   &:insensitive {
-    color: $FontColor_4;
+    color: $FontColor04;
     background: none;
   }
 }
 
 .popup-inactive-menu-item {
-  color: $FontColor_3;
+  color: $FontColor03;
 
   &:insensitive {
-    color: $FontColor_4;
+    color: $FontColor04;
   }
 }
 
@@ -833,17 +826,17 @@ StScrollView {
   -arrow-border-radius: 3px;
   -arrow-background-color: #2f2f2f;
   -arrow-border-width: 1px;
-  -arrow-border-color: $BorderColor_5;
+  -arrow-border-color: $BorderColor02;
   -arrow-base: 21px;
   -arrow-rise: 9px;
   -boxpointer-gap: 2px;
 }
 
 .popup-combo-menu {
-  color: $FontColor_3;
-  border: 1px solid $BorderColor_5;
+  color: $FontColor03;
+  border: 1px solid $BorderColor02;
   border-radius: 2px;
-  background-color: $BackgroundColor_1;
+  background-color: $BackgrdColor05;
   box-shadow: none;
   padding: 1em 0em 1em 0em;
 }
@@ -858,8 +851,8 @@ StScrollView {
 
 .popup-separator-menu-item {
   -gradient-height: 1px;
-  -gradient-start: $BorderColor_5;
-  -gradient-end: $BorderColor_5;
+  -gradient-start: $BorderColor02;
+  -gradient-end: $BorderColor02;
   -margin-horizontal: 0;
   height: 1px;
 }
@@ -886,11 +879,11 @@ StScrollView {
   font-weight: bold;
   height: 40px;
   width: 32px;
-  color: $FontColor_3;
+  color: $FontColor03;
 
   &:highlight {
     border-image: none;
-    background-color: $BackgroundColor_7;
+    background-color: $BackgrdColor08;
   }
 }
 
@@ -1042,30 +1035,30 @@ StScrollView {
 }
 
 .panel-top {
-  color: $FontColor_1;
+  color: $FontColor01;
   border: none;
-  background-color: $BackgroundColor_10;
+  background-color: $BackgrdColor11;
   font-size: 1em;
   padding: 0px;
-  box-shadow: 0 0px $BorderColor_5;
+  box-shadow: 0 0px $BorderColor02;
 }
 
 .panel-bottom {
-  color: $FontColor_1;
+  color: $FontColor01;
   border: none;
-  background-color: $BackgroundColor_10;
+  background-color: $BackgrdColor11;
   font-size: 1em;
   padding: 0px;
-  box-shadow: 0 -1px $BorderColor_5;
+  box-shadow: 0 -1px $BorderColor02;
 }
 
 .panel-left {
-  color: $FontColor_1;
+  color: $FontColor01;
   border: none;
-  background-color: $BackgroundColor_10;
+  background-color: $BackgrdColor11;
   font-size: 1em;
   padding: 0px;
-  box-shadow: 1px 0 $BorderColor_5;
+  box-shadow: 1px 0 $BorderColor02;
 
   .workspace-switcher {
     padding: 0;
@@ -1073,12 +1066,12 @@ StScrollView {
 }
 
 .panel-right {
-  color: $FontColor_1;
+  color: $FontColor01;
   border: none;
-  background-color: $BackgroundColor_10;
+  background-color: $BackgrdColor11;
   font-size: 1em;
   padding: 0px;
-  box-shadow: -1px 0 $BorderColor_5;
+  box-shadow: -1px 0 $BorderColor02;
 
   .workspace-switcher {
     padding: 0;
@@ -1086,10 +1079,10 @@ StScrollView {
 }
 
 .panel-dummy {
-  background-color: $BackgroundColor_8;
+  background-color: $BackgrdColor09;
 
   &:entered {
-    background-color: $BackgroundColor_9;
+    background-color: $BackgrdColor10;
   }
 }
 
@@ -1098,14 +1091,14 @@ StScrollView {
   -natural-hpadding: 3px;
   -minimum-hpadding: 3px;
   font-weight: bold;
-  color: $FontColor_3;
+  color: $FontColor03;
 }
 
 .panel-button {
   -natural-hpadding: 6px;
   -minimum-hpadding: 2px;
   font-weight: bold;
-  color: $FontColor_9;
+  color: $FontColor10;
   transition-duration: 100;
 }
 
@@ -1115,11 +1108,11 @@ StScrollView {
 }
 
 .system-status-icon.warning {
-  color: $FontColor_10;
+  color: $FontColor11;
 }
 
 .system-status-icon.error {
-  color: $FontColor_11;
+  color: $FontColor12;
 }
 
 #overview {
@@ -1127,9 +1120,9 @@ StScrollView {
 }
 
 .window-caption {
-  background-color: $BackgroundColor_10;
-  border: 1px solid $BorderColor_5;
-  color: $FontColor_2;
+  background-color: $BackgrdColor11;
+  border: 1px solid $BorderColor02;
+  color: $FontColor02;
   spacing: 8px;
   border-radius: 2px;
   font-size: 0.9em;
@@ -1137,21 +1130,21 @@ StScrollView {
   -cinnamon-caption-spacing: 8px;
 
   &:focus {
-    background-color: $BackgroundColor_5;
-    color: $FontColor_1;
-    border: 1px solid $BorderColor_4;
+    background-color: $BackgrdColor03;
+    color: $FontColor01;
+    border: 1px solid $BorderColor04;
   }
 }
 
 .window-border {
-  border: 3px $BorderColor_4;
+  border: 3px $BorderColor04;
   border-radius: 2px;
-  background-color: $BackgroundColor_3;
-  box-shadow: 0 0 0 1px $BoxShadowColor_1 inset;
+  background-color: $BackgrdColor07;
+  box-shadow: 0 0 0 1px $ShadowColor01 inset;
 }
 
 .overview-empty-placeholder {
-  color: $FontColor_1;
+  color: $FontColor01;
   font-size: 2em;
 }
 
@@ -1161,19 +1154,19 @@ StScrollView {
   font-size: 1em;
   padding: 5px 8px;
   -cinnamon-caption-spacing: 4px;
-  color: $FontColor_2;
-  background-color: $BackgroundColor_3;
-  border: 1px solid $BorderColor_3;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_4;
+  color: $FontColor02;
+  background-color: $BackgrdColor07;
+  border: 1px solid $BorderColor01;
+  box-shadow: inset 0 2px 4px $ShadowColor02;
 
   &:focus {
-    border: 1px solid $BorderColor_4;
-    background-color: $BackgroundColor_5;
-    color: $FontColor_1;
+    border: 1px solid $BorderColor04;
+    background-color: $BackgrdColor03;
+    color: $FontColor01;
     font-style: italic;
     transition-duration: 300;
-    selection-background-color: $BackgroundColor_14;
-    selected-color: $FontColor_8;
+    selection-background-color: $BackgrdColor14;
+    selected-color: $FontColor09;
   }
 }
 
@@ -1183,36 +1176,36 @@ StScrollView {
   font-size: 1em;
   padding: 5px 8px;
   -cinnamon-caption-spacing: 4px;
-  color: $FontColor_2;
-  background-color: $BackgroundColor_3;
-  border: 1px solid $BorderColor_3;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_4;
+  color: $FontColor02;
+  background-color: $BackgrdColor07;
+  border: 1px solid $BorderColor01;
+  box-shadow: inset 0 2px 4px $ShadowColor02;
 
   &:focus {
-    border: 1px solid $BorderColor_4;
-    background-color: $BackgroundColor_5;
-    color: $FontColor_1;
+    border: 1px solid $BorderColor04;
+    background-color: $BackgrdColor03;
+    color: $FontColor01;
     font-style: italic;
     transition-duration: 300;
-    selection-background-color: $BackgroundColor_14;
-    selected-color: $BorderColor_4;
+    selection-background-color: $BackgrdColor14;
+    selected-color: $BorderColor04;
   }
 }
 
 .expo-workspace-thumbnail-frame {
   border: 4px solid rgba(255, 255, 255, 0);
-  background-color: $BackgroundColor_3;
+  background-color: $BackgrdColor07;
   border-radius: 2px;
 }
 
 .expo-workspace-thumbnail-frame#active {
-  border: 4px solid $BorderColor_4;
-  background-color: $BackgroundColor_12;
+  border: 4px solid $BorderColor04;
+  background-color: $BackgrdColor13;
   border-radius: 2px;
 }
 
 .expo-background {
-  background-color: $BackgroundColor_10;
+  background-color: $BackgrdColor11;
 }
 
 .workspace-thumbnails {
@@ -1245,7 +1238,7 @@ StScrollView {
 }
 
 .workspace-overview-background-shade {
-  background-color: $BackgroundColor_10;
+  background-color: $BackgrdColor11;
 }
 
 .workspace-close-button {
@@ -1312,8 +1305,8 @@ StScrollView {
   margin-right: 0.5em;
   padding: 0.5em;
   min-width: 350px;
-  border: 1px solid $BorderColor_5;
-  background-color: $BackgroundColor_1;
+  border: 1px solid $BorderColor02;
+  background-color: $BackgrdColor05;
 }
 
 .calendar-events-no-events-button {
@@ -1321,33 +1314,33 @@ StScrollView {
   padding: 6px;
 
   &:hover {
-    background-color: $BackgroundColor_5;
+    background-color: $BackgrdColor03;
 
     .calendar-events-no-events-icon {
-      color: $FontColor_1;
+      color: $FontColor01;
     }
 
     .calendar-events-no-events-label {
-      color: $FontColor_1;
+      color: $FontColor01;
     }
   }
 }
 
 .calendar-events-no-events-icon {
   font-weight: bold;
-  color: $FontColor_3;
+  color: $FontColor03;
   text-align: center;
 }
 
 .calendar-events-no-events-label {
   font-weight: bold;
-  color: $FontColor_3;
+  color: $FontColor03;
   text-align: center;
 }
 
 .calendar-events-date-label {
   padding: 0.1em 0.1em 0.5em 0.1em;
-  color: $FontColor_3;
+  color: $FontColor03;
   font-weight: bold;
   text-align: center;
 }
@@ -1357,35 +1350,35 @@ StScrollView {
 }
 
 .calendar-event-button {
-  border: 1px solid $BorderColor_2;
+  border: 1px solid $BorderColor01;
 
   .calendar-event-time-past {
-    color: $FontColor_5;
+    color: $FontColor05;
     font-weight: bold;
     text-align: left;
     margin-bottom: 0.2em;
   }
 
   .calendar-event-time-present {
-    color: $FontColor_3;
+    color: $FontColor03;
     font-weight: bold;
     text-align: left;
     margin-bottom: 0.2em;
 
     &:all-day {
-      color: $FontColor_8;
+      color: $FontColor09;
     }
   }
 
   .calendar-event-time-future {
-    color: $FontColor_3;
+    color: $FontColor03;
     font-weight: bold;
     text-align: left;
     margin-bottom: 0.2em;
   }
 
   .calendar-event-summary {
-    color: $FontColor_3;
+    color: $FontColor03;
     text-align: left;
     width: 200px;
   }
@@ -1393,7 +1386,7 @@ StScrollView {
   .calendar-event-countdown {
     text-align: right;
     margin-bottom: 0.6em;
-    color: $FontColor_3;
+    color: $FontColor03;
 
     &:soon {
       font-weight: bold;
@@ -1401,39 +1394,39 @@ StScrollView {
 
     &:imminent {
       font-weight: bold;
-      color: $FontColor_10;
+      color: $FontColor11;
     }
 
     &:current {
       font-weight: bold;
-      color: $FontColor_8;
+      color: $FontColor09;
     }
   }
 
   &:hover {
-    background-color: $BackgroundColor_5;
-    border: 1px solid $BorderColor_5;
+    background-color: $BackgrdColor03;
+    border: 1px solid $BorderColor02;
 
     .calendar-event-time-past {
-      color: $FontColor_1;
+      color: $FontColor01;
     }
 
     .calendar-event-time-present {
-      color: $FontColor_1;
+      color: $FontColor01;
     }
 
     .calendar-event-time-future {
-      color: $FontColor_1;
+      color: $FontColor01;
     }
 
     .calendar-event-summary {
-      color: $FontColor_1;
+      color: $FontColor01;
     }
 
     .calendar-event-countdown {
       text-align: right;
       margin-bottom: 0.6em;
-      color: $FontColor_1;
+      color: $FontColor01;
 
       &:soon {
         font-weight: bold;
@@ -1460,7 +1453,7 @@ StScrollView {
 
 .calendar-today-day-label {
   font-size: 1.75em;
-  color: $FontColor_3;
+  color: $FontColor03;
   font-weight: bold;
   text-align: center;
   padding-bottom: 0.1em;
@@ -1468,7 +1461,7 @@ StScrollView {
 
 .calendar-today-date-label {
   font-size: 1.1em;
-  color: $FontColor_3;
+  color: $FontColor03;
   font-weight: bold;
   text-align: center;
 }
@@ -1477,20 +1470,20 @@ StScrollView {
   padding: 6px;
 
   &:hover {
-    background-color: $BackgroundColor_5;
+    background-color: $BackgrdColor03;
 
     .calendar-today-day-label {
-      color: $FontColor_1;
+      color: $FontColor01;
     }
 
     .calendar-today-date-label {
-      color: $FontColor_1;
+      color: $FontColor01;
     }
   }
 }
 
 .calendar-month-label {
-  color: $FontColor_3;
+  color: $FontColor03;
   font-weight: bold;
   padding: 8px 0;
 }
@@ -1584,20 +1577,20 @@ StScrollView {
 
   &:hover {
     font-weight: bold;
-    color: $FontColor_1;
-    background-color: $BackgroundColor_5;
+    color: $FontColor01;
+    background-color: $BackgrdColor03;
   }
 }
 
 .calendar-day-heading {
-  color: $FontColor_2;
+  color: $FontColor02;
   margin-top: 1em;
   font-size: 1.05em;
 }
 
 .calendar-day {
   border-width: 0;
-  color: $FontColor_2;
+  color: $FontColor02;
 }
 
 .calendar-day-top {
@@ -1609,14 +1602,14 @@ StScrollView {
 }
 
 .calendar-nonwork-day {
-  color: $FontColor_3;
-  background-color: $BackgroundColor_13;
+  color: $FontColor03;
+  background-color: transparent;
   font-weight: bold;
 }
 
 .calendar-today {
-  color: $FontColor_3;
-  background-color: $BackgroundColor_6;
+  color: $FontColor03;
+  background-color: $BackgrdColor04;
   border-width: 0;
 
   &:selected {
@@ -1625,50 +1618,50 @@ StScrollView {
 }
 
 .calendar-not-today {
-  color: $FontColor_3;
+  color: $FontColor03;
 
   &:selected {
     font-weight: bold;
-    background-color: $BackgroundColor_6;
+    background-color: $BackgrdColor04;
 
     &:hover {
       font-weight: bold;
-      color: $FontColor_3;
+      color: $FontColor03;
     }
   }
 }
 
 .calendar-other-month-day {
-  color: $FontColor_6;
+  color: $FontColor06;
   opacity: 1;
 
   &:hover {
-    color: $FontColor_1;
+    color: $FontColor01;
     opacity: 1;
   }
 }
 
 .calendar-week-number {
-  color: $FontColor_2;
+  color: $FontColor02;
   font-size: 0.8em;
   margin-top: 0.8em;
 }
 
 #notification {
-  border: 1px solid $BorderColor_5;
+  border: 1px solid $BorderColor02;
   border-radius: 5px;
-  background-color: $BackgroundColor_2;
+  background-color: $BackgrdColor06;
   padding: 13px;
   spacing-rows: 10px;
   spacing-columns: 10px;
   margin-from-right-edge-of-screen: 20px;
   width: 34em;
-  color: $FontColor_3;
+  color: $FontColor03;
 }
 
 #notification.multi-line-notification {
   padding-bottom: 13px;
-  color: $FontColor_3;
+  color: $FontColor03;
 }
 
 #notification-scrollview {
@@ -1705,7 +1698,7 @@ StScrollView {
 
 .notification-with-image {
   min-height: 159px;
-  color: $FontColor_3;
+  color: $FontColor03;
 }
 
 #altTabPopup {
@@ -1714,9 +1707,9 @@ StScrollView {
 }
 
 .switcher-list {
-  color: $FontColor_3;
-  border: 1px solid $BorderColor_5;
-  background-color: $BackgroundColor_2;
+  color: $FontColor03;
+  border: 1px solid $BorderColor02;
+  background-color: $BackgrdColor06;
   border-radius: 7px;
 
   >StBoxLayout {
@@ -1729,13 +1722,13 @@ StScrollView {
 
     &:outlined {
       padding: 8px;
-      border: 1px solid $BorderColor_4;
+      border: 1px solid $BorderColor04;
     }
 
     &:selected {
-      color: $FontColor_1;
-      background-color: $BackgroundColor_5;
-      border: 0px solid $BorderColor_4;
+      color: $FontColor01;
+      background-color: $BackgrdColor03;
+      border: 0px solid $BorderColor04;
     }
   }
 
@@ -1750,7 +1743,7 @@ StScrollView {
 
   .separator {
     width: 1px;
-    background: $BackgroundColor_1;
+    background: $BackgrdColor05;
   }
 }
 
@@ -1759,17 +1752,17 @@ StScrollView {
 }
 
 .switcher-arrow {
-  border-color: $BorderColor_2;
-  color: $FontColor_3;
+  border-color: $BorderColor01;
+  color: $FontColor03;
 
   &:highlighted {
-    border-color: $BorderColor_2;
-    color: $FontColor_1;
+    border-color: $BorderColor01;
+    color: $FontColor01;
   }
 }
 
 .thumbnail-scroll-gradient-left {
-  background-color: $BackgroundColor_10;
+  background-color: $BackgrdColor11;
   border-radius: 24px;
   border-radius-topright: 0px;
   border-radius-bottomright: 0px;
@@ -1777,7 +1770,7 @@ StScrollView {
 }
 
 .thumbnail-scroll-gradient-right {
-  background-color: $BackgroundColor_10;
+  background-color: $BackgrdColor11;
   border-radius: 24px;
   border-radius-topleft: 0px;
   border-radius-bottomleft: 0px;
@@ -1796,16 +1789,16 @@ StScrollView {
 }
 
 .lightbox {
-  background-color: $BackgroundColor_10;
+  background-color: $BackgrdColor11;
 }
 
 .flashspot {
-  background-color: $BackgroundColor_14;
+  background-color: $BackgrdColor14;
 }
 
 .modal-dialog {
-  background-color: $BackgroundColor_10;
-  border: 1px solid $BorderColor_5;
+  background-color: $BackgrdColor11;
+  border: 1px solid $BorderColor02;
   border-radius: 3px;
   padding: 5px 10px;
 
@@ -1825,9 +1818,9 @@ StScrollView {
 
 .run-dialog {
   padding: 10px 15px 10px 15px;
-  border: 1px solid $BorderColor_5;
+  border: 1px solid $BorderColor02;
   border-radius: 3px;
-  background-color: $BackgroundColor_10;
+  background-color: $BackgrdColor11;
 
   >* {
     padding: 0;
@@ -1843,19 +1836,19 @@ StScrollView {
 .run-dialog-label {
   font-size: 1.3em;
   font-weight: bold;
-  color: $FontColor_3;
+  color: $FontColor03;
   padding-bottom: 15px;
   text-align: center;
 }
 
 .run-dialog-description {
-  color: $FontColor_3;
+  color: $FontColor03;
   padding-top: 15px;
   text-align: center;
 }
 
 .run-dialog-description.error {
-  color: $FontColor_11;
+  color: $FontColor12;
 }
 
 .run-dialog-completion-box {
@@ -1871,17 +1864,17 @@ StScrollView {
   border-radius: 3px;
   caret-color: #c3c3c3;
   selected-color: #ffffff;
-  selection-background-color: $BorderColor_4;
-  color: $FontColor_2;
-  background-color: $BackgroundColor_3;
-  border: 1px solid $BorderColor_3;
-  box-shadow: inset 0 2px 4px $BoxShadowColor_4;
+  selection-background-color: $BorderColor04;
+  color: $FontColor02;
+  background-color: $BackgrdColor07;
+  border: 1px solid $BorderColor01;
+  box-shadow: inset 0 2px 4px $ShadowColor02;
 
   &:focus {
-    color: $FontColor_3;
-    background-color: $BackgroundColor_1;
-    border: 1px solid $BorderColor_4;
-    box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+    color: $FontColor03;
+    background-color: $BackgrdColor05;
+    border: 1px solid $BorderColor04;
+    box-shadow: inset 0 2px 4px $ShadowColor02;
   }
 }
 
@@ -1890,7 +1883,7 @@ StScrollView {
 }
 
 .mount-password-reask {
-  color: $FontColor_10;
+  color: $FontColor11;
 }
 
 .show-processes-dialog {
@@ -1954,10 +1947,10 @@ StScrollView {
 }
 
 .show-processes-dialog-app-list-item {
-  color: $FontColor_2;
+  color: $FontColor02;
 
   &:hover {
-    color: $FontColor_1;
+    color: $FontColor01;
   }
 
   &:ltr {
@@ -1992,10 +1985,10 @@ StScrollView {
 }
 
 #keyboard {
-  background-color: $BackgroundColor_10;
+  background-color: $BackgrdColor11;
   border-width: 0;
   border-top-width: 1px;
-  border-color: $BorderColor_3;
+  border-color: $BorderColor01;
 }
 
 .keyboard-layout {
@@ -2014,37 +2007,37 @@ StScrollView {
   font-weight: bold;
   border-radius: 3px;
   box-shadow: none;
-  color: $FontColor_2;
-  border: 1px solid $BorderColor_5;
-  background-color: $BackgroundColor_3;
+  color: $FontColor02;
+  border: 1px solid $BorderColor02;
+  background-color: $BackgrdColor07;
 
   &:hover {
-    color: $FontColor_2;
+    color: $FontColor02;
     border: 1px solid rgba(2, 2, 2, 0.4);
-    background-color: $BackgroundColor_1;
+    background-color: $BackgrdColor05;
   }
 
   &:active {
-    color: $FontColor_1;
-    border: 1px solid $BorderColor_4;
-    background-color: $BackgroundColor_5;
+    color: $FontColor01;
+    border: 1px solid $BorderColor04;
+    background-color: $BackgrdColor03;
   }
 
   &:checked {
-    color: $FontColor_1;
-    border: 1px solid $BorderColor_4;
-    background-color: $BackgroundColor_5;
+    color: $FontColor01;
+    border: 1px solid $BorderColor04;
+    background-color: $BackgrdColor03;
   }
 
   &:grayed {
-    color: $FontColor_4;
+    color: $FontColor04;
     border: 1px solid rgba(2, 2, 2, 0.4);
-    background-color: $BackgroundColor_3;
+    background-color: $BackgrdColor07;
   }
 }
 
 .keyboard-subkeys {
-  color: $FontColor_2;
+  color: $FontColor02;
   padding: 5px;
   -arrow-border-radius: 2px;
   -arrow-background-color: #353535;
@@ -2057,17 +2050,17 @@ StScrollView {
 
 .menu-favorites-box {
   transition-duration: 300;
-  background-color: $BackgroundColor_13;
-  border: 2px solid $BorderColor_5;
+  background-color: transparent;
+  border: 2px solid $BorderColor01;
 }
 
 .menu-favorites-button {
   padding: 0.9em 1em;
-  border: 1px solid $BorderColor_2;
+  border: 1px solid $BorderColor01;
   border-radius: 2px;
 
   &:hover {
-    background-color: $BackgroundColor_6;
+    background-color: $BackgrdColor04;
     border: 1px;
     border-radius: 4px;
   }
@@ -2096,7 +2089,7 @@ StScrollView {
 
 .menu-application-button {
   padding: 7px;
-  border: 1px solid $BorderColor_2;
+  border: 1px solid $BorderColor01;
 
   &:highlighted {
     font-weight: bold;
@@ -2105,8 +2098,8 @@ StScrollView {
 
 .menu-application-button-selected {
   padding: 7px;
-  color: $FontColor_1;
-  background-color: $BackgroundColor_6;
+  color: $FontColor01;
+  background-color: $BackgrdColor04;
   border: 1px;
   border-radius: 4px;
 
@@ -2127,26 +2120,26 @@ StScrollView {
 
 .menu-category-button {
   padding: 7px;
-  border: 1px solid $BorderColor_2;
+  border: 1px solid $BorderColor01;
 }
 
 .menu-category-button-selected {
   padding: 7px;
-  color: $FontColor_1;
-  background-color: $BackgroundColor_6;
+  color: $FontColor01;
+  background-color: $BackgrdColor04;
   border: 1px;
   border-radius: 4px;
 }
 
 .menu-category-button-hover {
-  background-color: $BackgroundColor_8;
+  background-color: $BackgrdColor09;
   border-radius: 4px;
 }
 
 .menu-category-button-greyed {
   padding: 7px;
-  color: $FontColor_6;
-  border: 1px solid $BorderColor_2;
+  color: $FontColor06;
+  border: 1px solid $BorderColor01;
 }
 
 .menu-category-button-label {
@@ -2191,7 +2184,7 @@ StScrollView {
 
 .menu-search-entry-icon {
   icon-size: 1em;
-  color: $FontColor_3;
+  color: $FontColor03;
 }
 
 .info-osd {
@@ -2199,10 +2192,10 @@ StScrollView {
   font-weight: bold;
   spacing: 1em;
   padding: 16px;
-  color: $FontColor_3;
-  border: 1px solid $BorderColor_5;
+  color: $FontColor03;
+  border: 1px solid $BorderColor02;
   border-radius: 5px;
-  background-color: $BackgroundColor_10;
+  background-color: $BackgrdColor11;
 }
 
 .restart-osd {
@@ -2218,9 +2211,9 @@ StScrollView {
   font-weight: bold;
   spacing: 1em;
   padding: 20px;
-  color: $FontColor_2;
-  background-color: $BackgroundColor_10;
-  border: 1px solid $BorderColor_5;
+  color: $FontColor02;
+  background-color: $BackgrdColor11;
+  border: 1px solid $BorderColor02;
   border-radius: 5px;
 
   .osd-monitor-label {
@@ -2230,13 +2223,13 @@ StScrollView {
   .level {
     padding: 0;
     height: 0.7em;
-    background-color: $BackgroundColor_10;
+    background-color: $BackgrdColor11;
     border-radius: 2px;
   }
 
   .level-bar {
     border-radius: 2px;
-    background-color: $BackgroundColor_5;
+    background-color: $BackgrdColor03;
   }
 }
 
@@ -2246,7 +2239,7 @@ StScrollView {
   padding-top: 1px;
 
   &:highlight {
-    background-color: $BackgroundColor_8;
+    background-color: $BackgrdColor09;
   }
 }
 
@@ -2272,45 +2265,45 @@ StScrollView {
   padding-left: 8px;
   padding-right: 8px;
   transition-duration: 100;
-  color: $FontColor_3;
+  color: $FontColor03;
 
   &:hover {
-    color: $FontColor_3;
-    background-color: $BackgroundColor_6;
+    color: $FontColor03;
+    background-color: $BackgrdColor04;
   }
 
   &:groupfocus {
-    color: $FontColor_3;
-    background-color: $BackgroundColor_6;
+    color: $FontColor03;
+    background-color: $BackgrdColor04;
   }
 
   &:active {
-    color: $FontColor_3;
-    border-color: $BorderColor_4;
-    background-color: $BackgroundColor_6;
+    color: $FontColor03;
+    border-color: $BorderColor04;
+    background-color: $BackgrdColor04;
   }
 
   &:checked {
-    color: $FontColor_3;
-    border-color: $BorderColor_4;
-    background-color: $BackgroundColor_6;
+    color: $FontColor03;
+    border-color: $BorderColor04;
+    background-color: $BackgrdColor04;
   }
 
   &:focus {
-    color: $FontColor_3;
-    border-color: $BorderColor_4;
-    background-color: $BackgroundColor_6;
+    color: $FontColor03;
+    border-color: $BorderColor04;
+    background-color: $BackgrdColor04;
   }
 
   &:running {
-    color: $FontColor_3;
-    border-color: $BorderColor_4;
-    background-color: $BackgroundColor_6;
+    color: $FontColor03;
+    border-color: $BorderColor04;
+    background-color: $BackgrdColor04;
   }
 
   .progress {
     border-radius: 80px;
-    background-color: $BackgroundColor_5;
+    background-color: $BackgrdColor03;
   }
 }
 
@@ -2358,9 +2351,9 @@ StScrollView {
 
 .window-list-preview {
   spacing: 6px;
-  color: $FontColor_3;
-  border: 1px solid $BorderColor_5;
-  background-color: $BackgroundColor_2;
+  color: $FontColor03;
+  border: 1px solid $BorderColor02;
+  background-color: $BackgrdColor06;
   border-radius: 4px;
   padding: 6px 12px 12px 12px;
   font-size: 1em;
@@ -2380,30 +2373,30 @@ StScrollView {
   padding-left: 8px;
   padding-right: 8px;
   transition-duration: 100;
-  color: $FontColor_3;
+  color: $FontColor03;
 
   &:hover {
-    color: $FontColor_3;
-    background-color: $BackgroundColor_6;
+    color: $FontColor03;
+    background-color: $BackgrdColor04;
   }
 
   &:focus {
-    color: $FontColor_3;
-    background-color: $BackgroundColor_6;
+    color: $FontColor03;
+    background-color: $BackgrdColor04;
   }
 
   &:active {
-    color: $FontColor_3;
-    border-color: $BorderColor_4;
+    color: $FontColor03;
+    border-color: $BorderColor04;
   }
 
   &:checked {
-    color: $FontColor_3;
-    border-color: $BorderColor_4;
+    color: $FontColor03;
+    border-color: $BorderColor04;
   }
 
   .progress {
-    background-color: $BackgroundColor_5;
+    background-color: $BackgrdColor03;
   }
 }
 
@@ -2456,12 +2449,12 @@ StScrollView {
 .grouped-window-list-number-label {
   font-size: 0.8em;
   z-index: 99;
-  color: $FontColor_2;
+  color: $FontColor02;
 }
 
 .grouped-window-list-badge {
   border-radius: 9999px;
-  background-color: $BackgroundColor_1;
+  background-color: $BackgrdColor05;
   margin: 0;
 }
 
@@ -2474,9 +2467,9 @@ StScrollView {
 }
 
 .grouped-window-list-thumbnail-menu {
-  color: $FontColor_3;
-  border: 1px solid $BorderColor_5;
-  background-color: $BackgroundColor_10;
+  color: $FontColor03;
+  border: 1px solid $BorderColor02;
+  background-color: $BackgrdColor11;
   border-radius: 3px;
   padding: 0px;
 
@@ -2491,11 +2484,11 @@ StScrollView {
 
     &:outlined {
       padding: 8px;
-      border: 1px solid $BorderColor_4;
+      border: 1px solid $BorderColor04;
     }
 
     &:selected {
-      border: 1px solid $BorderColor_4;
+      border: 1px solid $BorderColor04;
     }
   }
 
@@ -2505,7 +2498,7 @@ StScrollView {
 
   .separator {
     width: 1px;
-    background: $BackgroundColor_1;
+    background: $BackgrdColor05;
   }
 }
 
@@ -2585,17 +2578,17 @@ StScrollView {
           }
 
           &:hover {
-            color: $FontColor_3;
-            background-color: $BackgroundColor_3;
-            border: 1px solid $BorderColor_5;
-            box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+            color: $FontColor03;
+            background-color: $BackgrdColor07;
+            border: 1px solid $BorderColor02;
+            box-shadow: inset 0 2px 4px $ShadowColor02;
           }
 
           &:active {
-            color: $FontColor_1;
-            background-color: $BackgroundColor_5;
-            border: 1px solid $BorderColor_4;
-            box-shadow: inset 0 2px 4px $BoxShadowColor_1;
+            color: $FontColor01;
+            background-color: $BackgrdColor03;
+            border: 1px solid $BorderColor04;
+            box-shadow: inset 0 2px 4px $ShadowColor01;
           }
         }
       }
@@ -2607,17 +2600,17 @@ StScrollView {
     padding: 0;
     border: none;
     -slider-height: 0.5em;
-    -slider-background-color: $BackgroundColor_2;
-    -slider-border-color: $BorderColor_2;
-    -slider-active-background-color: $BackgroundColor_5;
-    -slider-active-border-color: $BorderColor_2;
+    -slider-background-color: $BackgrdColor06;
+    -slider-border-color: $BorderColor01;
+    -slider-active-background-color: $BackgrdColor03;
+    -slider-active-border-color: $BorderColor01;
     -slider-border-width: 0px;
     -slider-handle-radius: 0px;
   }
 }
 
 .sound-player-generic-coverart {
-  background: $BackgroundColor_11;
+  background: $BackgrdColor12;
 }
 
 .sound-player-overlay {
@@ -2625,15 +2618,15 @@ StScrollView {
   height: 70px;
   padding: 15px;
   spacing: 0.5em;
-  background: $BackgroundColor_2;
-  border-top: 1px solid $BorderColor_5;
-  color: $FontColor_3;
+  background: $BackgrdColor06;
+  border-top: 1px solid $BorderColor02;
+  color: $FontColor03;
 
   StButton {
     width: 22px;
     height: 13px;
     padding: 5px;
-    color: $FontColor_3;
+    color: $FontColor03;
     border-radius: 2px;
     border: 1px solid transparent;
 
@@ -2642,17 +2635,17 @@ StScrollView {
     }
 
     &:hover {
-      color: $FontColor_3;
-      background-color: $BackgroundColor_3;
-      border: 1px solid $BorderColor_5;
-      box-shadow: inset 0 2px 4px $BoxShadowColor_2;
+      color: $FontColor03;
+      background-color: $BackgrdColor07;
+      border: 1px solid $BorderColor02;
+      box-shadow: inset 0 2px 4px $ShadowColor02;
     }
 
     &:active {
-      color: $FontColor_1;
-      background-color: $BackgroundColor_5;
-      border: 1px solid $BorderColor_4;
-      box-shadow: inset 0 2px 4px $BoxShadowColor_1;
+      color: $FontColor01;
+      background-color: $BackgrdColor03;
+      border: 1px solid $BorderColor04;
+      box-shadow: inset 0 2px 4px $ShadowColor01;
     }
   }
 
@@ -2676,28 +2669,28 @@ StScrollView {
 }
 
 .workspace-button {
-  border: 1px solid $BorderColor_3;
-  background-color: $BackgroundColor_11;
+  border: 1px solid $BorderColor01;
+  background-color: $BackgrdColor12;
   width: 20px;
   height: 14px;
-  color: $FontColor_4;
+  color: $FontColor04;
   padding: 3px;
   padding-top: 4px;
   transition-duration: 200;
 
   &:outlined {
-    background-color: $BackgroundColor_5;
-    color: $FontColor_1;
+    background-color: $BackgrdColor03;
+    color: $FontColor01;
 
     &:hover {
-      background-color: $BackgroundColor_5;
-      color: $FontColor_1;
+      background-color: $BackgrdColor03;
+      color: $FontColor01;
     }
   }
 
   &:hover {
-    background-color: $BackgroundColor_6;
-    color: $FontColor_1;
+    background-color: $BackgrdColor04;
+    color: $FontColor01;
   }
 }
 
@@ -2714,25 +2707,25 @@ StScrollView {
   spacing: 6px;
 
   .workspace {
-    border: 1px solid $BorderColor_3;
-    background-color: $BackgroundColor_11;
+    border: 1px solid $BorderColor01;
+    background-color: $BackgrdColor12;
 
     &:active {
-      border: 1px solid $BorderColor_4;
+      border: 1px solid $BorderColor04;
 
       .windows {
-        -active-window-background: $BackgroundColor_5;
-        -active-window-border: $BorderColor_3;
-        -inactive-window-background: $BackgroundColor_6;
-        -inactive-window-border: $BorderColor_3;
+        -active-window-background: $BackgrdColor03;
+        -active-window-border: $BorderColor01;
+        -inactive-window-background: $BackgrdColor04;
+        -inactive-window-border: $BorderColor01;
       }
     }
 
     .windows {
-      -active-window-background: $BackgroundColor_10;
-      -active-window-border: $BorderColor_3;
-      -inactive-window-background: $BackgroundColor_10;
-      -inactive-window-border: $BorderColor_3;
+      -active-window-background: $BackgrdColor11;
+      -active-window-border: $BorderColor01;
+      -inactive-window-background: $BackgrdColor11;
+      -inactive-window-border: $BorderColor01;
     }
   }
 }
@@ -2748,7 +2741,7 @@ StScrollView {
     transition-duration: 200;
 
     &:hover {
-      background-color: $BackgroundColor_3;
+      background-color: $BackgrdColor07;
     }
   }
 }
@@ -2784,53 +2777,53 @@ StScrollView {
 
 .applet-separator-line {
   width: 1px;
-  background: $BackgroundColor_1;
+  background: $BackgrdColor05;
 }
 
 .applet-separator-line-vertical {
   height: 1px;
-  background: $BackgroundColor_1;
+  background: $BackgrdColor05;
 }
 
 .applet-box {
   padding-left: 4px;
   padding-right: 4px;
   spacing: 4px;
-  color: $FontColor_3;
+  color: $FontColor03;
   text-shadow: none;
   transition-duration: 100;
   text-align: center;
 
   &:hover {
-    color: $FontColor_1;
+    color: $FontColor01;
     border-bottom: 2px;
-    border-color: $BorderColor_4;
-    background-color: $BackgroundColor_6;
+    border-color: $BorderColor04;
+    background-color: $BackgrdColor04;
 
     .applet-label {
-      color: $FontColor_1;
+      color: $FontColor01;
       text-shadow: none;
     }
 
     >.applet-icon {
-      color: $FontColor_1;
+      color: $FontColor01;
       text-shadow: none;
     }
   }
 
   &:checked {
-    color: $FontColor_1;
+    color: $FontColor01;
     border-bottom: 2px;
-    border-color: $BorderColor_4;
-    background-color: $BackgroundColor_6;
+    border-color: $BorderColor04;
+    background-color: $BackgrdColor04;
 
     .applet-label {
-      color: $FontColor_1;
+      color: $FontColor01;
       text-shadow: none;
     }
 
     >.applet-icon {
-      color: $FontColor_1;
+      color: $FontColor01;
       text-shadow: none;
     }
   }
@@ -2838,7 +2831,7 @@ StScrollView {
   &:highlight {
     background-image: none;
     border-image: none;
-    background-color: $BackgroundColor_6;
+    background-color: $BackgrdColor04;
   }
 }
 
@@ -2851,30 +2844,30 @@ StScrollView {
 
 .applet-label {
   font-weight: bold;
-  color: $FontColor_3;
+  color: $FontColor03;
 
   &:hover {
-    color: $FontColor_1;
+    color: $FontColor01;
     text-shadow: none;
   }
 
   &:checked {
-    color: $FontColor_1;
+    color: $FontColor01;
     text-shadow: none;
   }
 }
 
 .applet-icon {
-  color: $FontColor_1;
+  color: $FontColor01;
   icon-size: 22px;
 
   &:hover {
-    color: $FontColor_1;
+    color: $FontColor01;
     text-shadow: none;
   }
 
   &:checked {
-    color: $FontColor_1;
+    color: $FontColor01;
     text-shadow: none;
   }
 }
@@ -2882,13 +2875,13 @@ StScrollView {
 .user-icon {
   width: 32px;
   height: 32px;
-  background-color: $BackgroundColor_13;
+  background-color: transparent;
   border: none;
   border-radius: 0;
 }
 
 .user-label {
-  color: $FontColor_3;
+  color: $FontColor03;
   font-size: 1em;
   font-weight: bold;
   margin: 0px;
@@ -2896,7 +2889,7 @@ StScrollView {
 
 .applet-cornerbar {
   width: 8px;
-  background-color: $BackgroundColor_6;
+  background-color: $BackgrdColor04;
 }
 
 .applet-cornerbar-box {
@@ -2904,7 +2897,7 @@ StScrollView {
 
   &:hover {
     >.applet-cornerbar {
-      background-color: $BackgroundColor_6;
+      background-color: $BackgrdColor04;
     }
   }
 }
@@ -2914,32 +2907,32 @@ StScrollView {
 }
 
 .desklet {
-  color: $FontColor_3;
+  color: $FontColor03;
 
   &:highlight {
-    background-color: $BackgroundColor_8;
+    background-color: $BackgrdColor09;
   }
 }
 
 .desklet-with-borders {
-  border: 1px solid $BorderColor_5;
+  border: 1px solid $BorderColor02;
   border-radius: 5px;
-  background-color: $BackgroundColor_10;
-  color: $FontColor_3;
+  background-color: $BackgrdColor11;
+  color: $FontColor03;
   padding: 12px;
   padding-bottom: 16px;
 
   &:highlight {
-    background-color: $BackgroundColor_8;
+    background-color: $BackgrdColor09;
   }
 }
 
 .desklet-with-borders-and-header {
-  border: 1px solid $BorderColor_5;
+  border: 1px solid $BorderColor02;
   border-top-width: 0;
   border-radius: 0 0 5px 5px;
-  background-color: $BackgroundColor_10;
-  color: $FontColor_3;
+  background-color: $BackgrdColor11;
+  color: $FontColor03;
   border-radius: 0;
   border-radius-topleft: 0;
   border-radius-topright: 0;
@@ -2947,30 +2940,30 @@ StScrollView {
   padding-bottom: 17px;
 
   &:highlight {
-    background-color: $BackgroundColor_8;
+    background-color: $BackgrdColor09;
   }
 }
 
 .desklet-header {
-  border: 1px solid $BorderColor_5;
+  border: 1px solid $BorderColor02;
   border-radius: 5px 5px 0 0;
-  background-color: $BackgroundColor_11;
-  color: $FontColor_3;
+  background-color: $BackgrdColor12;
+  color: $FontColor03;
   font-size: 1em;
   padding: 12px;
   padding-bottom: 6px;
 }
 
 .desklet-drag-placeholder {
-  border: 2px solid $BorderColor_4;
-  background-color: $BackgroundColor_6;
+  border: 2px solid $BorderColor04;
+  background-color: $BackgrdColor04;
 }
 
 .photoframe-box {
-  border: 1px solid $BorderColor_5;
+  border: 1px solid $BorderColor02;
   border-radius: 5px;
-  background-color: $BackgroundColor_10;
-  color: $FontColor_3;
+  background-color: $BackgrdColor11;
+  color: $FontColor03;
   padding: 12px;
   padding-bottom: 16px;
 }
@@ -2984,17 +2977,17 @@ StScrollView {
 }
 
 .tile-preview {
-  background-color: $BackgroundColor_6;
-  border: 1px solid $BorderColor_4;
+  background-color: $BackgrdColor04;
+  border: 1px solid $BorderColor04;
 }
 
 .tile-preview.snap {
-  background-color: $BackgroundColor_5;
+  background-color: $BackgrdColor03;
 }
 
 .tile-hud {
-  background-color: $BackgroundColor_6;
-  border: 1px solid $BorderColor_4;
+  background-color: $BackgrdColor04;
+  border: 1px solid $BorderColor04;
 
   &:top {
     border-top-width: 0px;
@@ -3034,12 +3027,12 @@ StScrollView {
 }
 
 .tile-hud.snap {
-  background-color: $BackgroundColor_5;
+  background-color: $BackgrdColor03;
 }
 
 .xkcd-box {
   padding: 6px;
   border: 0px;
-  background-color: $BackgroundColor_10;
+  background-color: $BackgrdColor11;
   border-radius: 0px;
 }
