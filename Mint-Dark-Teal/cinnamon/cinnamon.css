@@ -55,7 +55,7 @@ stage {
   margin: 0px;
   padding: 10px;
   border: none;
-  background-color: rgba(0, 0, 0, 0.6); }
+  background-color: rgba(22, 30, 30, 0.95); }
   .modal-dialog-button-box .modal-dialog-button {
     min-height: 20px;
     padding: 5px 32px;
@@ -511,7 +511,7 @@ StScrollView StScrollBar {
   color: #B4B4B4;
   border: 1px solid rgba(20, 80, 90, 0.3);
   border-radius: 3px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(22, 30, 30, 0.95);
   spacing: 4px;
   padding: 8px; }
 
@@ -721,7 +721,7 @@ StScrollView StScrollBar {
 .panel-top {
   color: #E6E6E6;
   border: none;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(22, 30, 30, 0.95);
   font-size: 1em;
   padding: 0px;
   box-shadow: 0 0px rgba(20, 80, 90, 0.3); }
@@ -729,7 +729,7 @@ StScrollView StScrollBar {
 .panel-bottom {
   color: #E6E6E6;
   border: none;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(22, 30, 30, 0.95);
   font-size: 1em;
   padding: 0px;
   box-shadow: 0 -1px rgba(20, 80, 90, 0.3); }
@@ -737,7 +737,7 @@ StScrollView StScrollBar {
 .panel-left {
   color: #E6E6E6;
   border: none;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(22, 30, 30, 0.95);
   font-size: 1em;
   padding: 0px;
   box-shadow: 1px 0 rgba(20, 80, 90, 0.3); }
@@ -747,7 +747,7 @@ StScrollView StScrollBar {
 .panel-right {
   color: #E6E6E6;
   border: none;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(22, 30, 30, 0.95);
   font-size: 1em;
   padding: 0px;
   box-shadow: -1px 0 rgba(20, 80, 90, 0.3); }
@@ -787,7 +787,7 @@ StScrollView StScrollBar {
   spacing: 12px; }
 
 .window-caption {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(22, 30, 30, 0.95);
   border: 1px solid rgba(20, 80, 90, 0.3);
   color: #E6E6E6;
   spacing: 8px;
@@ -855,11 +855,11 @@ StScrollView StScrollBar {
 
 .expo-workspace-thumbnail-frame#active {
   border: 4px solid rgba(25, 150, 170, 0.4);
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(12, 20, 20, 0.95);
   border-radius: 2px; }
 
 .expo-background {
-  background-color: rgba(0, 0, 0, 0.6); }
+  background-color: rgba(22, 30, 30, 0.95); }
 
 .workspace-thumbnails {
   spacing: 26px; }
@@ -882,7 +882,7 @@ StScrollView StScrollBar {
     transition-duration: 100; }
 
 .workspace-overview-background-shade {
-  background-color: rgba(0, 0, 0, 0.6); }
+  background-color: rgba(22, 30, 30, 0.95); }
 
 .workspace-close-button {
   background-image: url("common-assets/misc/close.svg");
@@ -1241,14 +1241,14 @@ StScrollView StScrollBar {
     color: #E6E6E6; }
 
 .thumbnail-scroll-gradient-left {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(22, 30, 30, 0.95);
   border-radius: 24px;
   border-radius-topright: 0px;
   border-radius-bottomright: 0px;
   width: 60px; }
 
 .thumbnail-scroll-gradient-right {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(22, 30, 30, 0.95);
   border-radius: 24px;
   border-radius-topleft: 0px;
   border-radius-bottomleft: 0px;
@@ -1263,13 +1263,13 @@ StScrollView StScrollBar {
     background-image: url("common-assets/misc/corner-ripple.svg"); }
 
 .lightbox {
-  background-color: rgba(0, 0, 0, 0.6); }
+  background-color: rgba(22, 30, 30, 0.95); }
 
 .flashspot {
   background-color: rgba(250, 250, 250, 0.95); }
 
 .modal-dialog {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(22, 30, 30, 0.95);
   border: 1px solid rgba(20, 80, 90, 0.3);
   border-radius: 3px;
   padding: 5px 10px; }
@@ -1285,7 +1285,7 @@ StScrollView StScrollBar {
   padding: 10px 15px 10px 15px;
   border: 1px solid rgba(20, 80, 90, 0.3);
   border-radius: 3px;
-  background-color: rgba(0, 0, 0, 0.6); }
+  background-color: rgba(22, 30, 30, 0.95); }
   .run-dialog > * {
     padding: 0; }
   .run-dialog .modal-dialog-button-box {
@@ -1403,7 +1403,7 @@ StScrollView StScrollBar {
     border-width: 0px; }
 
 #keyboard {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(22, 30, 30, 0.95);
   border-width: 0;
   border-top-width: 1px;
   border-color: rgba(20, 40, 45, 0.2); }
@@ -1561,7 +1561,7 @@ StScrollView StScrollBar {
   color: #B4B4B4;
   border: 1px solid rgba(20, 80, 90, 0.3);
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.6); }
+  background-color: rgba(22, 30, 30, 0.95); }
 
 .restart-osd {
   font-size: 1.6em; }
@@ -1575,7 +1575,7 @@ StScrollView StScrollBar {
   spacing: 1em;
   padding: 20px;
   color: #E6E6E6;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(22, 30, 30, 0.95);
   border: 1px solid rgba(20, 80, 90, 0.3);
   border-radius: 5px; }
   .osd-window .osd-monitor-label {
@@ -1583,7 +1583,7 @@ StScrollView StScrollBar {
   .osd-window .level {
     padding: 0;
     height: 0.7em;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(22, 30, 30, 0.95);
     border-radius: 2px; }
   .osd-window .level-bar {
     border-radius: 2px;
@@ -1761,7 +1761,7 @@ StScrollView StScrollBar {
 .grouped-window-list-thumbnail-menu {
   color: #B4B4B4;
   border: 1px solid rgba(20, 80, 90, 0.3);
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(22, 30, 30, 0.95);
   border-radius: 3px;
   padding: 0px; }
   .grouped-window-list-thumbnail-menu > StBoxLayout {
@@ -1854,7 +1854,7 @@ StScrollView StScrollBar {
   -slider-handle-radius: 0px; }
 
 .sound-player-generic-coverart {
-  background: rgba(0, 0, 0, 0.3); }
+  background: rgba(32, 40, 40, 0.95); }
 
 .sound-player-overlay {
   width: 290px;
@@ -1898,7 +1898,7 @@ StScrollView StScrollBar {
 
 .workspace-button {
   border: 1px solid rgba(20, 40, 45, 0.2);
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(32, 40, 40, 0.95);
   width: 20px;
   height: 14px;
   color: #505050;
@@ -1927,7 +1927,7 @@ StScrollView StScrollBar {
   spacing: 6px; }
   .workspace-graph .workspace {
     border: 1px solid rgba(20, 40, 45, 0.2);
-    background-color: rgba(0, 0, 0, 0.3); }
+    background-color: rgba(32, 40, 40, 0.95); }
     .workspace-graph .workspace:active {
       border: 1px solid rgba(25, 150, 170, 0.4); }
       .workspace-graph .workspace:active .windows {
@@ -1936,9 +1936,9 @@ StScrollView StScrollBar {
         -inactive-window-background: rgba(20, 40, 45, 0.95);
         -inactive-window-border: rgba(20, 40, 45, 0.2); }
     .workspace-graph .workspace .windows {
-      -active-window-background: rgba(0, 0, 0, 0.6);
+      -active-window-background: rgba(22, 30, 30, 0.95);
       -active-window-border: rgba(20, 40, 45, 0.2);
-      -inactive-window-background: rgba(0, 0, 0, 0.6);
+      -inactive-window-background: rgba(22, 30, 30, 0.95);
       -inactive-window-border: rgba(20, 40, 45, 0.2); }
 
 .panel-launchers {
@@ -2075,7 +2075,7 @@ StScrollView StScrollBar {
 .desklet-with-borders {
   border: 1px solid rgba(20, 80, 90, 0.3);
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(22, 30, 30, 0.95);
   color: #B4B4B4;
   padding: 12px;
   padding-bottom: 16px; }
@@ -2086,7 +2086,7 @@ StScrollView StScrollBar {
   border: 1px solid rgba(20, 80, 90, 0.3);
   border-top-width: 0;
   border-radius: 0 0 5px 5px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(22, 30, 30, 0.95);
   color: #B4B4B4;
   border-radius: 0;
   border-radius-topleft: 0;
@@ -2099,7 +2099,7 @@ StScrollView StScrollBar {
 .desklet-header {
   border: 1px solid rgba(20, 80, 90, 0.3);
   border-radius: 5px 5px 0 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(32, 40, 40, 0.95);
   color: #B4B4B4;
   font-size: 1em;
   padding: 12px;
@@ -2112,7 +2112,7 @@ StScrollView StScrollBar {
 .photoframe-box {
   border: 1px solid rgba(20, 80, 90, 0.3);
   border-radius: 5px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(22, 30, 30, 0.95);
   color: #B4B4B4;
   padding: 12px;
   padding-bottom: 16px; }
@@ -2160,7 +2160,7 @@ StScrollView StScrollBar {
 .xkcd-box {
   padding: 6px;
   border: 0px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(22, 30, 30, 0.95);
   border-radius: 0px; }
 
 /*# sourceMappingURL=cinnamon.css.map */
