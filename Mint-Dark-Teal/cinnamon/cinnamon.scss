@@ -1,16 +1,11 @@
-﻿$FontColor01: #FEFEFE;
-$FontColor02: #E6E6E6; 
-$FontColor03: #B4B4B4;
-$FontColor04: #6E6E6E;
-$FontColor05: #505050;
-$FontColor06: #282828;
-$FontColor07: #000000;
-
-$FontColor08: #44D6E3;
-$FontColor09: #199CA8;
-$FontColor10: #19DDB8;
-$FontColor11: #F17835;
-$FontColor12: #FF4138;
+﻿$FontColor01: #E6E6E6; 
+$FontColor02: #B4B4B4;
+$FontColor03: #505050;
+$FontColor04: #000000;
+$FontColor05: #44D6E3;
+$FontColor06: #199CA8;
+$FontColor07: #F17835;
+$FontColor08: #FF4138;
 
 $BackgrdColor01: rgba(25, 150, 170, 0.95);
 $BackgrdColor02: rgba(20, 110, 120, 0.95);
@@ -43,7 +38,7 @@ $ShadowColor02: $BorderColor01;
   min-height: 20px;
   padding: 5px 32px;
   transition-duration: 0;
-  color: $FontColor03;
+  color: $FontColor02;
   background-color: $BackgrdColor06;
   border: 1px solid $BorderColor03;
   box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -51,14 +46,14 @@ $ShadowColor02: $BorderColor01;
 }
 
 @mixin cinnamon-button-focus {
-  color: $FontColor03;
+  color: $FontColor02;
   background-color: $BackgrdColor06;
   border: 1px solid $BorderColor04;
   box-shadow: inset 0 2px 4px $ShadowColor02;
 }
 
 @mixin cinnamon-button-hover {
-  color: $FontColor03;
+  color: $FontColor02;
   background-color: $BackgrdColor07;
   border: 1px solid $BorderColor02;
   box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -72,7 +67,7 @@ $ShadowColor02: $BorderColor01;
 }
 
 @mixin cinnamon-button-insensitive {
-  color: $FontColor04;
+  color: $FontColor03;
   border: 1px solid $BorderColor03;
   background-color: $BackgrdColor05;
   box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -85,11 +80,11 @@ $ShadowColor02: $BorderColor01;
 /* Controls the styling when using the "Simple buttons" option */
 /* Controls the style when using the "Visual representation" option */
 stage {
-  color: $FontColor03;
+  color: $FontColor02;
 }
 
 .label-shadow {
-  color: $FontColor07;
+  color: $FontColor04;
 }
 
 .sound-button {
@@ -187,7 +182,7 @@ stage {
   min-height: 20px;
   padding: 5px 32px;
   transition-duration: 0;
-  color: $FontColor03;
+  color: $FontColor02;
   background-color: $BackgrdColor06;
   border: 1px solid $BorderColor03;
   box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -195,20 +190,20 @@ stage {
   padding: 5px;
 
   &:focus {
-    color: $FontColor03;
+    color: $FontColor02;
     background-color: $BackgrdColor06;
     border: 1px solid $BorderColor04;
     box-shadow: inset 0 2px 4px $ShadowColor02;
   }
 
   &:hover {
-    color: $FontColor03;
+    color: $FontColor02;
     background-color: $BackgrdColor07;
     border: 1px solid $BorderColor02;
     box-shadow: inset 0 2px 4px $ShadowColor02;
 
     &:focus {
-      color: $FontColor03;
+      color: $FontColor02;
       background-color: $BackgrdColor07;
       border: 1px solid $BorderColor04;
       box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -223,7 +218,7 @@ stage {
   }
 
   &:insensitive {
-    color: $FontColor04;
+    color: $FontColor03;
     border: 1px solid $BorderColor03;
     background-color: $BackgrdColor05;
     box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -240,7 +235,7 @@ stage {
       min-height: 20px;
       padding: 5px 32px;
       transition-duration: 0;
-      color: $FontColor03;
+      color: $FontColor02;
       background-color: $BackgrdColor06;
       border: 1px solid $BorderColor03;
       box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -248,20 +243,20 @@ stage {
       padding: 5px;
 
       &:focus {
-        color: $FontColor03;
+        color: $FontColor02;
         background-color: $BackgrdColor06;
         border: 1px solid $BorderColor04;
         box-shadow: inset 0 2px 4px $ShadowColor02;
       }
 
       &:hover {
-        color: $FontColor03;
+        color: $FontColor02;
         background-color: $BackgrdColor07;
         border: 1px solid $BorderColor02;
         box-shadow: inset 0 2px 4px $ShadowColor02;
 
         &:focus {
-          color: $FontColor03;
+          color: $FontColor02;
           background-color: $BackgrdColor07;
           border: 1px solid $BorderColor04;
           box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -276,7 +271,7 @@ stage {
       }
 
       &:insensitive {
-        color: $FontColor04;
+        color: $FontColor03;
         border: 1px solid $BorderColor03;
         background-color: $BackgrdColor05;
         box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -287,7 +282,7 @@ stage {
       min-height: 20px;
       padding: 5px 32px;
       transition-duration: 0;
-      color: $FontColor03;
+      color: $FontColor02;
       background-color: $BackgrdColor06;
       border: 1px solid $BorderColor03;
       box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -295,20 +290,20 @@ stage {
       padding: 5px;
 
       &:focus {
-        color: $FontColor03;
+        color: $FontColor02;
         background-color: $BackgrdColor06;
         border: 1px solid $BorderColor04;
         box-shadow: inset 0 2px 4px $ShadowColor02;
       }
 
       &:hover {
-        color: $FontColor03;
+        color: $FontColor02;
         background-color: $BackgrdColor07;
         border: 1px solid $BorderColor02;
         box-shadow: inset 0 2px 4px $ShadowColor02;
 
         &:focus {
-          color: $FontColor03;
+          color: $FontColor02;
           background-color: $BackgrdColor07;
           border: 1px solid $BorderColor04;
           box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -323,7 +318,7 @@ stage {
       }
 
       &:insensitive {
-        color: $FontColor04;
+        color: $FontColor03;
         border: 1px solid $BorderColor03;
         background-color: $BackgrdColor05;
         box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -337,27 +332,27 @@ stage {
       selected-color: $FontColor01;
       transition-duration: 300ms;
       border-radius: 3px;
-      color: $FontColor02;
+      color: $FontColor01;
       border: 1px solid $BorderColor03;
       background-color: $BackgrdColor05;
       box-shadow: inset 0 2px 4px $ShadowColor02;
 
       &:focus {
-        color: $FontColor03;
+        color: $FontColor02;
         border: 1px solid $BorderColor03;
         background-color: $BackgrdColor05;
         box-shadow: inset 0 2px 4px $ShadowColor02;
       }
 
       &:hover {
-        color: $FontColor03;
+        color: $FontColor02;
         border: 1px solid $BorderColor03;
         background-color: $BackgrdColor05;
         box-shadow: inset 0 2px 4px $ShadowColor02;
       }
 
       &:insensitive {
-        color: $FontColor04;
+        color: $FontColor03;
         border: 1px solid $BorderColor03;
         background-color: $BackgrdColor05;
         box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -370,11 +365,11 @@ stage {
       }
     }
 
-    color: $FontColor03;
+    color: $FontColor02;
     border-image: url("dark-assets/misc/message.svg") 9 9 9 9;
   }
 
-  color: $FontColor03;
+  color: $FontColor02;
 
   .popup-sub-menu {
     background-color: $BackgrdColor05;
@@ -415,22 +410,22 @@ stage {
     border-right-width: 0;
 
     &:active {
-      color: $FontColor03;
+      color: $FontColor02;
       border-color: $BorderColor01;
       background-color: $BackgrdColor04;
     }
 
     &:insensitive {
-      color: $FontColor04;
+      color: $FontColor03;
       background: none;
     }
   }
 
   .popup-inactive-menu-item {
-    color: $FontColor03;
+    color: $FontColor02;
 
     &:insensitive {
-      color: $FontColor04;
+      color: $FontColor03;
     }
   }
 }
@@ -442,7 +437,7 @@ stage {
   selected-color: #ffffff;
   transition-duration: 300ms;
   border-radius: 3px;
-  color: $FontColor02;
+  color: $FontColor01;
   border: 1px solid $BorderColor03;
   background-color: $BackgrdColor05;
   box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -452,21 +447,21 @@ stage {
   caret-color: rgba(200, 200, 200, 0.87);
 
   &:focus {
-    color: $FontColor03;
+    color: $FontColor02;
     border: 1px solid $BorderColor03;
     background-color: $BackgrdColor05;
     box-shadow: inset 0 2px 4px $ShadowColor02;
   }
 
   &:hover {
-    color: $FontColor03;
+    color: $FontColor02;
     border: 1px solid $BorderColor03;
     background-color: $BackgrdColor05;
     box-shadow: inset 0 2px 4px $ShadowColor02;
   }
 
   &:insensitive {
-    color: $FontColor04;
+    color: $FontColor03;
     border: 1px solid $BorderColor03;
     background-color: $BackgrdColor05;
     box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -488,7 +483,7 @@ stage {
     selected-color: #ffffff;
     transition-duration: 300ms;
     border-radius: 3px;
-    color: $FontColor02;
+    color: $FontColor01;
     border: 1px solid $BorderColor03;
     background-color: $BackgrdColor05;
     box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -501,7 +496,7 @@ stage {
     }
 
     &:insensitive {
-      color: $FontColor04;
+      color: $FontColor03;
       border: 1px solid $BorderColor03;
       background-color: $BackgrdColor05;
       box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -706,11 +701,11 @@ StScrollView {
 }
 
 .cinnamon-link {
-  color: $FontColor08;
+  color: $FontColor06;
   text-decoration: underline;
 
   &:hover {
-    color: $FontColor08;
+    color: $FontColor05;
   }
 }
 
@@ -719,14 +714,14 @@ StScrollView {
   border-radius: 3px;
   padding: 5px 12px;
   background-color: $BackgrdColor01;
-  color: $FontColor02;
+  color: $FontColor01;
   font-size: 1em;
   font-weight: normal;
   text-align: center;
 }
 
 #LookingGlassDialog {
-  color: $FontColor03;
+  color: $FontColor02;
   border: 1px solid $BorderColor02;
   border-radius: 3px;
   background-color: $BackgrdColor11;
@@ -735,7 +730,7 @@ StScrollView {
 }
 
 .menu {
-  color: $FontColor03;
+  color: $FontColor02;
   border: 1px solid $BorderColor02;
   border-radius: 5px;
   margin: 10px;
@@ -801,16 +796,16 @@ StScrollView {
   }
 
   &:insensitive {
-    color: $FontColor04;
+    color: $FontColor03;
     background: none;
   }
 }
 
 .popup-inactive-menu-item {
-  color: $FontColor03;
+  color: $FontColor02;
 
   &:insensitive {
-    color: $FontColor04;
+    color: $FontColor03;
   }
 }
 
@@ -833,7 +828,7 @@ StScrollView {
 }
 
 .popup-combo-menu {
-  color: $FontColor03;
+  color: $FontColor02;
   border: 1px solid $BorderColor02;
   border-radius: 2px;
   background-color: $BackgrdColor05;
@@ -879,7 +874,7 @@ StScrollView {
   font-weight: bold;
   height: 40px;
   width: 32px;
-  color: $FontColor03;
+  color: $FontColor02;
 
   &:highlight {
     border-image: none;
@@ -1091,14 +1086,14 @@ StScrollView {
   -natural-hpadding: 3px;
   -minimum-hpadding: 3px;
   font-weight: bold;
-  color: $FontColor03;
+  color: $FontColor02;
 }
 
 .panel-button {
   -natural-hpadding: 6px;
   -minimum-hpadding: 2px;
   font-weight: bold;
-  color: $FontColor10;
+  color: $FontColor05;
   transition-duration: 100;
 }
 
@@ -1108,11 +1103,11 @@ StScrollView {
 }
 
 .system-status-icon.warning {
-  color: $FontColor11;
+  color: $FontColor07;
 }
 
 .system-status-icon.error {
-  color: $FontColor12;
+  color: $FontColor08;
 }
 
 #overview {
@@ -1122,7 +1117,7 @@ StScrollView {
 .window-caption {
   background-color: $BackgrdColor11;
   border: 1px solid $BorderColor02;
-  color: $FontColor02;
+  color: $FontColor01;
   spacing: 8px;
   border-radius: 2px;
   font-size: 0.9em;
@@ -1154,7 +1149,7 @@ StScrollView {
   font-size: 1em;
   padding: 5px 8px;
   -cinnamon-caption-spacing: 4px;
-  color: $FontColor02;
+  color: $FontColor01;
   background-color: $BackgrdColor07;
   border: 1px solid $BorderColor01;
   box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -1166,7 +1161,7 @@ StScrollView {
     font-style: italic;
     transition-duration: 300;
     selection-background-color: $BackgrdColor14;
-    selected-color: $FontColor09;
+    selected-color: $FontColor06;
   }
 }
 
@@ -1176,7 +1171,7 @@ StScrollView {
   font-size: 1em;
   padding: 5px 8px;
   -cinnamon-caption-spacing: 4px;
-  color: $FontColor02;
+  color: $FontColor01;
   background-color: $BackgrdColor07;
   border: 1px solid $BorderColor01;
   box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -1328,19 +1323,19 @@ StScrollView {
 
 .calendar-events-no-events-icon {
   font-weight: bold;
-  color: $FontColor03;
+  color: $FontColor02;
   text-align: center;
 }
 
 .calendar-events-no-events-label {
   font-weight: bold;
-  color: $FontColor03;
+  color: $FontColor02;
   text-align: center;
 }
 
 .calendar-events-date-label {
   padding: 0.1em 0.1em 0.5em 0.1em;
-  color: $FontColor03;
+  color: $FontColor02;
   font-weight: bold;
   text-align: center;
 }
@@ -1353,32 +1348,32 @@ StScrollView {
   border: 1px solid $BorderColor01;
 
   .calendar-event-time-past {
-    color: $FontColor05;
+    color: $FontColor03;
     font-weight: bold;
     text-align: left;
     margin-bottom: 0.2em;
   }
 
   .calendar-event-time-present {
-    color: $FontColor03;
+    color: $FontColor02;
     font-weight: bold;
     text-align: left;
     margin-bottom: 0.2em;
 
     &:all-day {
-      color: $FontColor09;
+      color: $FontColor06;
     }
   }
 
   .calendar-event-time-future {
-    color: $FontColor03;
+    color: $FontColor02;
     font-weight: bold;
     text-align: left;
     margin-bottom: 0.2em;
   }
 
   .calendar-event-summary {
-    color: $FontColor03;
+    color: $FontColor02;
     text-align: left;
     width: 200px;
   }
@@ -1386,7 +1381,7 @@ StScrollView {
   .calendar-event-countdown {
     text-align: right;
     margin-bottom: 0.6em;
-    color: $FontColor03;
+    color: $FontColor02;
 
     &:soon {
       font-weight: bold;
@@ -1394,12 +1389,12 @@ StScrollView {
 
     &:imminent {
       font-weight: bold;
-      color: $FontColor11;
+      color: $FontColor07;
     }
 
     &:current {
       font-weight: bold;
-      color: $FontColor09;
+      color: $FontColor06;
     }
   }
 
@@ -1453,7 +1448,7 @@ StScrollView {
 
 .calendar-today-day-label {
   font-size: 1.75em;
-  color: $FontColor03;
+  color: $FontColor02;
   font-weight: bold;
   text-align: center;
   padding-bottom: 0.1em;
@@ -1461,7 +1456,7 @@ StScrollView {
 
 .calendar-today-date-label {
   font-size: 1.1em;
-  color: $FontColor03;
+  color: $FontColor02;
   font-weight: bold;
   text-align: center;
 }
@@ -1483,7 +1478,7 @@ StScrollView {
 }
 
 .calendar-month-label {
-  color: $FontColor03;
+  color: $FontColor02;
   font-weight: bold;
   padding: 8px 0;
 }
@@ -1583,14 +1578,14 @@ StScrollView {
 }
 
 .calendar-day-heading {
-  color: $FontColor02;
+  color: $FontColor01;
   margin-top: 1em;
   font-size: 1.05em;
 }
 
 .calendar-day {
   border-width: 0;
-  color: $FontColor02;
+  color: $FontColor01;
 }
 
 .calendar-day-top {
@@ -1602,13 +1597,13 @@ StScrollView {
 }
 
 .calendar-nonwork-day {
-  color: $FontColor03;
+  color: $FontColor02;
   background-color: transparent;
   font-weight: bold;
 }
 
 .calendar-today {
-  color: $FontColor03;
+  color: $FontColor02;
   background-color: $BackgrdColor04;
   border-width: 0;
 
@@ -1618,7 +1613,7 @@ StScrollView {
 }
 
 .calendar-not-today {
-  color: $FontColor03;
+  color: $FontColor02;
 
   &:selected {
     font-weight: bold;
@@ -1626,13 +1621,13 @@ StScrollView {
 
     &:hover {
       font-weight: bold;
-      color: $FontColor03;
+      color: $FontColor02;
     }
   }
 }
 
 .calendar-other-month-day {
-  color: $FontColor06;
+  color: $FontColor03;
   opacity: 1;
 
   &:hover {
@@ -1642,7 +1637,7 @@ StScrollView {
 }
 
 .calendar-week-number {
-  color: $FontColor02;
+  color: $FontColor01;
   font-size: 0.8em;
   margin-top: 0.8em;
 }
@@ -1656,12 +1651,12 @@ StScrollView {
   spacing-columns: 10px;
   margin-from-right-edge-of-screen: 20px;
   width: 34em;
-  color: $FontColor03;
+  color: $FontColor02;
 }
 
 #notification.multi-line-notification {
   padding-bottom: 13px;
-  color: $FontColor03;
+  color: $FontColor02;
 }
 
 #notification-scrollview {
@@ -1698,7 +1693,7 @@ StScrollView {
 
 .notification-with-image {
   min-height: 159px;
-  color: $FontColor03;
+  color: $FontColor02;
 }
 
 #altTabPopup {
@@ -1707,7 +1702,7 @@ StScrollView {
 }
 
 .switcher-list {
-  color: $FontColor03;
+  color: $FontColor02;
   border: 1px solid $BorderColor02;
   background-color: $BackgrdColor06;
   border-radius: 7px;
@@ -1753,7 +1748,7 @@ StScrollView {
 
 .switcher-arrow {
   border-color: $BorderColor01;
-  color: $FontColor03;
+  color: $FontColor02;
 
   &:highlighted {
     border-color: $BorderColor01;
@@ -1836,19 +1831,19 @@ StScrollView {
 .run-dialog-label {
   font-size: 1.3em;
   font-weight: bold;
-  color: $FontColor03;
+  color: $FontColor02;
   padding-bottom: 15px;
   text-align: center;
 }
 
 .run-dialog-description {
-  color: $FontColor03;
+  color: $FontColor02;
   padding-top: 15px;
   text-align: center;
 }
 
 .run-dialog-description.error {
-  color: $FontColor12;
+  color: $FontColor08;
 }
 
 .run-dialog-completion-box {
@@ -1865,13 +1860,13 @@ StScrollView {
   caret-color: #c3c3c3;
   selected-color: #ffffff;
   selection-background-color: $BorderColor04;
-  color: $FontColor02;
+  color: $FontColor01;
   background-color: $BackgrdColor07;
   border: 1px solid $BorderColor01;
   box-shadow: inset 0 2px 4px $ShadowColor02;
 
   &:focus {
-    color: $FontColor03;
+    color: $FontColor02;
     background-color: $BackgrdColor05;
     border: 1px solid $BorderColor04;
     box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -1883,7 +1878,7 @@ StScrollView {
 }
 
 .mount-password-reask {
-  color: $FontColor11;
+  color: $FontColor07;
 }
 
 .show-processes-dialog {
@@ -1947,7 +1942,7 @@ StScrollView {
 }
 
 .show-processes-dialog-app-list-item {
-  color: $FontColor02;
+  color: $FontColor01;
 
   &:hover {
     color: $FontColor01;
@@ -2007,12 +2002,12 @@ StScrollView {
   font-weight: bold;
   border-radius: 3px;
   box-shadow: none;
-  color: $FontColor02;
+  color: $FontColor01;
   border: 1px solid $BorderColor02;
   background-color: $BackgrdColor07;
 
   &:hover {
-    color: $FontColor02;
+    color: $FontColor01;
     border: 1px solid rgba(2, 2, 2, 0.4);
     background-color: $BackgrdColor05;
   }
@@ -2030,14 +2025,14 @@ StScrollView {
   }
 
   &:grayed {
-    color: $FontColor04;
+    color: $FontColor03;
     border: 1px solid rgba(2, 2, 2, 0.4);
     background-color: $BackgrdColor07;
   }
 }
 
 .keyboard-subkeys {
-  color: $FontColor02;
+  color: $FontColor01;
   padding: 5px;
   -arrow-border-radius: 2px;
   -arrow-background-color: #353535;
@@ -2138,7 +2133,7 @@ StScrollView {
 
 .menu-category-button-greyed {
   padding: 7px;
-  color: $FontColor06;
+  color: $FontColor03;
   border: 1px solid $BorderColor01;
 }
 
@@ -2184,7 +2179,7 @@ StScrollView {
 
 .menu-search-entry-icon {
   icon-size: 1em;
-  color: $FontColor03;
+  color: $FontColor02;
 }
 
 .info-osd {
@@ -2192,7 +2187,7 @@ StScrollView {
   font-weight: bold;
   spacing: 1em;
   padding: 16px;
-  color: $FontColor03;
+  color: $FontColor02;
   border: 1px solid $BorderColor02;
   border-radius: 5px;
   background-color: $BackgrdColor11;
@@ -2211,7 +2206,7 @@ StScrollView {
   font-weight: bold;
   spacing: 1em;
   padding: 20px;
-  color: $FontColor02;
+  color: $FontColor01;
   background-color: $BackgrdColor11;
   border: 1px solid $BorderColor02;
   border-radius: 5px;
@@ -2265,38 +2260,38 @@ StScrollView {
   padding-left: 8px;
   padding-right: 8px;
   transition-duration: 100;
-  color: $FontColor03;
+  color: $FontColor02;
 
   &:hover {
-    color: $FontColor03;
+    color: $FontColor02;
     background-color: $BackgrdColor04;
   }
 
   &:groupfocus {
-    color: $FontColor03;
+    color: $FontColor02;
     background-color: $BackgrdColor04;
   }
 
   &:active {
-    color: $FontColor03;
+    color: $FontColor02;
     border-color: $BorderColor04;
     background-color: $BackgrdColor04;
   }
 
   &:checked {
-    color: $FontColor03;
+    color: $FontColor02;
     border-color: $BorderColor04;
     background-color: $BackgrdColor04;
   }
 
   &:focus {
-    color: $FontColor03;
+    color: $FontColor02;
     border-color: $BorderColor04;
     background-color: $BackgrdColor04;
   }
 
   &:running {
-    color: $FontColor03;
+    color: $FontColor02;
     border-color: $BorderColor04;
     background-color: $BackgrdColor04;
   }
@@ -2351,7 +2346,7 @@ StScrollView {
 
 .window-list-preview {
   spacing: 6px;
-  color: $FontColor03;
+  color: $FontColor02;
   border: 1px solid $BorderColor02;
   background-color: $BackgrdColor06;
   border-radius: 4px;
@@ -2373,25 +2368,25 @@ StScrollView {
   padding-left: 8px;
   padding-right: 8px;
   transition-duration: 100;
-  color: $FontColor03;
+  color: $FontColor02;
 
   &:hover {
-    color: $FontColor03;
+    color: $FontColor02;
     background-color: $BackgrdColor04;
   }
 
   &:focus {
-    color: $FontColor03;
+    color: $FontColor02;
     background-color: $BackgrdColor04;
   }
 
   &:active {
-    color: $FontColor03;
+    color: $FontColor02;
     border-color: $BorderColor04;
   }
 
   &:checked {
-    color: $FontColor03;
+    color: $FontColor02;
     border-color: $BorderColor04;
   }
 
@@ -2449,7 +2444,7 @@ StScrollView {
 .grouped-window-list-number-label {
   font-size: 0.8em;
   z-index: 99;
-  color: $FontColor02;
+  color: $FontColor01;
 }
 
 .grouped-window-list-badge {
@@ -2467,7 +2462,7 @@ StScrollView {
 }
 
 .grouped-window-list-thumbnail-menu {
-  color: $FontColor03;
+  color: $FontColor02;
   border: 1px solid $BorderColor02;
   background-color: $BackgrdColor11;
   border-radius: 3px;
@@ -2578,7 +2573,7 @@ StScrollView {
           }
 
           &:hover {
-            color: $FontColor03;
+            color: $FontColor02;
             background-color: $BackgrdColor07;
             border: 1px solid $BorderColor02;
             box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -2620,13 +2615,13 @@ StScrollView {
   spacing: 0.5em;
   background: $BackgrdColor06;
   border-top: 1px solid $BorderColor02;
-  color: $FontColor03;
+  color: $FontColor02;
 
   StButton {
     width: 22px;
     height: 13px;
     padding: 5px;
-    color: $FontColor03;
+    color: $FontColor02;
     border-radius: 2px;
     border: 1px solid transparent;
 
@@ -2635,7 +2630,7 @@ StScrollView {
     }
 
     &:hover {
-      color: $FontColor03;
+      color: $FontColor02;
       background-color: $BackgrdColor07;
       border: 1px solid $BorderColor02;
       box-shadow: inset 0 2px 4px $ShadowColor02;
@@ -2673,7 +2668,7 @@ StScrollView {
   background-color: $BackgrdColor12;
   width: 20px;
   height: 14px;
-  color: $FontColor04;
+  color: $FontColor03;
   padding: 3px;
   padding-top: 4px;
   transition-duration: 200;
@@ -2789,7 +2784,7 @@ StScrollView {
   padding-left: 4px;
   padding-right: 4px;
   spacing: 4px;
-  color: $FontColor03;
+  color: $FontColor02;
   text-shadow: none;
   transition-duration: 100;
   text-align: center;
@@ -2844,7 +2839,7 @@ StScrollView {
 
 .applet-label {
   font-weight: bold;
-  color: $FontColor03;
+  color: $FontColor02;
 
   &:hover {
     color: $FontColor01;
@@ -2881,7 +2876,7 @@ StScrollView {
 }
 
 .user-label {
-  color: $FontColor03;
+  color: $FontColor02;
   font-size: 1em;
   font-weight: bold;
   margin: 0px;
@@ -2907,7 +2902,7 @@ StScrollView {
 }
 
 .desklet {
-  color: $FontColor03;
+  color: $FontColor02;
 
   &:highlight {
     background-color: $BackgrdColor09;
@@ -2918,7 +2913,7 @@ StScrollView {
   border: 1px solid $BorderColor02;
   border-radius: 5px;
   background-color: $BackgrdColor11;
-  color: $FontColor03;
+  color: $FontColor02;
   padding: 12px;
   padding-bottom: 16px;
 
@@ -2932,7 +2927,7 @@ StScrollView {
   border-top-width: 0;
   border-radius: 0 0 5px 5px;
   background-color: $BackgrdColor11;
-  color: $FontColor03;
+  color: $FontColor02;
   border-radius: 0;
   border-radius-topleft: 0;
   border-radius-topright: 0;
@@ -2948,7 +2943,7 @@ StScrollView {
   border: 1px solid $BorderColor02;
   border-radius: 5px 5px 0 0;
   background-color: $BackgrdColor12;
-  color: $FontColor03;
+  color: $FontColor02;
   font-size: 1em;
   padding: 12px;
   padding-bottom: 6px;
@@ -2963,7 +2958,7 @@ StScrollView {
   border: 1px solid $BorderColor02;
   border-radius: 5px;
   background-color: $BackgrdColor11;
-  color: $FontColor03;
+  color: $FontColor02;
   padding: 12px;
   padding-bottom: 16px;
 }
